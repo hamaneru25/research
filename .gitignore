@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.log
+results/comparison.csv
+results/comparison.csv.gz
+results/comparison.csv.xz
+results/comparison.csv.bz2
