@@ -1,0 +1,43 @@
+n,m,family,survivors,auxiliary_bases,auxiliary_outcomes,outcome_probability,sensor_cliffords
+3,0,independent,0,,,1,I
+3,0,independent,1,,,1,I
+3,0,independent,0 1,,,1,I I
+3,0,independent,2,,,1,I
+3,0,independent,0 2,,,1,I I
+3,0,independent,1 2,,,1,I I
+3,0,independent,0 1 2,,,1,I I I
+3,0,bare_clique,0,,,1,I
+3,0,bare_clique,1,,,1,I
+3,0,bare_clique,0 1,,,1,H H
+3,0,bare_clique,2,,,1,I
+3,0,bare_clique,0 2,,,1,H H
+3,0,bare_clique,1 2,,,1,H H
+3,0,bare_clique,0 1 2,,,1,HSdg HSdg HSdg
+3,2,endpoint,0,XZ,1 1,1/4,HSdg
+3,2,endpoint,0,XZ,1 -1,1/4,HSdg
+3,2,endpoint,0,XZ,-1 1,1/4,HSdg
+3,2,endpoint,0,XZ,-1 -1,1/4,HSdg
+3,2,endpoint,1,ZX,1 1,1/4,HSdg
+3,2,endpoint,1,ZX,1 -1,1/4,HSdg
+3,2,endpoint,1,ZX,-1 1,1/4,HSdg
+3,2,endpoint,1,ZX,-1 -1,1/4,HSdg
+3,2,endpoint,0 1,YY,1 1,1/4,I I
+3,2,endpoint,0 1,YY,1 -1,1/4,I X
+3,2,endpoint,0 1,YY,-1 1,1/4,I X
+3,2,endpoint,0 1,YY,-1 -1,1/4,I I
+3,2,endpoint,2,YY,1 1,1/4,I
+3,2,endpoint,2,YY,1 -1,1/4,I
+3,2,endpoint,2,YY,-1 1,1/4,I
+3,2,endpoint,2,YY,-1 -1,1/4,I
+3,2,endpoint,0 2,ZX,1 1,1/4,H I
+3,2,endpoint,0 2,ZX,1 -1,1/4,H I
+3,2,endpoint,0 2,ZX,-1 1,1/4,H X
+3,2,endpoint,0 2,ZX,-1 -1,1/4,H X
+3,2,endpoint,1 2,XZ,1 1,1/4,H I
+3,2,endpoint,1 2,XZ,1 -1,1/4,H X
+3,2,endpoint,1 2,XZ,-1 1,1/4,H I
+3,2,endpoint,1 2,XZ,-1 -1,1/4,H X
+3,2,endpoint,0 1 2,ZZ,1 1,1/4,H H I
+3,2,endpoint,0 1 2,ZZ,1 -1,1/4,H HZ I
+3,2,endpoint,0 1 2,ZZ,-1 1,1/4,H HZ X
+3,2,endpoint,0 1 2,ZZ,-1 -1,1/4,H H X

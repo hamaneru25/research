@@ -1,0 +1,151 @@
+n,m,family,survivors,auxiliary_bases,auxiliary_outcomes,outcome_probability,sensor_cliffords
+4,0,independent,0,,,1,I
+4,0,independent,1,,,1,I
+4,0,independent,0 1,,,1,I I
+4,0,independent,2,,,1,I
+4,0,independent,0 2,,,1,I I
+4,0,independent,1 2,,,1,I I
+4,0,independent,0 1 2,,,1,I I I
+4,0,independent,3,,,1,I
+4,0,independent,0 3,,,1,I I
+4,0,independent,1 3,,,1,I I
+4,0,independent,0 1 3,,,1,I I I
+4,0,independent,2 3,,,1,I I
+4,0,independent,0 2 3,,,1,I I I
+4,0,independent,1 2 3,,,1,I I I
+4,0,independent,0 1 2 3,,,1,I I I I
+4,0,bare_clique,0,,,1,I
+4,0,bare_clique,1,,,1,I
+4,0,bare_clique,0 1,,,1,H H
+4,0,bare_clique,2,,,1,I
+4,0,bare_clique,0 2,,,1,H H
+4,0,bare_clique,1 2,,,1,H H
+4,0,bare_clique,0 1 2,,,1,H H H
+4,0,bare_clique,3,,,1,I
+4,0,bare_clique,0 3,,,1,H H
+4,0,bare_clique,1 3,,,1,H H
+4,0,bare_clique,0 1 3,,,1,H H H
+4,0,bare_clique,2 3,,,1,H H
+4,0,bare_clique,0 2 3,,,1,H H H
+4,0,bare_clique,1 2 3,,,1,H H H
+4,0,bare_clique,0 1 2 3,,,1,HSdg HSdg HSdg HSdg
+4,3,endpoint,0,XZZ,1 1 1,1/8,HSdg
+4,3,endpoint,0,XZZ,1 1 -1,1/8,HSdg
+4,3,endpoint,0,XZZ,1 -1 1,1/8,HSdg
+4,3,endpoint,0,XZZ,1 -1 -1,1/8,HSdg
+4,3,endpoint,0,XZZ,-1 1 1,1/8,HSdg
+4,3,endpoint,0,XZZ,-1 1 -1,1/8,HSdg
+4,3,endpoint,0,XZZ,-1 -1 1,1/8,HSdg
+4,3,endpoint,0,XZZ,-1 -1 -1,1/8,HSdg
+4,3,endpoint,1,ZXZ,1 1 1,1/8,HSdg
+4,3,endpoint,1,ZXZ,1 1 -1,1/8,HSdg
+4,3,endpoint,1,ZXZ,1 -1 1,1/8,HSdg
+4,3,endpoint,1,ZXZ,1 -1 -1,1/8,HSdg
+4,3,endpoint,1,ZXZ,-1 1 1,1/8,HSdg
+4,3,endpoint,1,ZXZ,-1 1 -1,1/8,HSdg
+4,3,endpoint,1,ZXZ,-1 -1 1,1/8,HSdg
+4,3,endpoint,1,ZXZ,-1 -1 -1,1/8,HSdg
+4,3,endpoint,0 1,YYZ,1 1 1,1/8,I I
+4,3,endpoint,0 1,YYZ,1 1 -1,1/8,I I
+4,3,endpoint,0 1,YYZ,1 -1 1,1/8,I X
+4,3,endpoint,0 1,YYZ,1 -1 -1,1/8,I X
+4,3,endpoint,0 1,YYZ,-1 1 1,1/8,I X
+4,3,endpoint,0 1,YYZ,-1 1 -1,1/8,I X
+4,3,endpoint,0 1,YYZ,-1 -1 1,1/8,I I
+4,3,endpoint,0 1,YYZ,-1 -1 -1,1/8,I I
+4,3,endpoint,2,ZZX,1 1 1,1/8,HSdg
+4,3,endpoint,2,ZZX,1 1 -1,1/8,HSdg
+4,3,endpoint,2,ZZX,1 -1 1,1/8,HSdg
+4,3,endpoint,2,ZZX,1 -1 -1,1/8,HSdg
+4,3,endpoint,2,ZZX,-1 1 1,1/8,HSdg
+4,3,endpoint,2,ZZX,-1 1 -1,1/8,HSdg
+4,3,endpoint,2,ZZX,-1 -1 1,1/8,HSdg
+4,3,endpoint,2,ZZX,-1 -1 -1,1/8,HSdg
+4,3,endpoint,0 2,YZY,1 1 1,1/8,I I
+4,3,endpoint,0 2,YZY,1 1 -1,1/8,I X
+4,3,endpoint,0 2,YZY,1 -1 1,1/8,I I
+4,3,endpoint,0 2,YZY,1 -1 -1,1/8,I X
+4,3,endpoint,0 2,YZY,-1 1 1,1/8,I X
+4,3,endpoint,0 2,YZY,-1 1 -1,1/8,I I
+4,3,endpoint,0 2,YZY,-1 -1 1,1/8,I X
+4,3,endpoint,0 2,YZY,-1 -1 -1,1/8,I I
+4,3,endpoint,1 2,ZYY,1 1 1,1/8,I I
+4,3,endpoint,1 2,ZYY,1 1 -1,1/8,I X
+4,3,endpoint,1 2,ZYY,1 -1 1,1/8,I X
+4,3,endpoint,1 2,ZYY,1 -1 -1,1/8,I I
+4,3,endpoint,1 2,ZYY,-1 1 1,1/8,I I
+4,3,endpoint,1 2,ZYY,-1 1 -1,1/8,I X
+4,3,endpoint,1 2,ZYY,-1 -1 1,1/8,I X
+4,3,endpoint,1 2,ZYY,-1 -1 -1,1/8,I I
+4,3,endpoint,0 1 2,XXX,1 1 1,1/8,HSdg HSdg HSdg
+4,3,endpoint,0 1 2,XXX,1 1 -1,1/8,HSdg HSdg HS
+4,3,endpoint,0 1 2,XXX,1 -1 1,1/8,HSdg HS HSdg
+4,3,endpoint,0 1 2,XXX,1 -1 -1,1/8,HSdg HS HS
+4,3,endpoint,0 1 2,XXX,-1 1 1,1/8,HSdg HS HS
+4,3,endpoint,0 1 2,XXX,-1 1 -1,1/8,HSdg HS HSdg
+4,3,endpoint,0 1 2,XXX,-1 -1 1,1/8,HSdg HSdg HS
+4,3,endpoint,0 1 2,XXX,-1 -1 -1,1/8,HSdg HSdg HSdg
+4,3,endpoint,3,XXX,1 1 1,1/8,I
+4,3,endpoint,3,XXX,1 1 -1,1/8,I
+4,3,endpoint,3,XXX,1 -1 1,1/8,I
+4,3,endpoint,3,XXX,1 -1 -1,1/8,I
+4,3,endpoint,3,XXX,-1 1 1,1/8,I
+4,3,endpoint,3,XXX,-1 1 -1,1/8,I
+4,3,endpoint,3,XXX,-1 -1 1,1/8,I
+4,3,endpoint,3,XXX,-1 -1 -1,1/8,I
+4,3,endpoint,0 3,ZYY,1 1 1,1/8,H I
+4,3,endpoint,0 3,ZYY,1 1 -1,1/8,H I
+4,3,endpoint,0 3,ZYY,1 -1 1,1/8,H I
+4,3,endpoint,0 3,ZYY,1 -1 -1,1/8,H I
+4,3,endpoint,0 3,ZYY,-1 1 1,1/8,H X
+4,3,endpoint,0 3,ZYY,-1 1 -1,1/8,H X
+4,3,endpoint,0 3,ZYY,-1 -1 1,1/8,H X
+4,3,endpoint,0 3,ZYY,-1 -1 -1,1/8,H X
+4,3,endpoint,1 3,YZY,1 1 1,1/8,H I
+4,3,endpoint,1 3,YZY,1 1 -1,1/8,H I
+4,3,endpoint,1 3,YZY,1 -1 1,1/8,H X
+4,3,endpoint,1 3,YZY,1 -1 -1,1/8,H X
+4,3,endpoint,1 3,YZY,-1 1 1,1/8,H I
+4,3,endpoint,1 3,YZY,-1 1 -1,1/8,H I
+4,3,endpoint,1 3,YZY,-1 -1 1,1/8,H X
+4,3,endpoint,1 3,YZY,-1 -1 -1,1/8,H X
+4,3,endpoint,0 1 3,ZZX,1 1 1,1/8,H H I
+4,3,endpoint,0 1 3,ZZX,1 1 -1,1/8,H H I
+4,3,endpoint,0 1 3,ZZX,1 -1 1,1/8,H HZ I
+4,3,endpoint,0 1 3,ZZX,1 -1 -1,1/8,H HZ I
+4,3,endpoint,0 1 3,ZZX,-1 1 1,1/8,H HZ X
+4,3,endpoint,0 1 3,ZZX,-1 1 -1,1/8,H HZ X
+4,3,endpoint,0 1 3,ZZX,-1 -1 1,1/8,H H X
+4,3,endpoint,0 1 3,ZZX,-1 -1 -1,1/8,H H X
+4,3,endpoint,2 3,YYZ,1 1 1,1/8,H I
+4,3,endpoint,2 3,YYZ,1 1 -1,1/8,H X
+4,3,endpoint,2 3,YYZ,1 -1 1,1/8,H I
+4,3,endpoint,2 3,YYZ,1 -1 -1,1/8,H X
+4,3,endpoint,2 3,YYZ,-1 1 1,1/8,H I
+4,3,endpoint,2 3,YYZ,-1 1 -1,1/8,H X
+4,3,endpoint,2 3,YYZ,-1 -1 1,1/8,H I
+4,3,endpoint,2 3,YYZ,-1 -1 -1,1/8,H X
+4,3,endpoint,0 2 3,ZXZ,1 1 1,1/8,H H I
+4,3,endpoint,0 2 3,ZXZ,1 1 -1,1/8,H HZ I
+4,3,endpoint,0 2 3,ZXZ,1 -1 1,1/8,H H I
+4,3,endpoint,0 2 3,ZXZ,1 -1 -1,1/8,H HZ I
+4,3,endpoint,0 2 3,ZXZ,-1 1 1,1/8,H HZ X
+4,3,endpoint,0 2 3,ZXZ,-1 1 -1,1/8,H H X
+4,3,endpoint,0 2 3,ZXZ,-1 -1 1,1/8,H HZ X
+4,3,endpoint,0 2 3,ZXZ,-1 -1 -1,1/8,H H X
+4,3,endpoint,1 2 3,XZZ,1 1 1,1/8,H H I
+4,3,endpoint,1 2 3,XZZ,1 1 -1,1/8,H HZ I
+4,3,endpoint,1 2 3,XZZ,1 -1 1,1/8,H HZ X
+4,3,endpoint,1 2 3,XZZ,1 -1 -1,1/8,H H X
+4,3,endpoint,1 2 3,XZZ,-1 1 1,1/8,H H I
+4,3,endpoint,1 2 3,XZZ,-1 1 -1,1/8,H HZ I
+4,3,endpoint,1 2 3,XZZ,-1 -1 1,1/8,H HZ X
+4,3,endpoint,1 2 3,XZZ,-1 -1 -1,1/8,H H X
+4,3,endpoint,0 1 2 3,ZZZ,1 1 1,1/8,H H H I
+4,3,endpoint,0 1 2 3,ZZZ,1 1 -1,1/8,H H HZ I
+4,3,endpoint,0 1 2 3,ZZZ,1 -1 1,1/8,H HZ H I
+4,3,endpoint,0 1 2 3,ZZZ,1 -1 -1,1/8,H HZ HZ I
+4,3,endpoint,0 1 2 3,ZZZ,-1 1 1,1/8,H HZ HZ X
+4,3,endpoint,0 1 2 3,ZZZ,-1 1 -1,1/8,H HZ H X
+4,3,endpoint,0 1 2 3,ZZZ,-1 -1 1,1/8,H H HZ X
+4,3,endpoint,0 1 2 3,ZZZ,-1 -1 -1,1/8,H H H X

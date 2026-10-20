@@ -1,0 +1,2529 @@
+{
+  "model": {
+    "sensors": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "auxiliary_measurements": "XYZ",
+    "eta_grid": [
+      "1/10",
+      "1/5",
+      "3/10",
+      "2/5",
+      "1/2",
+      "3/5",
+      "7/10",
+      "4/5",
+      "9/10",
+      "1"
+    ],
+    "randomized_setting_mixtures": false,
+    "loss_before_phase": true,
+    "loss_locations_known_before_auxiliary_measurement": true,
+    "sensor_local_operations": "Outcome-dependent single-qubit Cliffords before phase",
+    "objective": "F_eff/(N+M)",
+    "mean_phase_weights": "1/N",
+    "all_classical_records_retained": true
+  },
+  "graph_counts": [
+    {
+      "n": 2,
+      "m": 0,
+      "graph_representatives": 2,
+      "distinct_upper_curves": 2,
+      "raw_nonempty_survivor_sets": 3,
+      "raw_measurement_settings": 1,
+      "mean_loss_orbits": 2.0,
+      "mean_measurement_orbits": 1.0
+    },
+    {
+      "n": 3,
+      "m": 0,
+      "graph_representatives": 3,
+      "distinct_upper_curves": 3,
+      "raw_nonempty_survivor_sets": 7,
+      "raw_measurement_settings": 1,
+      "mean_loss_orbits": 3.6666666666666665,
+      "mean_measurement_orbits": 1.0
+    },
+    {
+      "n": 3,
+      "m": 1,
+      "graph_representatives": 5,
+      "distinct_upper_curves": 5,
+      "raw_nonempty_survivor_sets": 7,
+      "raw_measurement_settings": 3,
+      "mean_loss_orbits": 4.6,
+      "mean_measurement_orbits": 1.6
+    },
+    {
+      "n": 4,
+      "m": 0,
+      "graph_representatives": 6,
+      "distinct_upper_curves": 6,
+      "raw_nonempty_survivor_sets": 15,
+      "raw_measurement_settings": 1,
+      "mean_loss_orbits": 5.5,
+      "mean_measurement_orbits": 1.0
+    },
+    {
+      "n": 4,
+      "m": 1,
+      "graph_representatives": 13,
+      "distinct_upper_curves": 13,
+      "raw_nonempty_survivor_sets": 15,
+      "raw_measurement_settings": 3,
+      "mean_loss_orbits": 7.538461538461538,
+      "mean_measurement_orbits": 1.7692307692307692
+    },
+    {
+      "n": 4,
+      "m": 2,
+      "graph_representatives": 54,
+      "distinct_upper_curves": 30,
+      "raw_nonempty_survivor_sets": 15,
+      "raw_measurement_settings": 9,
+      "mean_loss_orbits": 8.0,
+      "mean_measurement_orbits": 3.5555555555555554
+    },
+    {
+      "n": 5,
+      "m": 0,
+      "graph_representatives": 11,
+      "distinct_upper_curves": 11,
+      "raw_nonempty_survivor_sets": 31,
+      "raw_measurement_settings": 1,
+      "mean_loss_orbits": 9.181818181818182,
+      "mean_measurement_orbits": 1.0
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "graph_representatives": 36,
+      "distinct_upper_curves": 36,
+      "raw_nonempty_survivor_sets": 31,
+      "raw_measurement_settings": 3,
+      "mean_loss_orbits": 12.88888888888889,
+      "mean_measurement_orbits": 1.8611111111111112
+    },
+    {
+      "n": 5,
+      "m": 2,
+      "graph_representatives": 200,
+      "distinct_upper_curves": 124,
+      "raw_nonempty_survivor_sets": 31,
+      "raw_measurement_settings": 9,
+      "mean_loss_orbits": 15.1,
+      "mean_measurement_orbits": 4.065
+    },
+    {
+      "n": 5,
+      "m": 3,
+      "graph_representatives": 1354,
+      "distinct_upper_curves": 439,
+      "raw_nonempty_survivor_sets": 31,
+      "raw_measurement_settings": 27,
+      "mean_loss_orbits": 18.36927621861152,
+      "mean_measurement_orbits": 11.253323485967504
+    }
+  ],
+  "optimal": [
+    {
+      "n": 1,
+      "eta": "1/10",
+      "eta_decimal": 0.1,
+      "m": 0,
+      "method": "independent",
+      "per_photon": "1/10",
+      "per_photon_decimal": 0.1,
+      "feff": "1/10",
+      "policy_id": "N1_independent",
+      "edges": [],
+      "known_tied_references": [
+        {
+          "family": "independent",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 1,
+      "eta": "1/5",
+      "eta_decimal": 0.2,
+      "m": 0,
+      "method": "independent",
+      "per_photon": "1/5",
+      "per_photon_decimal": 0.2,
+      "feff": "1/5",
+      "policy_id": "N1_independent",
+      "edges": [],
+      "known_tied_references": [
+        {
+          "family": "independent",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 1,
+      "eta": "3/10",
+      "eta_decimal": 0.3,
+      "m": 0,
+      "method": "independent",
+      "per_photon": "3/10",
+      "per_photon_decimal": 0.3,
+      "feff": "3/10",
+      "policy_id": "N1_independent",
+      "edges": [],
+      "known_tied_references": [
+        {
+          "family": "independent",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 1,
+      "eta": "2/5",
+      "eta_decimal": 0.4,
+      "m": 0,
+      "method": "independent",
+      "per_photon": "2/5",
+      "per_photon_decimal": 0.4,
+      "feff": "2/5",
+      "policy_id": "N1_independent",
+      "edges": [],
+      "known_tied_references": [
+        {
+          "family": "independent",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 1,
+      "eta": "1/2",
+      "eta_decimal": 0.5,
+      "m": 0,
+      "method": "independent",
+      "per_photon": "1/2",
+      "per_photon_decimal": 0.5,
+      "feff": "1/2",
+      "policy_id": "N1_independent",
+      "edges": [],
+      "known_tied_references": [
+        {
+          "family": "independent",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 1,
+      "eta": "3/5",
+      "eta_decimal": 0.6,
+      "m": 0,
+      "method": "independent",
+      "per_photon": "3/5",
+      "per_photon_decimal": 0.6,
+      "feff": "3/5",
+      "policy_id": "N1_independent",
+      "edges": [],
+      "known_tied_references": [
+        {
+          "family": "independent",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 1,
+      "eta": "7/10",
+      "eta_decimal": 0.7,
+      "m": 0,
+      "method": "independent",
+      "per_photon": "7/10",
+      "per_photon_decimal": 0.7,
+      "feff": "7/10",
+      "policy_id": "N1_independent",
+      "edges": [],
+      "known_tied_references": [
+        {
+          "family": "independent",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 1,
+      "eta": "4/5",
+      "eta_decimal": 0.8,
+      "m": 0,
+      "method": "independent",
+      "per_photon": "4/5",
+      "per_photon_decimal": 0.8,
+      "feff": "4/5",
+      "policy_id": "N1_independent",
+      "edges": [],
+      "known_tied_references": [
+        {
+          "family": "independent",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 1,
+      "eta": "9/10",
+      "eta_decimal": 0.9,
+      "m": 0,
+      "method": "independent",
+      "per_photon": "9/10",
+      "per_photon_decimal": 0.9,
+      "feff": "9/10",
+      "policy_id": "N1_independent",
+      "edges": [],
+      "known_tied_references": [
+        {
+          "family": "independent",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 1,
+      "eta": "1",
+      "eta_decimal": 1.0,
+      "m": 0,
+      "method": "independent",
+      "per_photon": "1",
+      "per_photon_decimal": 1.0,
+      "feff": "1",
+      "policy_id": "N1_independent",
+      "edges": [],
+      "known_tied_references": [
+        {
+          "family": "independent",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 2,
+      "eta": "1/10",
+      "eta_decimal": 0.1,
+      "m": 0,
+      "method": "independent",
+      "per_photon": "1/10",
+      "per_photon_decimal": 0.1,
+      "feff": "1/5",
+      "policy_id": "N2_independent",
+      "edges": [],
+      "known_tied_references": [
+        {
+          "family": "independent",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 2,
+      "eta": "1/5",
+      "eta_decimal": 0.2,
+      "m": 0,
+      "method": "independent",
+      "per_photon": "1/5",
+      "per_photon_decimal": 0.2,
+      "feff": "2/5",
+      "policy_id": "N2_independent",
+      "edges": [],
+      "known_tied_references": [
+        {
+          "family": "independent",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 2,
+      "eta": "3/10",
+      "eta_decimal": 0.3,
+      "m": 0,
+      "method": "independent",
+      "per_photon": "3/10",
+      "per_photon_decimal": 0.3,
+      "feff": "3/5",
+      "policy_id": "N2_independent",
+      "edges": [],
+      "known_tied_references": [
+        {
+          "family": "independent",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 2,
+      "eta": "2/5",
+      "eta_decimal": 0.4,
+      "m": 0,
+      "method": "independent",
+      "per_photon": "2/5",
+      "per_photon_decimal": 0.4,
+      "feff": "4/5",
+      "policy_id": "N2_independent",
+      "edges": [],
+      "known_tied_references": [
+        {
+          "family": "independent",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 2,
+      "eta": "1/2",
+      "eta_decimal": 0.5,
+      "m": 0,
+      "method": "independent",
+      "per_photon": "1/2",
+      "per_photon_decimal": 0.5,
+      "feff": "1",
+      "policy_id": "N2_independent",
+      "edges": [],
+      "known_tied_references": [
+        {
+          "family": "independent",
+          "m": 0
+        },
+        {
+          "family": "bare_clique",
+          "m": 0
+        },
+        {
+          "family": "endpoint",
+          "m": 1
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 2,
+      "eta": "3/5",
+      "eta_decimal": 0.6,
+      "m": 0,
+      "method": "bare_clique",
+      "per_photon": "18/25",
+      "per_photon_decimal": 0.72,
+      "feff": "36/25",
+      "policy_id": "N2_bare_clique",
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "bare_clique",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 2,
+      "eta": "7/10",
+      "eta_decimal": 0.7,
+      "m": 0,
+      "method": "bare_clique",
+      "per_photon": "49/50",
+      "per_photon_decimal": 0.98,
+      "feff": "49/25",
+      "policy_id": "N2_bare_clique",
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "bare_clique",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 2,
+      "eta": "4/5",
+      "eta_decimal": 0.8,
+      "m": 0,
+      "method": "bare_clique",
+      "per_photon": "32/25",
+      "per_photon_decimal": 1.28,
+      "feff": "64/25",
+      "policy_id": "N2_bare_clique",
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "bare_clique",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 2,
+      "eta": "9/10",
+      "eta_decimal": 0.9,
+      "m": 0,
+      "method": "bare_clique",
+      "per_photon": "81/50",
+      "per_photon_decimal": 1.62,
+      "feff": "81/25",
+      "policy_id": "N2_bare_clique",
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "bare_clique",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 2,
+      "eta": "1",
+      "eta_decimal": 1.0,
+      "m": 0,
+      "method": "bare_clique",
+      "per_photon": "2",
+      "per_photon_decimal": 2.0,
+      "feff": "4",
+      "policy_id": "N2_bare_clique",
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "bare_clique",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 3,
+      "eta": "1/10",
+      "eta_decimal": 0.1,
+      "m": 0,
+      "method": "independent",
+      "per_photon": "1/10",
+      "per_photon_decimal": 0.1,
+      "feff": "3/10",
+      "policy_id": "N3_independent",
+      "edges": [],
+      "known_tied_references": [
+        {
+          "family": "independent",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 3,
+      "eta": "1/5",
+      "eta_decimal": 0.2,
+      "m": 0,
+      "method": "independent",
+      "per_photon": "1/5",
+      "per_photon_decimal": 0.2,
+      "feff": "3/5",
+      "policy_id": "N3_independent",
+      "edges": [],
+      "known_tied_references": [
+        {
+          "family": "independent",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 3,
+      "eta": "3/10",
+      "eta_decimal": 0.3,
+      "m": 0,
+      "method": "independent",
+      "per_photon": "3/10",
+      "per_photon_decimal": 0.3,
+      "feff": "9/10",
+      "policy_id": "N3_independent",
+      "edges": [],
+      "known_tied_references": [
+        {
+          "family": "independent",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 3,
+      "eta": "2/5",
+      "eta_decimal": 0.4,
+      "m": 2,
+      "method": "endpoint",
+      "per_photon": "54/125",
+      "per_photon_decimal": 0.432,
+      "feff": "54/25",
+      "policy_id": "N3_endpoint",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "endpoint",
+          "m": 2
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 3,
+      "eta": "1/2",
+      "eta_decimal": 0.5,
+      "m": 0,
+      "method": "bare_clique",
+      "per_photon": "5/8",
+      "per_photon_decimal": 0.625,
+      "feff": "15/8",
+      "policy_id": "N3_bare_clique",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "bare_clique",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 3,
+      "eta": "3/5",
+      "eta_decimal": 0.6,
+      "m": 0,
+      "method": "bare_clique",
+      "per_photon": "117/125",
+      "per_photon_decimal": 0.936,
+      "feff": "351/125",
+      "policy_id": "N3_bare_clique",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "bare_clique",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 3,
+      "eta": "7/10",
+      "eta_decimal": 0.7,
+      "m": 0,
+      "method": "bare_clique",
+      "per_photon": "1323/1000",
+      "per_photon_decimal": 1.323,
+      "feff": "3969/1000",
+      "policy_id": "N3_bare_clique",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "bare_clique",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 3,
+      "eta": "4/5",
+      "eta_decimal": 0.8,
+      "m": 0,
+      "method": "bare_clique",
+      "per_photon": "224/125",
+      "per_photon_decimal": 1.792,
+      "feff": "672/125",
+      "policy_id": "N3_bare_clique",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "bare_clique",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 3,
+      "eta": "9/10",
+      "eta_decimal": 0.9,
+      "m": 0,
+      "method": "bare_clique",
+      "per_photon": "2349/1000",
+      "per_photon_decimal": 2.349,
+      "feff": "7047/1000",
+      "policy_id": "N3_bare_clique",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "bare_clique",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 3,
+      "eta": "1",
+      "eta_decimal": 1.0,
+      "m": 0,
+      "method": "bare_clique",
+      "per_photon": "3",
+      "per_photon_decimal": 3.0,
+      "feff": "9",
+      "policy_id": "N3_bare_clique",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "bare_clique",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 4,
+      "eta": "1/10",
+      "eta_decimal": 0.1,
+      "m": 0,
+      "method": "independent",
+      "per_photon": "1/10",
+      "per_photon_decimal": 0.1,
+      "feff": "2/5",
+      "policy_id": "N4_independent",
+      "edges": [],
+      "known_tied_references": [
+        {
+          "family": "independent",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 4,
+      "eta": "1/5",
+      "eta_decimal": 0.2,
+      "m": 0,
+      "method": "independent",
+      "per_photon": "1/5",
+      "per_photon_decimal": 0.2,
+      "feff": "4/5",
+      "policy_id": "N4_independent",
+      "edges": [],
+      "known_tied_references": [
+        {
+          "family": "independent",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 4,
+      "eta": "3/10",
+      "eta_decimal": 0.3,
+      "m": 3,
+      "method": "endpoint",
+      "per_photon": "57/175",
+      "per_photon_decimal": 0.32571428571428573,
+      "feff": "57/25",
+      "policy_id": "N4_endpoint",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "endpoint",
+          "m": 3
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 4,
+      "eta": "2/5",
+      "eta_decimal": 0.4,
+      "m": 3,
+      "method": "endpoint",
+      "per_photon": "88/175",
+      "per_photon_decimal": 0.5028571428571429,
+      "feff": "88/25",
+      "policy_id": "N4_endpoint",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "endpoint",
+          "m": 3
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 4,
+      "eta": "1/2",
+      "eta_decimal": 0.5,
+      "m": 3,
+      "method": "endpoint",
+      "per_photon": "5/7",
+      "per_photon_decimal": 0.7142857142857143,
+      "feff": "5",
+      "policy_id": "N4_endpoint",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "endpoint",
+          "m": 3
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 4,
+      "eta": "3/5",
+      "eta_decimal": 0.6,
+      "m": 3,
+      "method": "endpoint",
+      "per_photon": "24/25",
+      "per_photon_decimal": 0.96,
+      "feff": "168/25",
+      "policy_id": "N4_endpoint",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "endpoint",
+          "m": 3
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 4,
+      "eta": "7/10",
+      "eta_decimal": 0.7,
+      "m": 0,
+      "method": "bare_clique",
+      "per_photon": "7007/5000",
+      "per_photon_decimal": 1.4014,
+      "feff": "7007/1250",
+      "policy_id": "N4_bare_clique",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "bare_clique",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 4,
+      "eta": "4/5",
+      "eta_decimal": 0.8,
+      "m": 0,
+      "method": "bare_clique",
+      "per_photon": "1264/625",
+      "per_photon_decimal": 2.0224,
+      "feff": "5056/625",
+      "policy_id": "N4_bare_clique",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "bare_clique",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 4,
+      "eta": "9/10",
+      "eta_decimal": 0.9,
+      "m": 0,
+      "method": "bare_clique",
+      "per_photon": "14337/5000",
+      "per_photon_decimal": 2.8674,
+      "feff": "14337/1250",
+      "policy_id": "N4_bare_clique",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "bare_clique",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 4,
+      "eta": "1",
+      "eta_decimal": 1.0,
+      "m": 0,
+      "method": "bare_clique",
+      "per_photon": "4",
+      "per_photon_decimal": 4.0,
+      "feff": "16",
+      "policy_id": "N4_bare_clique",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "bare_clique",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 5,
+      "eta": "1/10",
+      "eta_decimal": 0.1,
+      "m": 0,
+      "method": "independent",
+      "per_photon": "1/10",
+      "per_photon_decimal": 0.1,
+      "feff": "1/2",
+      "policy_id": "N5_independent",
+      "edges": [],
+      "known_tied_references": [
+        {
+          "family": "independent",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 5,
+      "eta": "1/5",
+      "eta_decimal": 0.2,
+      "m": 0,
+      "method": "independent",
+      "per_photon": "1/5",
+      "per_photon_decimal": 0.2,
+      "feff": "1",
+      "policy_id": "N5_independent",
+      "edges": [],
+      "known_tied_references": [
+        {
+          "family": "independent",
+          "m": 0
+        },
+        {
+          "family": "endpoint",
+          "m": 4
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 5,
+      "eta": "3/10",
+      "eta_decimal": 0.3,
+      "m": 4,
+      "method": "endpoint",
+      "per_photon": "11/30",
+      "per_photon_decimal": 0.36666666666666664,
+      "feff": "33/10",
+      "policy_id": "N5_endpoint",
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "endpoint",
+          "m": 4
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 5,
+      "eta": "2/5",
+      "eta_decimal": 0.4,
+      "m": 4,
+      "method": "endpoint",
+      "per_photon": "26/45",
+      "per_photon_decimal": 0.5777777777777777,
+      "feff": "26/5",
+      "policy_id": "N5_endpoint",
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "endpoint",
+          "m": 4
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 5,
+      "eta": "1/2",
+      "eta_decimal": 0.5,
+      "m": 4,
+      "method": "endpoint",
+      "per_photon": "5/6",
+      "per_photon_decimal": 0.8333333333333334,
+      "feff": "15/2",
+      "policy_id": "N5_endpoint",
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "endpoint",
+          "m": 4
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 5,
+      "eta": "3/5",
+      "eta_decimal": 0.6,
+      "m": 4,
+      "method": "endpoint",
+      "per_photon": "17/15",
+      "per_photon_decimal": 1.1333333333333333,
+      "feff": "51/5",
+      "policy_id": "N5_endpoint",
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "endpoint",
+          "m": 4
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 5,
+      "eta": "7/10",
+      "eta_decimal": 0.7,
+      "m": 4,
+      "method": "endpoint",
+      "per_photon": "133/90",
+      "per_photon_decimal": 1.4777777777777779,
+      "feff": "133/10",
+      "policy_id": "N5_endpoint",
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "endpoint",
+          "m": 4
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 5,
+      "eta": "4/5",
+      "eta_decimal": 0.8,
+      "m": 0,
+      "method": "bare_clique",
+      "per_photon": "6592/3125",
+      "per_photon_decimal": 2.10944,
+      "feff": "6592/625",
+      "policy_id": "N5_bare_clique",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "bare_clique",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 5,
+      "eta": "9/10",
+      "eta_decimal": 0.9,
+      "m": 0,
+      "method": "bare_clique",
+      "per_photon": "326187/100000",
+      "per_photon_decimal": 3.26187,
+      "feff": "326187/20000",
+      "policy_id": "N5_bare_clique",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "bare_clique",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    },
+    {
+      "n": 5,
+      "eta": "1",
+      "eta_decimal": 1.0,
+      "m": 0,
+      "method": "bare_clique",
+      "per_photon": "5",
+      "per_photon_decimal": 5.0,
+      "feff": "25",
+      "policy_id": "N5_bare_clique",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "known_tied_references": [
+        {
+          "family": "bare_clique",
+          "m": 0
+        }
+      ],
+      "global_optimum_certified": true
+    }
+  ],
+  "certificate": [
+    {
+      "n": 1,
+      "eta": "1/10",
+      "feasible_per_photon": "1/10",
+      "largest_graph_upper": "1/10",
+      "exact_gap": "0",
+      "enumerated_graphs": 0,
+      "analytical_auxiliary_counts": [
+        0,
+        1
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 1,
+      "eta": "1/5",
+      "feasible_per_photon": "1/5",
+      "largest_graph_upper": "1/5",
+      "exact_gap": "0",
+      "enumerated_graphs": 0,
+      "analytical_auxiliary_counts": [
+        0,
+        1
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 1,
+      "eta": "3/10",
+      "feasible_per_photon": "3/10",
+      "largest_graph_upper": "3/10",
+      "exact_gap": "0",
+      "enumerated_graphs": 0,
+      "analytical_auxiliary_counts": [
+        0,
+        1
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 1,
+      "eta": "2/5",
+      "feasible_per_photon": "2/5",
+      "largest_graph_upper": "2/5",
+      "exact_gap": "0",
+      "enumerated_graphs": 0,
+      "analytical_auxiliary_counts": [
+        0,
+        1
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 1,
+      "eta": "1/2",
+      "feasible_per_photon": "1/2",
+      "largest_graph_upper": "1/2",
+      "exact_gap": "0",
+      "enumerated_graphs": 0,
+      "analytical_auxiliary_counts": [
+        0,
+        1
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 1,
+      "eta": "3/5",
+      "feasible_per_photon": "3/5",
+      "largest_graph_upper": "3/5",
+      "exact_gap": "0",
+      "enumerated_graphs": 0,
+      "analytical_auxiliary_counts": [
+        0,
+        1
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 1,
+      "eta": "7/10",
+      "feasible_per_photon": "7/10",
+      "largest_graph_upper": "7/10",
+      "exact_gap": "0",
+      "enumerated_graphs": 0,
+      "analytical_auxiliary_counts": [
+        0,
+        1
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 1,
+      "eta": "4/5",
+      "feasible_per_photon": "4/5",
+      "largest_graph_upper": "4/5",
+      "exact_gap": "0",
+      "enumerated_graphs": 0,
+      "analytical_auxiliary_counts": [
+        0,
+        1
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 1,
+      "eta": "9/10",
+      "feasible_per_photon": "9/10",
+      "largest_graph_upper": "9/10",
+      "exact_gap": "0",
+      "enumerated_graphs": 0,
+      "analytical_auxiliary_counts": [
+        0,
+        1
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 1,
+      "eta": "1",
+      "feasible_per_photon": "1",
+      "largest_graph_upper": "1",
+      "exact_gap": "0",
+      "enumerated_graphs": 0,
+      "analytical_auxiliary_counts": [
+        0,
+        1
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 2,
+      "eta": "1/10",
+      "feasible_per_photon": "1/10",
+      "largest_graph_upper": "1/10",
+      "exact_gap": "0",
+      "enumerated_graphs": 2,
+      "analytical_auxiliary_counts": [
+        1,
+        2
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 2,
+      "eta": "1/5",
+      "feasible_per_photon": "1/5",
+      "largest_graph_upper": "1/5",
+      "exact_gap": "0",
+      "enumerated_graphs": 2,
+      "analytical_auxiliary_counts": [
+        1,
+        2
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 2,
+      "eta": "3/10",
+      "feasible_per_photon": "3/10",
+      "largest_graph_upper": "3/10",
+      "exact_gap": "0",
+      "enumerated_graphs": 2,
+      "analytical_auxiliary_counts": [
+        1,
+        2
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 2,
+      "eta": "2/5",
+      "feasible_per_photon": "2/5",
+      "largest_graph_upper": "2/5",
+      "exact_gap": "0",
+      "enumerated_graphs": 2,
+      "analytical_auxiliary_counts": [
+        1,
+        2
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 2,
+      "eta": "1/2",
+      "feasible_per_photon": "1/2",
+      "largest_graph_upper": "1/2",
+      "exact_gap": "0",
+      "enumerated_graphs": 2,
+      "analytical_auxiliary_counts": [
+        1,
+        2
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 2,
+      "eta": "3/5",
+      "feasible_per_photon": "18/25",
+      "largest_graph_upper": "18/25",
+      "exact_gap": "0",
+      "enumerated_graphs": 2,
+      "analytical_auxiliary_counts": [
+        1,
+        2
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 2,
+      "eta": "7/10",
+      "feasible_per_photon": "49/50",
+      "largest_graph_upper": "49/50",
+      "exact_gap": "0",
+      "enumerated_graphs": 2,
+      "analytical_auxiliary_counts": [
+        1,
+        2
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 2,
+      "eta": "4/5",
+      "feasible_per_photon": "32/25",
+      "largest_graph_upper": "32/25",
+      "exact_gap": "0",
+      "enumerated_graphs": 2,
+      "analytical_auxiliary_counts": [
+        1,
+        2
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 2,
+      "eta": "9/10",
+      "feasible_per_photon": "81/50",
+      "largest_graph_upper": "81/50",
+      "exact_gap": "0",
+      "enumerated_graphs": 2,
+      "analytical_auxiliary_counts": [
+        1,
+        2
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 2,
+      "eta": "1",
+      "feasible_per_photon": "2",
+      "largest_graph_upper": "2",
+      "exact_gap": "0",
+      "enumerated_graphs": 2,
+      "analytical_auxiliary_counts": [
+        1,
+        2
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 3,
+      "eta": "1/10",
+      "feasible_per_photon": "1/10",
+      "largest_graph_upper": "1/10",
+      "exact_gap": "0",
+      "enumerated_graphs": 8,
+      "analytical_auxiliary_counts": [
+        2,
+        3
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 3,
+      "eta": "1/5",
+      "feasible_per_photon": "1/5",
+      "largest_graph_upper": "1/5",
+      "exact_gap": "0",
+      "enumerated_graphs": 8,
+      "analytical_auxiliary_counts": [
+        2,
+        3
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 3,
+      "eta": "3/10",
+      "feasible_per_photon": "3/10",
+      "largest_graph_upper": "3/10",
+      "exact_gap": "0",
+      "enumerated_graphs": 8,
+      "analytical_auxiliary_counts": [
+        2,
+        3
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 3,
+      "eta": "2/5",
+      "feasible_per_photon": "54/125",
+      "largest_graph_upper": "54/125",
+      "exact_gap": "0",
+      "enumerated_graphs": 8,
+      "analytical_auxiliary_counts": [
+        2,
+        3
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 3,
+      "eta": "1/2",
+      "feasible_per_photon": "5/8",
+      "largest_graph_upper": "5/8",
+      "exact_gap": "0",
+      "enumerated_graphs": 8,
+      "analytical_auxiliary_counts": [
+        2,
+        3
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 3,
+      "eta": "3/5",
+      "feasible_per_photon": "117/125",
+      "largest_graph_upper": "117/125",
+      "exact_gap": "0",
+      "enumerated_graphs": 8,
+      "analytical_auxiliary_counts": [
+        2,
+        3
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 3,
+      "eta": "7/10",
+      "feasible_per_photon": "1323/1000",
+      "largest_graph_upper": "1323/1000",
+      "exact_gap": "0",
+      "enumerated_graphs": 8,
+      "analytical_auxiliary_counts": [
+        2,
+        3
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 3,
+      "eta": "4/5",
+      "feasible_per_photon": "224/125",
+      "largest_graph_upper": "224/125",
+      "exact_gap": "0",
+      "enumerated_graphs": 8,
+      "analytical_auxiliary_counts": [
+        2,
+        3
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 3,
+      "eta": "9/10",
+      "feasible_per_photon": "2349/1000",
+      "largest_graph_upper": "2349/1000",
+      "exact_gap": "0",
+      "enumerated_graphs": 8,
+      "analytical_auxiliary_counts": [
+        2,
+        3
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 3,
+      "eta": "1",
+      "feasible_per_photon": "3",
+      "largest_graph_upper": "3",
+      "exact_gap": "0",
+      "enumerated_graphs": 8,
+      "analytical_auxiliary_counts": [
+        2,
+        3
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 4,
+      "eta": "1/10",
+      "feasible_per_photon": "1/10",
+      "largest_graph_upper": "1/10",
+      "exact_gap": "0",
+      "enumerated_graphs": 73,
+      "analytical_auxiliary_counts": [
+        3,
+        4
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 4,
+      "eta": "1/5",
+      "feasible_per_photon": "1/5",
+      "largest_graph_upper": "1/5",
+      "exact_gap": "0",
+      "enumerated_graphs": 73,
+      "analytical_auxiliary_counts": [
+        3,
+        4
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 4,
+      "eta": "3/10",
+      "feasible_per_photon": "57/175",
+      "largest_graph_upper": "57/175",
+      "exact_gap": "0",
+      "enumerated_graphs": 73,
+      "analytical_auxiliary_counts": [
+        3,
+        4
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 4,
+      "eta": "2/5",
+      "feasible_per_photon": "88/175",
+      "largest_graph_upper": "88/175",
+      "exact_gap": "0",
+      "enumerated_graphs": 73,
+      "analytical_auxiliary_counts": [
+        3,
+        4
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 4,
+      "eta": "1/2",
+      "feasible_per_photon": "5/7",
+      "largest_graph_upper": "5/7",
+      "exact_gap": "0",
+      "enumerated_graphs": 73,
+      "analytical_auxiliary_counts": [
+        3,
+        4
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 4,
+      "eta": "3/5",
+      "feasible_per_photon": "24/25",
+      "largest_graph_upper": "24/25",
+      "exact_gap": "0",
+      "enumerated_graphs": 73,
+      "analytical_auxiliary_counts": [
+        3,
+        4
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 4,
+      "eta": "7/10",
+      "feasible_per_photon": "7007/5000",
+      "largest_graph_upper": "7007/5000",
+      "exact_gap": "0",
+      "enumerated_graphs": 73,
+      "analytical_auxiliary_counts": [
+        3,
+        4
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 4,
+      "eta": "4/5",
+      "feasible_per_photon": "1264/625",
+      "largest_graph_upper": "1264/625",
+      "exact_gap": "0",
+      "enumerated_graphs": 73,
+      "analytical_auxiliary_counts": [
+        3,
+        4
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 4,
+      "eta": "9/10",
+      "feasible_per_photon": "14337/5000",
+      "largest_graph_upper": "14337/5000",
+      "exact_gap": "0",
+      "enumerated_graphs": 73,
+      "analytical_auxiliary_counts": [
+        3,
+        4
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 4,
+      "eta": "1",
+      "feasible_per_photon": "4",
+      "largest_graph_upper": "4",
+      "exact_gap": "0",
+      "enumerated_graphs": 73,
+      "analytical_auxiliary_counts": [
+        3,
+        4
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 5,
+      "eta": "1/10",
+      "feasible_per_photon": "1/10",
+      "largest_graph_upper": "1/10",
+      "exact_gap": "0",
+      "enumerated_graphs": 1601,
+      "analytical_auxiliary_counts": [
+        4,
+        5
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 5,
+      "eta": "1/5",
+      "feasible_per_photon": "1/5",
+      "largest_graph_upper": "1/5",
+      "exact_gap": "0",
+      "enumerated_graphs": 1601,
+      "analytical_auxiliary_counts": [
+        4,
+        5
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 5,
+      "eta": "3/10",
+      "feasible_per_photon": "11/30",
+      "largest_graph_upper": "11/30",
+      "exact_gap": "0",
+      "enumerated_graphs": 1601,
+      "analytical_auxiliary_counts": [
+        4,
+        5
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 5,
+      "eta": "2/5",
+      "feasible_per_photon": "26/45",
+      "largest_graph_upper": "26/45",
+      "exact_gap": "0",
+      "enumerated_graphs": 1601,
+      "analytical_auxiliary_counts": [
+        4,
+        5
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 5,
+      "eta": "1/2",
+      "feasible_per_photon": "5/6",
+      "largest_graph_upper": "5/6",
+      "exact_gap": "0",
+      "enumerated_graphs": 1601,
+      "analytical_auxiliary_counts": [
+        4,
+        5
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 5,
+      "eta": "3/5",
+      "feasible_per_photon": "17/15",
+      "largest_graph_upper": "17/15",
+      "exact_gap": "0",
+      "enumerated_graphs": 1601,
+      "analytical_auxiliary_counts": [
+        4,
+        5
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 5,
+      "eta": "7/10",
+      "feasible_per_photon": "133/90",
+      "largest_graph_upper": "133/90",
+      "exact_gap": "0",
+      "enumerated_graphs": 1601,
+      "analytical_auxiliary_counts": [
+        4,
+        5
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 5,
+      "eta": "4/5",
+      "feasible_per_photon": "6592/3125",
+      "largest_graph_upper": "6592/3125",
+      "exact_gap": "0",
+      "enumerated_graphs": 1601,
+      "analytical_auxiliary_counts": [
+        4,
+        5
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 5,
+      "eta": "9/10",
+      "feasible_per_photon": "326187/100000",
+      "largest_graph_upper": "326187/100000",
+      "exact_gap": "0",
+      "enumerated_graphs": 1601,
+      "analytical_auxiliary_counts": [
+        4,
+        5
+      ],
+      "setting_probability_optimization": false
+    },
+    {
+      "n": 5,
+      "eta": "1",
+      "feasible_per_photon": "5",
+      "largest_graph_upper": "5",
+      "exact_gap": "0",
+      "enumerated_graphs": 1601,
+      "analytical_auxiliary_counts": [
+        4,
+        5
+      ],
+      "setting_probability_optimization": false
+    }
+  ]
+}

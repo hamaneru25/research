@@ -1,0 +1,559 @@
+n,m,family,survivors,auxiliary_bases,auxiliary_outcomes,outcome_probability,sensor_cliffords
+5,0,independent,0,,,1,I
+5,0,independent,1,,,1,I
+5,0,independent,0 1,,,1,I I
+5,0,independent,2,,,1,I
+5,0,independent,0 2,,,1,I I
+5,0,independent,1 2,,,1,I I
+5,0,independent,0 1 2,,,1,I I I
+5,0,independent,3,,,1,I
+5,0,independent,0 3,,,1,I I
+5,0,independent,1 3,,,1,I I
+5,0,independent,0 1 3,,,1,I I I
+5,0,independent,2 3,,,1,I I
+5,0,independent,0 2 3,,,1,I I I
+5,0,independent,1 2 3,,,1,I I I
+5,0,independent,0 1 2 3,,,1,I I I I
+5,0,independent,4,,,1,I
+5,0,independent,0 4,,,1,I I
+5,0,independent,1 4,,,1,I I
+5,0,independent,0 1 4,,,1,I I I
+5,0,independent,2 4,,,1,I I
+5,0,independent,0 2 4,,,1,I I I
+5,0,independent,1 2 4,,,1,I I I
+5,0,independent,0 1 2 4,,,1,I I I I
+5,0,independent,3 4,,,1,I I
+5,0,independent,0 3 4,,,1,I I I
+5,0,independent,1 3 4,,,1,I I I
+5,0,independent,0 1 3 4,,,1,I I I I
+5,0,independent,2 3 4,,,1,I I I
+5,0,independent,0 2 3 4,,,1,I I I I
+5,0,independent,1 2 3 4,,,1,I I I I
+5,0,independent,0 1 2 3 4,,,1,I I I I I
+5,0,bare_clique,0,,,1,I
+5,0,bare_clique,1,,,1,I
+5,0,bare_clique,0 1,,,1,H H
+5,0,bare_clique,2,,,1,I
+5,0,bare_clique,0 2,,,1,H H
+5,0,bare_clique,1 2,,,1,H H
+5,0,bare_clique,0 1 2,,,1,H H H
+5,0,bare_clique,3,,,1,I
+5,0,bare_clique,0 3,,,1,H H
+5,0,bare_clique,1 3,,,1,H H
+5,0,bare_clique,0 1 3,,,1,H H H
+5,0,bare_clique,2 3,,,1,H H
+5,0,bare_clique,0 2 3,,,1,H H H
+5,0,bare_clique,1 2 3,,,1,H H H
+5,0,bare_clique,0 1 2 3,,,1,H H H H
+5,0,bare_clique,4,,,1,I
+5,0,bare_clique,0 4,,,1,H H
+5,0,bare_clique,1 4,,,1,H H
+5,0,bare_clique,0 1 4,,,1,H H H
+5,0,bare_clique,2 4,,,1,H H
+5,0,bare_clique,0 2 4,,,1,H H H
+5,0,bare_clique,1 2 4,,,1,H H H
+5,0,bare_clique,0 1 2 4,,,1,H H H H
+5,0,bare_clique,3 4,,,1,H H
+5,0,bare_clique,0 3 4,,,1,H H H
+5,0,bare_clique,1 3 4,,,1,H H H
+5,0,bare_clique,0 1 3 4,,,1,H H H H
+5,0,bare_clique,2 3 4,,,1,H H H
+5,0,bare_clique,0 2 3 4,,,1,H H H H
+5,0,bare_clique,1 2 3 4,,,1,H H H H
+5,0,bare_clique,0 1 2 3 4,,,1,HSdg HSdg HSdg HSdg HSdg
+5,4,endpoint,0,XZZZ,1 1 1 1,1/16,HSdg
+5,4,endpoint,0,XZZZ,1 1 1 -1,1/16,HSdg
+5,4,endpoint,0,XZZZ,1 1 -1 1,1/16,HSdg
+5,4,endpoint,0,XZZZ,1 1 -1 -1,1/16,HSdg
+5,4,endpoint,0,XZZZ,1 -1 1 1,1/16,HSdg
+5,4,endpoint,0,XZZZ,1 -1 1 -1,1/16,HSdg
+5,4,endpoint,0,XZZZ,1 -1 -1 1,1/16,HSdg
+5,4,endpoint,0,XZZZ,1 -1 -1 -1,1/16,HSdg
+5,4,endpoint,0,XZZZ,-1 1 1 1,1/16,HSdg
+5,4,endpoint,0,XZZZ,-1 1 1 -1,1/16,HSdg
+5,4,endpoint,0,XZZZ,-1 1 -1 1,1/16,HSdg
+5,4,endpoint,0,XZZZ,-1 1 -1 -1,1/16,HSdg
+5,4,endpoint,0,XZZZ,-1 -1 1 1,1/16,HSdg
+5,4,endpoint,0,XZZZ,-1 -1 1 -1,1/16,HSdg
+5,4,endpoint,0,XZZZ,-1 -1 -1 1,1/16,HSdg
+5,4,endpoint,0,XZZZ,-1 -1 -1 -1,1/16,HSdg
+5,4,endpoint,1,ZXZZ,1 1 1 1,1/16,HSdg
+5,4,endpoint,1,ZXZZ,1 1 1 -1,1/16,HSdg
+5,4,endpoint,1,ZXZZ,1 1 -1 1,1/16,HSdg
+5,4,endpoint,1,ZXZZ,1 1 -1 -1,1/16,HSdg
+5,4,endpoint,1,ZXZZ,1 -1 1 1,1/16,HSdg
+5,4,endpoint,1,ZXZZ,1 -1 1 -1,1/16,HSdg
+5,4,endpoint,1,ZXZZ,1 -1 -1 1,1/16,HSdg
+5,4,endpoint,1,ZXZZ,1 -1 -1 -1,1/16,HSdg
+5,4,endpoint,1,ZXZZ,-1 1 1 1,1/16,HSdg
+5,4,endpoint,1,ZXZZ,-1 1 1 -1,1/16,HSdg
+5,4,endpoint,1,ZXZZ,-1 1 -1 1,1/16,HSdg
+5,4,endpoint,1,ZXZZ,-1 1 -1 -1,1/16,HSdg
+5,4,endpoint,1,ZXZZ,-1 -1 1 1,1/16,HSdg
+5,4,endpoint,1,ZXZZ,-1 -1 1 -1,1/16,HSdg
+5,4,endpoint,1,ZXZZ,-1 -1 -1 1,1/16,HSdg
+5,4,endpoint,1,ZXZZ,-1 -1 -1 -1,1/16,HSdg
+5,4,endpoint,0 1,YYZZ,1 1 1 1,1/16,I I
+5,4,endpoint,0 1,YYZZ,1 1 1 -1,1/16,I I
+5,4,endpoint,0 1,YYZZ,1 1 -1 1,1/16,I I
+5,4,endpoint,0 1,YYZZ,1 1 -1 -1,1/16,I I
+5,4,endpoint,0 1,YYZZ,1 -1 1 1,1/16,I X
+5,4,endpoint,0 1,YYZZ,1 -1 1 -1,1/16,I X
+5,4,endpoint,0 1,YYZZ,1 -1 -1 1,1/16,I X
+5,4,endpoint,0 1,YYZZ,1 -1 -1 -1,1/16,I X
+5,4,endpoint,0 1,YYZZ,-1 1 1 1,1/16,I X
+5,4,endpoint,0 1,YYZZ,-1 1 1 -1,1/16,I X
+5,4,endpoint,0 1,YYZZ,-1 1 -1 1,1/16,I X
+5,4,endpoint,0 1,YYZZ,-1 1 -1 -1,1/16,I X
+5,4,endpoint,0 1,YYZZ,-1 -1 1 1,1/16,I I
+5,4,endpoint,0 1,YYZZ,-1 -1 1 -1,1/16,I I
+5,4,endpoint,0 1,YYZZ,-1 -1 -1 1,1/16,I I
+5,4,endpoint,0 1,YYZZ,-1 -1 -1 -1,1/16,I I
+5,4,endpoint,2,ZZXZ,1 1 1 1,1/16,HSdg
+5,4,endpoint,2,ZZXZ,1 1 1 -1,1/16,HSdg
+5,4,endpoint,2,ZZXZ,1 1 -1 1,1/16,HSdg
+5,4,endpoint,2,ZZXZ,1 1 -1 -1,1/16,HSdg
+5,4,endpoint,2,ZZXZ,1 -1 1 1,1/16,HSdg
+5,4,endpoint,2,ZZXZ,1 -1 1 -1,1/16,HSdg
+5,4,endpoint,2,ZZXZ,1 -1 -1 1,1/16,HSdg
+5,4,endpoint,2,ZZXZ,1 -1 -1 -1,1/16,HSdg
+5,4,endpoint,2,ZZXZ,-1 1 1 1,1/16,HSdg
+5,4,endpoint,2,ZZXZ,-1 1 1 -1,1/16,HSdg
+5,4,endpoint,2,ZZXZ,-1 1 -1 1,1/16,HSdg
+5,4,endpoint,2,ZZXZ,-1 1 -1 -1,1/16,HSdg
+5,4,endpoint,2,ZZXZ,-1 -1 1 1,1/16,HSdg
+5,4,endpoint,2,ZZXZ,-1 -1 1 -1,1/16,HSdg
+5,4,endpoint,2,ZZXZ,-1 -1 -1 1,1/16,HSdg
+5,4,endpoint,2,ZZXZ,-1 -1 -1 -1,1/16,HSdg
+5,4,endpoint,0 2,YZYZ,1 1 1 1,1/16,I I
+5,4,endpoint,0 2,YZYZ,1 1 1 -1,1/16,I I
+5,4,endpoint,0 2,YZYZ,1 1 -1 1,1/16,I X
+5,4,endpoint,0 2,YZYZ,1 1 -1 -1,1/16,I X
+5,4,endpoint,0 2,YZYZ,1 -1 1 1,1/16,I I
+5,4,endpoint,0 2,YZYZ,1 -1 1 -1,1/16,I I
+5,4,endpoint,0 2,YZYZ,1 -1 -1 1,1/16,I X
+5,4,endpoint,0 2,YZYZ,1 -1 -1 -1,1/16,I X
+5,4,endpoint,0 2,YZYZ,-1 1 1 1,1/16,I X
+5,4,endpoint,0 2,YZYZ,-1 1 1 -1,1/16,I X
+5,4,endpoint,0 2,YZYZ,-1 1 -1 1,1/16,I I
+5,4,endpoint,0 2,YZYZ,-1 1 -1 -1,1/16,I I
+5,4,endpoint,0 2,YZYZ,-1 -1 1 1,1/16,I X
+5,4,endpoint,0 2,YZYZ,-1 -1 1 -1,1/16,I X
+5,4,endpoint,0 2,YZYZ,-1 -1 -1 1,1/16,I I
+5,4,endpoint,0 2,YZYZ,-1 -1 -1 -1,1/16,I I
+5,4,endpoint,1 2,ZYYZ,1 1 1 1,1/16,I I
+5,4,endpoint,1 2,ZYYZ,1 1 1 -1,1/16,I I
+5,4,endpoint,1 2,ZYYZ,1 1 -1 1,1/16,I X
+5,4,endpoint,1 2,ZYYZ,1 1 -1 -1,1/16,I X
+5,4,endpoint,1 2,ZYYZ,1 -1 1 1,1/16,I X
+5,4,endpoint,1 2,ZYYZ,1 -1 1 -1,1/16,I X
+5,4,endpoint,1 2,ZYYZ,1 -1 -1 1,1/16,I I
+5,4,endpoint,1 2,ZYYZ,1 -1 -1 -1,1/16,I I
+5,4,endpoint,1 2,ZYYZ,-1 1 1 1,1/16,I I
+5,4,endpoint,1 2,ZYYZ,-1 1 1 -1,1/16,I I
+5,4,endpoint,1 2,ZYYZ,-1 1 -1 1,1/16,I X
+5,4,endpoint,1 2,ZYYZ,-1 1 -1 -1,1/16,I X
+5,4,endpoint,1 2,ZYYZ,-1 -1 1 1,1/16,I X
+5,4,endpoint,1 2,ZYYZ,-1 -1 1 -1,1/16,I X
+5,4,endpoint,1 2,ZYYZ,-1 -1 -1 1,1/16,I I
+5,4,endpoint,1 2,ZYYZ,-1 -1 -1 -1,1/16,I I
+5,4,endpoint,0 1 2,XXXZ,1 1 1 1,1/16,HSdg HSdg HSdg
+5,4,endpoint,0 1 2,XXXZ,1 1 1 -1,1/16,HSdg HSdg HSdg
+5,4,endpoint,0 1 2,XXXZ,1 1 -1 1,1/16,HSdg HSdg HS
+5,4,endpoint,0 1 2,XXXZ,1 1 -1 -1,1/16,HSdg HSdg HS
+5,4,endpoint,0 1 2,XXXZ,1 -1 1 1,1/16,HSdg HS HSdg
+5,4,endpoint,0 1 2,XXXZ,1 -1 1 -1,1/16,HSdg HS HSdg
+5,4,endpoint,0 1 2,XXXZ,1 -1 -1 1,1/16,HSdg HS HS
+5,4,endpoint,0 1 2,XXXZ,1 -1 -1 -1,1/16,HSdg HS HS
+5,4,endpoint,0 1 2,XXXZ,-1 1 1 1,1/16,HSdg HS HS
+5,4,endpoint,0 1 2,XXXZ,-1 1 1 -1,1/16,HSdg HS HS
+5,4,endpoint,0 1 2,XXXZ,-1 1 -1 1,1/16,HSdg HS HSdg
+5,4,endpoint,0 1 2,XXXZ,-1 1 -1 -1,1/16,HSdg HS HSdg
+5,4,endpoint,0 1 2,XXXZ,-1 -1 1 1,1/16,HSdg HSdg HS
+5,4,endpoint,0 1 2,XXXZ,-1 -1 1 -1,1/16,HSdg HSdg HS
+5,4,endpoint,0 1 2,XXXZ,-1 -1 -1 1,1/16,HSdg HSdg HSdg
+5,4,endpoint,0 1 2,XXXZ,-1 -1 -1 -1,1/16,HSdg HSdg HSdg
+5,4,endpoint,3,ZZZX,1 1 1 1,1/16,HSdg
+5,4,endpoint,3,ZZZX,1 1 1 -1,1/16,HSdg
+5,4,endpoint,3,ZZZX,1 1 -1 1,1/16,HSdg
+5,4,endpoint,3,ZZZX,1 1 -1 -1,1/16,HSdg
+5,4,endpoint,3,ZZZX,1 -1 1 1,1/16,HSdg
+5,4,endpoint,3,ZZZX,1 -1 1 -1,1/16,HSdg
+5,4,endpoint,3,ZZZX,1 -1 -1 1,1/16,HSdg
+5,4,endpoint,3,ZZZX,1 -1 -1 -1,1/16,HSdg
+5,4,endpoint,3,ZZZX,-1 1 1 1,1/16,HSdg
+5,4,endpoint,3,ZZZX,-1 1 1 -1,1/16,HSdg
+5,4,endpoint,3,ZZZX,-1 1 -1 1,1/16,HSdg
+5,4,endpoint,3,ZZZX,-1 1 -1 -1,1/16,HSdg
+5,4,endpoint,3,ZZZX,-1 -1 1 1,1/16,HSdg
+5,4,endpoint,3,ZZZX,-1 -1 1 -1,1/16,HSdg
+5,4,endpoint,3,ZZZX,-1 -1 -1 1,1/16,HSdg
+5,4,endpoint,3,ZZZX,-1 -1 -1 -1,1/16,HSdg
+5,4,endpoint,0 3,YZZY,1 1 1 1,1/16,I I
+5,4,endpoint,0 3,YZZY,1 1 1 -1,1/16,I X
+5,4,endpoint,0 3,YZZY,1 1 -1 1,1/16,I I
+5,4,endpoint,0 3,YZZY,1 1 -1 -1,1/16,I X
+5,4,endpoint,0 3,YZZY,1 -1 1 1,1/16,I I
+5,4,endpoint,0 3,YZZY,1 -1 1 -1,1/16,I X
+5,4,endpoint,0 3,YZZY,1 -1 -1 1,1/16,I I
+5,4,endpoint,0 3,YZZY,1 -1 -1 -1,1/16,I X
+5,4,endpoint,0 3,YZZY,-1 1 1 1,1/16,I X
+5,4,endpoint,0 3,YZZY,-1 1 1 -1,1/16,I I
+5,4,endpoint,0 3,YZZY,-1 1 -1 1,1/16,I X
+5,4,endpoint,0 3,YZZY,-1 1 -1 -1,1/16,I I
+5,4,endpoint,0 3,YZZY,-1 -1 1 1,1/16,I X
+5,4,endpoint,0 3,YZZY,-1 -1 1 -1,1/16,I I
+5,4,endpoint,0 3,YZZY,-1 -1 -1 1,1/16,I X
+5,4,endpoint,0 3,YZZY,-1 -1 -1 -1,1/16,I I
+5,4,endpoint,1 3,ZYZY,1 1 1 1,1/16,I I
+5,4,endpoint,1 3,ZYZY,1 1 1 -1,1/16,I X
+5,4,endpoint,1 3,ZYZY,1 1 -1 1,1/16,I I
+5,4,endpoint,1 3,ZYZY,1 1 -1 -1,1/16,I X
+5,4,endpoint,1 3,ZYZY,1 -1 1 1,1/16,I X
+5,4,endpoint,1 3,ZYZY,1 -1 1 -1,1/16,I I
+5,4,endpoint,1 3,ZYZY,1 -1 -1 1,1/16,I X
+5,4,endpoint,1 3,ZYZY,1 -1 -1 -1,1/16,I I
+5,4,endpoint,1 3,ZYZY,-1 1 1 1,1/16,I I
+5,4,endpoint,1 3,ZYZY,-1 1 1 -1,1/16,I X
+5,4,endpoint,1 3,ZYZY,-1 1 -1 1,1/16,I I
+5,4,endpoint,1 3,ZYZY,-1 1 -1 -1,1/16,I X
+5,4,endpoint,1 3,ZYZY,-1 -1 1 1,1/16,I X
+5,4,endpoint,1 3,ZYZY,-1 -1 1 -1,1/16,I I
+5,4,endpoint,1 3,ZYZY,-1 -1 -1 1,1/16,I X
+5,4,endpoint,1 3,ZYZY,-1 -1 -1 -1,1/16,I I
+5,4,endpoint,0 1 3,XXZX,1 1 1 1,1/16,HSdg HSdg HSdg
+5,4,endpoint,0 1 3,XXZX,1 1 1 -1,1/16,HSdg HSdg HS
+5,4,endpoint,0 1 3,XXZX,1 1 -1 1,1/16,HSdg HSdg HSdg
+5,4,endpoint,0 1 3,XXZX,1 1 -1 -1,1/16,HSdg HSdg HS
+5,4,endpoint,0 1 3,XXZX,1 -1 1 1,1/16,HSdg HS HSdg
+5,4,endpoint,0 1 3,XXZX,1 -1 1 -1,1/16,HSdg HS HS
+5,4,endpoint,0 1 3,XXZX,1 -1 -1 1,1/16,HSdg HS HSdg
+5,4,endpoint,0 1 3,XXZX,1 -1 -1 -1,1/16,HSdg HS HS
+5,4,endpoint,0 1 3,XXZX,-1 1 1 1,1/16,HSdg HS HS
+5,4,endpoint,0 1 3,XXZX,-1 1 1 -1,1/16,HSdg HS HSdg
+5,4,endpoint,0 1 3,XXZX,-1 1 -1 1,1/16,HSdg HS HS
+5,4,endpoint,0 1 3,XXZX,-1 1 -1 -1,1/16,HSdg HS HSdg
+5,4,endpoint,0 1 3,XXZX,-1 -1 1 1,1/16,HSdg HSdg HS
+5,4,endpoint,0 1 3,XXZX,-1 -1 1 -1,1/16,HSdg HSdg HSdg
+5,4,endpoint,0 1 3,XXZX,-1 -1 -1 1,1/16,HSdg HSdg HS
+5,4,endpoint,0 1 3,XXZX,-1 -1 -1 -1,1/16,HSdg HSdg HSdg
+5,4,endpoint,2 3,ZZYY,1 1 1 1,1/16,I I
+5,4,endpoint,2 3,ZZYY,1 1 1 -1,1/16,I X
+5,4,endpoint,2 3,ZZYY,1 1 -1 1,1/16,I X
+5,4,endpoint,2 3,ZZYY,1 1 -1 -1,1/16,I I
+5,4,endpoint,2 3,ZZYY,1 -1 1 1,1/16,I I
+5,4,endpoint,2 3,ZZYY,1 -1 1 -1,1/16,I X
+5,4,endpoint,2 3,ZZYY,1 -1 -1 1,1/16,I X
+5,4,endpoint,2 3,ZZYY,1 -1 -1 -1,1/16,I I
+5,4,endpoint,2 3,ZZYY,-1 1 1 1,1/16,I I
+5,4,endpoint,2 3,ZZYY,-1 1 1 -1,1/16,I X
+5,4,endpoint,2 3,ZZYY,-1 1 -1 1,1/16,I X
+5,4,endpoint,2 3,ZZYY,-1 1 -1 -1,1/16,I I
+5,4,endpoint,2 3,ZZYY,-1 -1 1 1,1/16,I I
+5,4,endpoint,2 3,ZZYY,-1 -1 1 -1,1/16,I X
+5,4,endpoint,2 3,ZZYY,-1 -1 -1 1,1/16,I X
+5,4,endpoint,2 3,ZZYY,-1 -1 -1 -1,1/16,I I
+5,4,endpoint,0 2 3,XZXX,1 1 1 1,1/16,HSdg HSdg HSdg
+5,4,endpoint,0 2 3,XZXX,1 1 1 -1,1/16,HSdg HSdg HS
+5,4,endpoint,0 2 3,XZXX,1 1 -1 1,1/16,HSdg HS HSdg
+5,4,endpoint,0 2 3,XZXX,1 1 -1 -1,1/16,HSdg HS HS
+5,4,endpoint,0 2 3,XZXX,1 -1 1 1,1/16,HSdg HSdg HSdg
+5,4,endpoint,0 2 3,XZXX,1 -1 1 -1,1/16,HSdg HSdg HS
+5,4,endpoint,0 2 3,XZXX,1 -1 -1 1,1/16,HSdg HS HSdg
+5,4,endpoint,0 2 3,XZXX,1 -1 -1 -1,1/16,HSdg HS HS
+5,4,endpoint,0 2 3,XZXX,-1 1 1 1,1/16,HSdg HS HS
+5,4,endpoint,0 2 3,XZXX,-1 1 1 -1,1/16,HSdg HS HSdg
+5,4,endpoint,0 2 3,XZXX,-1 1 -1 1,1/16,HSdg HSdg HS
+5,4,endpoint,0 2 3,XZXX,-1 1 -1 -1,1/16,HSdg HSdg HSdg
+5,4,endpoint,0 2 3,XZXX,-1 -1 1 1,1/16,HSdg HS HS
+5,4,endpoint,0 2 3,XZXX,-1 -1 1 -1,1/16,HSdg HS HSdg
+5,4,endpoint,0 2 3,XZXX,-1 -1 -1 1,1/16,HSdg HSdg HS
+5,4,endpoint,0 2 3,XZXX,-1 -1 -1 -1,1/16,HSdg HSdg HSdg
+5,4,endpoint,1 2 3,ZXXX,1 1 1 1,1/16,HSdg HSdg HSdg
+5,4,endpoint,1 2 3,ZXXX,1 1 1 -1,1/16,HSdg HSdg HS
+5,4,endpoint,1 2 3,ZXXX,1 1 -1 1,1/16,HSdg HS HSdg
+5,4,endpoint,1 2 3,ZXXX,1 1 -1 -1,1/16,HSdg HS HS
+5,4,endpoint,1 2 3,ZXXX,1 -1 1 1,1/16,HSdg HS HS
+5,4,endpoint,1 2 3,ZXXX,1 -1 1 -1,1/16,HSdg HS HSdg
+5,4,endpoint,1 2 3,ZXXX,1 -1 -1 1,1/16,HSdg HSdg HS
+5,4,endpoint,1 2 3,ZXXX,1 -1 -1 -1,1/16,HSdg HSdg HSdg
+5,4,endpoint,1 2 3,ZXXX,-1 1 1 1,1/16,HSdg HSdg HSdg
+5,4,endpoint,1 2 3,ZXXX,-1 1 1 -1,1/16,HSdg HSdg HS
+5,4,endpoint,1 2 3,ZXXX,-1 1 -1 1,1/16,HSdg HS HSdg
+5,4,endpoint,1 2 3,ZXXX,-1 1 -1 -1,1/16,HSdg HS HS
+5,4,endpoint,1 2 3,ZXXX,-1 -1 1 1,1/16,HSdg HS HS
+5,4,endpoint,1 2 3,ZXXX,-1 -1 1 -1,1/16,HSdg HS HSdg
+5,4,endpoint,1 2 3,ZXXX,-1 -1 -1 1,1/16,HSdg HSdg HS
+5,4,endpoint,1 2 3,ZXXX,-1 -1 -1 -1,1/16,HSdg HSdg HSdg
+5,4,endpoint,0 1 2 3,YYYY,1 1 1 1,1/16,I I I I
+5,4,endpoint,0 1 2 3,YYYY,1 1 1 -1,1/16,I I I X
+5,4,endpoint,0 1 2 3,YYYY,1 1 -1 1,1/16,I I X I
+5,4,endpoint,0 1 2 3,YYYY,1 1 -1 -1,1/16,I I X X
+5,4,endpoint,0 1 2 3,YYYY,1 -1 1 1,1/16,I X I I
+5,4,endpoint,0 1 2 3,YYYY,1 -1 1 -1,1/16,I X I X
+5,4,endpoint,0 1 2 3,YYYY,1 -1 -1 1,1/16,I X X I
+5,4,endpoint,0 1 2 3,YYYY,1 -1 -1 -1,1/16,I X X X
+5,4,endpoint,0 1 2 3,YYYY,-1 1 1 1,1/16,I X X X
+5,4,endpoint,0 1 2 3,YYYY,-1 1 1 -1,1/16,I X X I
+5,4,endpoint,0 1 2 3,YYYY,-1 1 -1 1,1/16,I X I X
+5,4,endpoint,0 1 2 3,YYYY,-1 1 -1 -1,1/16,I X I I
+5,4,endpoint,0 1 2 3,YYYY,-1 -1 1 1,1/16,I I X X
+5,4,endpoint,0 1 2 3,YYYY,-1 -1 1 -1,1/16,I I X I
+5,4,endpoint,0 1 2 3,YYYY,-1 -1 -1 1,1/16,I I I X
+5,4,endpoint,0 1 2 3,YYYY,-1 -1 -1 -1,1/16,I I I I
+5,4,endpoint,4,YYYY,1 1 1 1,1/16,I
+5,4,endpoint,4,YYYY,1 1 1 -1,1/16,I
+5,4,endpoint,4,YYYY,1 1 -1 1,1/16,I
+5,4,endpoint,4,YYYY,1 1 -1 -1,1/16,I
+5,4,endpoint,4,YYYY,1 -1 1 1,1/16,I
+5,4,endpoint,4,YYYY,1 -1 1 -1,1/16,I
+5,4,endpoint,4,YYYY,1 -1 -1 1,1/16,I
+5,4,endpoint,4,YYYY,1 -1 -1 -1,1/16,I
+5,4,endpoint,4,YYYY,-1 1 1 1,1/16,I
+5,4,endpoint,4,YYYY,-1 1 1 -1,1/16,I
+5,4,endpoint,4,YYYY,-1 1 -1 1,1/16,I
+5,4,endpoint,4,YYYY,-1 1 -1 -1,1/16,I
+5,4,endpoint,4,YYYY,-1 -1 1 1,1/16,I
+5,4,endpoint,4,YYYY,-1 -1 1 -1,1/16,I
+5,4,endpoint,4,YYYY,-1 -1 -1 1,1/16,I
+5,4,endpoint,4,YYYY,-1 -1 -1 -1,1/16,I
+5,4,endpoint,0 4,ZXXX,1 1 1 1,1/16,H I
+5,4,endpoint,0 4,ZXXX,1 1 1 -1,1/16,H I
+5,4,endpoint,0 4,ZXXX,1 1 -1 1,1/16,H I
+5,4,endpoint,0 4,ZXXX,1 1 -1 -1,1/16,H I
+5,4,endpoint,0 4,ZXXX,1 -1 1 1,1/16,H I
+5,4,endpoint,0 4,ZXXX,1 -1 1 -1,1/16,H I
+5,4,endpoint,0 4,ZXXX,1 -1 -1 1,1/16,H I
+5,4,endpoint,0 4,ZXXX,1 -1 -1 -1,1/16,H I
+5,4,endpoint,0 4,ZXXX,-1 1 1 1,1/16,H X
+5,4,endpoint,0 4,ZXXX,-1 1 1 -1,1/16,H X
+5,4,endpoint,0 4,ZXXX,-1 1 -1 1,1/16,H X
+5,4,endpoint,0 4,ZXXX,-1 1 -1 -1,1/16,H X
+5,4,endpoint,0 4,ZXXX,-1 -1 1 1,1/16,H X
+5,4,endpoint,0 4,ZXXX,-1 -1 1 -1,1/16,H X
+5,4,endpoint,0 4,ZXXX,-1 -1 -1 1,1/16,H X
+5,4,endpoint,0 4,ZXXX,-1 -1 -1 -1,1/16,H X
+5,4,endpoint,1 4,XZXX,1 1 1 1,1/16,H I
+5,4,endpoint,1 4,XZXX,1 1 1 -1,1/16,H I
+5,4,endpoint,1 4,XZXX,1 1 -1 1,1/16,H I
+5,4,endpoint,1 4,XZXX,1 1 -1 -1,1/16,H I
+5,4,endpoint,1 4,XZXX,1 -1 1 1,1/16,H X
+5,4,endpoint,1 4,XZXX,1 -1 1 -1,1/16,H X
+5,4,endpoint,1 4,XZXX,1 -1 -1 1,1/16,H X
+5,4,endpoint,1 4,XZXX,1 -1 -1 -1,1/16,H X
+5,4,endpoint,1 4,XZXX,-1 1 1 1,1/16,H I
+5,4,endpoint,1 4,XZXX,-1 1 1 -1,1/16,H I
+5,4,endpoint,1 4,XZXX,-1 1 -1 1,1/16,H I
+5,4,endpoint,1 4,XZXX,-1 1 -1 -1,1/16,H I
+5,4,endpoint,1 4,XZXX,-1 -1 1 1,1/16,H X
+5,4,endpoint,1 4,XZXX,-1 -1 1 -1,1/16,H X
+5,4,endpoint,1 4,XZXX,-1 -1 -1 1,1/16,H X
+5,4,endpoint,1 4,XZXX,-1 -1 -1 -1,1/16,H X
+5,4,endpoint,0 1 4,ZZYY,1 1 1 1,1/16,H H I
+5,4,endpoint,0 1 4,ZZYY,1 1 1 -1,1/16,H H I
+5,4,endpoint,0 1 4,ZZYY,1 1 -1 1,1/16,H H I
+5,4,endpoint,0 1 4,ZZYY,1 1 -1 -1,1/16,H H I
+5,4,endpoint,0 1 4,ZZYY,1 -1 1 1,1/16,H HZ I
+5,4,endpoint,0 1 4,ZZYY,1 -1 1 -1,1/16,H HZ I
+5,4,endpoint,0 1 4,ZZYY,1 -1 -1 1,1/16,H HZ I
+5,4,endpoint,0 1 4,ZZYY,1 -1 -1 -1,1/16,H HZ I
+5,4,endpoint,0 1 4,ZZYY,-1 1 1 1,1/16,H HZ X
+5,4,endpoint,0 1 4,ZZYY,-1 1 1 -1,1/16,H HZ X
+5,4,endpoint,0 1 4,ZZYY,-1 1 -1 1,1/16,H HZ X
+5,4,endpoint,0 1 4,ZZYY,-1 1 -1 -1,1/16,H HZ X
+5,4,endpoint,0 1 4,ZZYY,-1 -1 1 1,1/16,H H X
+5,4,endpoint,0 1 4,ZZYY,-1 -1 1 -1,1/16,H H X
+5,4,endpoint,0 1 4,ZZYY,-1 -1 -1 1,1/16,H H X
+5,4,endpoint,0 1 4,ZZYY,-1 -1 -1 -1,1/16,H H X
+5,4,endpoint,2 4,XXZX,1 1 1 1,1/16,H I
+5,4,endpoint,2 4,XXZX,1 1 1 -1,1/16,H I
+5,4,endpoint,2 4,XXZX,1 1 -1 1,1/16,H X
+5,4,endpoint,2 4,XXZX,1 1 -1 -1,1/16,H X
+5,4,endpoint,2 4,XXZX,1 -1 1 1,1/16,H I
+5,4,endpoint,2 4,XXZX,1 -1 1 -1,1/16,H I
+5,4,endpoint,2 4,XXZX,1 -1 -1 1,1/16,H X
+5,4,endpoint,2 4,XXZX,1 -1 -1 -1,1/16,H X
+5,4,endpoint,2 4,XXZX,-1 1 1 1,1/16,H I
+5,4,endpoint,2 4,XXZX,-1 1 1 -1,1/16,H I
+5,4,endpoint,2 4,XXZX,-1 1 -1 1,1/16,H X
+5,4,endpoint,2 4,XXZX,-1 1 -1 -1,1/16,H X
+5,4,endpoint,2 4,XXZX,-1 -1 1 1,1/16,H I
+5,4,endpoint,2 4,XXZX,-1 -1 1 -1,1/16,H I
+5,4,endpoint,2 4,XXZX,-1 -1 -1 1,1/16,H X
+5,4,endpoint,2 4,XXZX,-1 -1 -1 -1,1/16,H X
+5,4,endpoint,0 2 4,ZYZY,1 1 1 1,1/16,H H I
+5,4,endpoint,0 2 4,ZYZY,1 1 1 -1,1/16,H H I
+5,4,endpoint,0 2 4,ZYZY,1 1 -1 1,1/16,H HZ I
+5,4,endpoint,0 2 4,ZYZY,1 1 -1 -1,1/16,H HZ I
+5,4,endpoint,0 2 4,ZYZY,1 -1 1 1,1/16,H H I
+5,4,endpoint,0 2 4,ZYZY,1 -1 1 -1,1/16,H H I
+5,4,endpoint,0 2 4,ZYZY,1 -1 -1 1,1/16,H HZ I
+5,4,endpoint,0 2 4,ZYZY,1 -1 -1 -1,1/16,H HZ I
+5,4,endpoint,0 2 4,ZYZY,-1 1 1 1,1/16,H HZ X
+5,4,endpoint,0 2 4,ZYZY,-1 1 1 -1,1/16,H HZ X
+5,4,endpoint,0 2 4,ZYZY,-1 1 -1 1,1/16,H H X
+5,4,endpoint,0 2 4,ZYZY,-1 1 -1 -1,1/16,H H X
+5,4,endpoint,0 2 4,ZYZY,-1 -1 1 1,1/16,H HZ X
+5,4,endpoint,0 2 4,ZYZY,-1 -1 1 -1,1/16,H HZ X
+5,4,endpoint,0 2 4,ZYZY,-1 -1 -1 1,1/16,H H X
+5,4,endpoint,0 2 4,ZYZY,-1 -1 -1 -1,1/16,H H X
+5,4,endpoint,1 2 4,YZZY,1 1 1 1,1/16,H H I
+5,4,endpoint,1 2 4,YZZY,1 1 1 -1,1/16,H H I
+5,4,endpoint,1 2 4,YZZY,1 1 -1 1,1/16,H HZ I
+5,4,endpoint,1 2 4,YZZY,1 1 -1 -1,1/16,H HZ I
+5,4,endpoint,1 2 4,YZZY,1 -1 1 1,1/16,H HZ X
+5,4,endpoint,1 2 4,YZZY,1 -1 1 -1,1/16,H HZ X
+5,4,endpoint,1 2 4,YZZY,1 -1 -1 1,1/16,H H X
+5,4,endpoint,1 2 4,YZZY,1 -1 -1 -1,1/16,H H X
+5,4,endpoint,1 2 4,YZZY,-1 1 1 1,1/16,H H I
+5,4,endpoint,1 2 4,YZZY,-1 1 1 -1,1/16,H H I
+5,4,endpoint,1 2 4,YZZY,-1 1 -1 1,1/16,H HZ I
+5,4,endpoint,1 2 4,YZZY,-1 1 -1 -1,1/16,H HZ I
+5,4,endpoint,1 2 4,YZZY,-1 -1 1 1,1/16,H HZ X
+5,4,endpoint,1 2 4,YZZY,-1 -1 1 -1,1/16,H HZ X
+5,4,endpoint,1 2 4,YZZY,-1 -1 -1 1,1/16,H H X
+5,4,endpoint,1 2 4,YZZY,-1 -1 -1 -1,1/16,H H X
+5,4,endpoint,0 1 2 4,ZZZX,1 1 1 1,1/16,H H H I
+5,4,endpoint,0 1 2 4,ZZZX,1 1 1 -1,1/16,H H H I
+5,4,endpoint,0 1 2 4,ZZZX,1 1 -1 1,1/16,H H HZ I
+5,4,endpoint,0 1 2 4,ZZZX,1 1 -1 -1,1/16,H H HZ I
+5,4,endpoint,0 1 2 4,ZZZX,1 -1 1 1,1/16,H HZ H I
+5,4,endpoint,0 1 2 4,ZZZX,1 -1 1 -1,1/16,H HZ H I
+5,4,endpoint,0 1 2 4,ZZZX,1 -1 -1 1,1/16,H HZ HZ I
+5,4,endpoint,0 1 2 4,ZZZX,1 -1 -1 -1,1/16,H HZ HZ I
+5,4,endpoint,0 1 2 4,ZZZX,-1 1 1 1,1/16,H HZ HZ X
+5,4,endpoint,0 1 2 4,ZZZX,-1 1 1 -1,1/16,H HZ HZ X
+5,4,endpoint,0 1 2 4,ZZZX,-1 1 -1 1,1/16,H HZ H X
+5,4,endpoint,0 1 2 4,ZZZX,-1 1 -1 -1,1/16,H HZ H X
+5,4,endpoint,0 1 2 4,ZZZX,-1 -1 1 1,1/16,H H HZ X
+5,4,endpoint,0 1 2 4,ZZZX,-1 -1 1 -1,1/16,H H HZ X
+5,4,endpoint,0 1 2 4,ZZZX,-1 -1 -1 1,1/16,H H H X
+5,4,endpoint,0 1 2 4,ZZZX,-1 -1 -1 -1,1/16,H H H X
+5,4,endpoint,3 4,XXXZ,1 1 1 1,1/16,H I
+5,4,endpoint,3 4,XXXZ,1 1 1 -1,1/16,H X
+5,4,endpoint,3 4,XXXZ,1 1 -1 1,1/16,H I
+5,4,endpoint,3 4,XXXZ,1 1 -1 -1,1/16,H X
+5,4,endpoint,3 4,XXXZ,1 -1 1 1,1/16,H I
+5,4,endpoint,3 4,XXXZ,1 -1 1 -1,1/16,H X
+5,4,endpoint,3 4,XXXZ,1 -1 -1 1,1/16,H I
+5,4,endpoint,3 4,XXXZ,1 -1 -1 -1,1/16,H X
+5,4,endpoint,3 4,XXXZ,-1 1 1 1,1/16,H I
+5,4,endpoint,3 4,XXXZ,-1 1 1 -1,1/16,H X
+5,4,endpoint,3 4,XXXZ,-1 1 -1 1,1/16,H I
+5,4,endpoint,3 4,XXXZ,-1 1 -1 -1,1/16,H X
+5,4,endpoint,3 4,XXXZ,-1 -1 1 1,1/16,H I
+5,4,endpoint,3 4,XXXZ,-1 -1 1 -1,1/16,H X
+5,4,endpoint,3 4,XXXZ,-1 -1 -1 1,1/16,H I
+5,4,endpoint,3 4,XXXZ,-1 -1 -1 -1,1/16,H X
+5,4,endpoint,0 3 4,ZYYZ,1 1 1 1,1/16,H H I
+5,4,endpoint,0 3 4,ZYYZ,1 1 1 -1,1/16,H HZ I
+5,4,endpoint,0 3 4,ZYYZ,1 1 -1 1,1/16,H H I
+5,4,endpoint,0 3 4,ZYYZ,1 1 -1 -1,1/16,H HZ I
+5,4,endpoint,0 3 4,ZYYZ,1 -1 1 1,1/16,H H I
+5,4,endpoint,0 3 4,ZYYZ,1 -1 1 -1,1/16,H HZ I
+5,4,endpoint,0 3 4,ZYYZ,1 -1 -1 1,1/16,H H I
+5,4,endpoint,0 3 4,ZYYZ,1 -1 -1 -1,1/16,H HZ I
+5,4,endpoint,0 3 4,ZYYZ,-1 1 1 1,1/16,H HZ X
+5,4,endpoint,0 3 4,ZYYZ,-1 1 1 -1,1/16,H H X
+5,4,endpoint,0 3 4,ZYYZ,-1 1 -1 1,1/16,H HZ X
+5,4,endpoint,0 3 4,ZYYZ,-1 1 -1 -1,1/16,H H X
+5,4,endpoint,0 3 4,ZYYZ,-1 -1 1 1,1/16,H HZ X
+5,4,endpoint,0 3 4,ZYYZ,-1 -1 1 -1,1/16,H H X
+5,4,endpoint,0 3 4,ZYYZ,-1 -1 -1 1,1/16,H HZ X
+5,4,endpoint,0 3 4,ZYYZ,-1 -1 -1 -1,1/16,H H X
+5,4,endpoint,1 3 4,YZYZ,1 1 1 1,1/16,H H I
+5,4,endpoint,1 3 4,YZYZ,1 1 1 -1,1/16,H HZ I
+5,4,endpoint,1 3 4,YZYZ,1 1 -1 1,1/16,H H I
+5,4,endpoint,1 3 4,YZYZ,1 1 -1 -1,1/16,H HZ I
+5,4,endpoint,1 3 4,YZYZ,1 -1 1 1,1/16,H HZ X
+5,4,endpoint,1 3 4,YZYZ,1 -1 1 -1,1/16,H H X
+5,4,endpoint,1 3 4,YZYZ,1 -1 -1 1,1/16,H HZ X
+5,4,endpoint,1 3 4,YZYZ,1 -1 -1 -1,1/16,H H X
+5,4,endpoint,1 3 4,YZYZ,-1 1 1 1,1/16,H H I
+5,4,endpoint,1 3 4,YZYZ,-1 1 1 -1,1/16,H HZ I
+5,4,endpoint,1 3 4,YZYZ,-1 1 -1 1,1/16,H H I
+5,4,endpoint,1 3 4,YZYZ,-1 1 -1 -1,1/16,H HZ I
+5,4,endpoint,1 3 4,YZYZ,-1 -1 1 1,1/16,H HZ X
+5,4,endpoint,1 3 4,YZYZ,-1 -1 1 -1,1/16,H H X
+5,4,endpoint,1 3 4,YZYZ,-1 -1 -1 1,1/16,H HZ X
+5,4,endpoint,1 3 4,YZYZ,-1 -1 -1 -1,1/16,H H X
+5,4,endpoint,0 1 3 4,ZZXZ,1 1 1 1,1/16,H H H I
+5,4,endpoint,0 1 3 4,ZZXZ,1 1 1 -1,1/16,H H HZ I
+5,4,endpoint,0 1 3 4,ZZXZ,1 1 -1 1,1/16,H H H I
+5,4,endpoint,0 1 3 4,ZZXZ,1 1 -1 -1,1/16,H H HZ I
+5,4,endpoint,0 1 3 4,ZZXZ,1 -1 1 1,1/16,H HZ H I
+5,4,endpoint,0 1 3 4,ZZXZ,1 -1 1 -1,1/16,H HZ HZ I
+5,4,endpoint,0 1 3 4,ZZXZ,1 -1 -1 1,1/16,H HZ H I
+5,4,endpoint,0 1 3 4,ZZXZ,1 -1 -1 -1,1/16,H HZ HZ I
+5,4,endpoint,0 1 3 4,ZZXZ,-1 1 1 1,1/16,H HZ HZ X
+5,4,endpoint,0 1 3 4,ZZXZ,-1 1 1 -1,1/16,H HZ H X
+5,4,endpoint,0 1 3 4,ZZXZ,-1 1 -1 1,1/16,H HZ HZ X
+5,4,endpoint,0 1 3 4,ZZXZ,-1 1 -1 -1,1/16,H HZ H X
+5,4,endpoint,0 1 3 4,ZZXZ,-1 -1 1 1,1/16,H H HZ X
+5,4,endpoint,0 1 3 4,ZZXZ,-1 -1 1 -1,1/16,H H H X
+5,4,endpoint,0 1 3 4,ZZXZ,-1 -1 -1 1,1/16,H H HZ X
+5,4,endpoint,0 1 3 4,ZZXZ,-1 -1 -1 -1,1/16,H H H X
+5,4,endpoint,2 3 4,YYZZ,1 1 1 1,1/16,H H I
+5,4,endpoint,2 3 4,YYZZ,1 1 1 -1,1/16,H HZ I
+5,4,endpoint,2 3 4,YYZZ,1 1 -1 1,1/16,H HZ X
+5,4,endpoint,2 3 4,YYZZ,1 1 -1 -1,1/16,H H X
+5,4,endpoint,2 3 4,YYZZ,1 -1 1 1,1/16,H H I
+5,4,endpoint,2 3 4,YYZZ,1 -1 1 -1,1/16,H HZ I
+5,4,endpoint,2 3 4,YYZZ,1 -1 -1 1,1/16,H HZ X
+5,4,endpoint,2 3 4,YYZZ,1 -1 -1 -1,1/16,H H X
+5,4,endpoint,2 3 4,YYZZ,-1 1 1 1,1/16,H H I
+5,4,endpoint,2 3 4,YYZZ,-1 1 1 -1,1/16,H HZ I
+5,4,endpoint,2 3 4,YYZZ,-1 1 -1 1,1/16,H HZ X
+5,4,endpoint,2 3 4,YYZZ,-1 1 -1 -1,1/16,H H X
+5,4,endpoint,2 3 4,YYZZ,-1 -1 1 1,1/16,H H I
+5,4,endpoint,2 3 4,YYZZ,-1 -1 1 -1,1/16,H HZ I
+5,4,endpoint,2 3 4,YYZZ,-1 -1 -1 1,1/16,H HZ X
+5,4,endpoint,2 3 4,YYZZ,-1 -1 -1 -1,1/16,H H X
+5,4,endpoint,0 2 3 4,ZXZZ,1 1 1 1,1/16,H H H I
+5,4,endpoint,0 2 3 4,ZXZZ,1 1 1 -1,1/16,H H HZ I
+5,4,endpoint,0 2 3 4,ZXZZ,1 1 -1 1,1/16,H HZ H I
+5,4,endpoint,0 2 3 4,ZXZZ,1 1 -1 -1,1/16,H HZ HZ I
+5,4,endpoint,0 2 3 4,ZXZZ,1 -1 1 1,1/16,H H H I
+5,4,endpoint,0 2 3 4,ZXZZ,1 -1 1 -1,1/16,H H HZ I
+5,4,endpoint,0 2 3 4,ZXZZ,1 -1 -1 1,1/16,H HZ H I
+5,4,endpoint,0 2 3 4,ZXZZ,1 -1 -1 -1,1/16,H HZ HZ I
+5,4,endpoint,0 2 3 4,ZXZZ,-1 1 1 1,1/16,H HZ HZ X
+5,4,endpoint,0 2 3 4,ZXZZ,-1 1 1 -1,1/16,H HZ H X
+5,4,endpoint,0 2 3 4,ZXZZ,-1 1 -1 1,1/16,H H HZ X
+5,4,endpoint,0 2 3 4,ZXZZ,-1 1 -1 -1,1/16,H H H X
+5,4,endpoint,0 2 3 4,ZXZZ,-1 -1 1 1,1/16,H HZ HZ X
+5,4,endpoint,0 2 3 4,ZXZZ,-1 -1 1 -1,1/16,H HZ H X
+5,4,endpoint,0 2 3 4,ZXZZ,-1 -1 -1 1,1/16,H H HZ X
+5,4,endpoint,0 2 3 4,ZXZZ,-1 -1 -1 -1,1/16,H H H X
+5,4,endpoint,1 2 3 4,XZZZ,1 1 1 1,1/16,H H H I
+5,4,endpoint,1 2 3 4,XZZZ,1 1 1 -1,1/16,H H HZ I
+5,4,endpoint,1 2 3 4,XZZZ,1 1 -1 1,1/16,H HZ H I
+5,4,endpoint,1 2 3 4,XZZZ,1 1 -1 -1,1/16,H HZ HZ I
+5,4,endpoint,1 2 3 4,XZZZ,1 -1 1 1,1/16,H HZ HZ X
+5,4,endpoint,1 2 3 4,XZZZ,1 -1 1 -1,1/16,H HZ H X
+5,4,endpoint,1 2 3 4,XZZZ,1 -1 -1 1,1/16,H H HZ X
+5,4,endpoint,1 2 3 4,XZZZ,1 -1 -1 -1,1/16,H H H X
+5,4,endpoint,1 2 3 4,XZZZ,-1 1 1 1,1/16,H H H I
+5,4,endpoint,1 2 3 4,XZZZ,-1 1 1 -1,1/16,H H HZ I
+5,4,endpoint,1 2 3 4,XZZZ,-1 1 -1 1,1/16,H HZ H I
+5,4,endpoint,1 2 3 4,XZZZ,-1 1 -1 -1,1/16,H HZ HZ I
+5,4,endpoint,1 2 3 4,XZZZ,-1 -1 1 1,1/16,H HZ HZ X
+5,4,endpoint,1 2 3 4,XZZZ,-1 -1 1 -1,1/16,H HZ H X
+5,4,endpoint,1 2 3 4,XZZZ,-1 -1 -1 1,1/16,H H HZ X
+5,4,endpoint,1 2 3 4,XZZZ,-1 -1 -1 -1,1/16,H H H X
+5,4,endpoint,0 1 2 3 4,ZZZZ,1 1 1 1,1/16,H H H H I
+5,4,endpoint,0 1 2 3 4,ZZZZ,1 1 1 -1,1/16,H H H HZ I
+5,4,endpoint,0 1 2 3 4,ZZZZ,1 1 -1 1,1/16,H H HZ H I
+5,4,endpoint,0 1 2 3 4,ZZZZ,1 1 -1 -1,1/16,H H HZ HZ I
+5,4,endpoint,0 1 2 3 4,ZZZZ,1 -1 1 1,1/16,H HZ H H I
+5,4,endpoint,0 1 2 3 4,ZZZZ,1 -1 1 -1,1/16,H HZ H HZ I
+5,4,endpoint,0 1 2 3 4,ZZZZ,1 -1 -1 1,1/16,H HZ HZ H I
+5,4,endpoint,0 1 2 3 4,ZZZZ,1 -1 -1 -1,1/16,H HZ HZ HZ I
+5,4,endpoint,0 1 2 3 4,ZZZZ,-1 1 1 1,1/16,H HZ HZ HZ X
+5,4,endpoint,0 1 2 3 4,ZZZZ,-1 1 1 -1,1/16,H HZ HZ H X
+5,4,endpoint,0 1 2 3 4,ZZZZ,-1 1 -1 1,1/16,H HZ H HZ X
+5,4,endpoint,0 1 2 3 4,ZZZZ,-1 1 -1 -1,1/16,H HZ H H X
+5,4,endpoint,0 1 2 3 4,ZZZZ,-1 -1 1 1,1/16,H H HZ HZ X
+5,4,endpoint,0 1 2 3 4,ZZZZ,-1 -1 1 -1,1/16,H H HZ H X
+5,4,endpoint,0 1 2 3 4,ZZZZ,-1 -1 -1 1,1/16,H H H HZ X
+5,4,endpoint,0 1 2 3 4,ZZZZ,-1 -1 -1 -1,1/16,H H H H X

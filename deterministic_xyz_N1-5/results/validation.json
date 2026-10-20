@@ -1,0 +1,13 @@
+{
+  "policy_count": 13,
+  "dense_outcome_cases": 763,
+  "max_dense_qfim_error": 1.5543122344752192e-15,
+  "averaged_qfim_checks": 130,
+  "max_average_information_error": 1.7763568394002505e-15,
+  "exact_certificate_rows": 50,
+  "total_enumerated_graphs": 1684,
+  "all_upper_comparisons_exact_rational": true,
+  "setting_probability_solver_used": false,
+  "no_timing_benchmark": true,
+  "python": "3.12.14"
+}
