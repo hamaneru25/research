@@ -15,8 +15,8 @@
 {"event": "policy_verified", "id": "fdc05911ff9efc1c", "m": 3, "dense_outcomes": 3402}
 {"event": "policy_verified", "id": "6f3cf79e1261cc2f", "m": 3, "dense_outcomes": 3658}
 {"event": "policy_verified", "id": "4f0aec9638c74e7a", "m": 4, "dense_outcomes": 4666}
-{"event": "policy_verified", "id": "97005037f78ec57d", "m": 4, "dense_outcomes": 5674}
-{"event": "policy_verified", "id": "92fced9acded4797", "m": 4, "dense_outcomes": 5737}
-{"event": "policy_verified", "id": "af3592681dfa5c9f", "m": 5, "dense_outcomes": 7753}
-{"event": "policy_verified", "id": "4e8e84e0600f793a", "m": 6, "dense_outcomes": 11785}
-{"verified_at_utc": "2026-10-20T13:33:59.131278+00:00", "unique_policies": 21, "unique_loss_basis_records": 1323, "dense_outcome_cases": 11785, "max_dense_qfim_error": 2.886579864025407e-15, "exact_averaged_policy_rows": 80, "max_achieved_value_error": 4.440892098500626e-15, "evaluated_graph_upper_checks": 129110, "source_sha256_checks": 9, "certified_eta": ["1/10", "9/10", "1"], "all_exported_best_policies_dense_verified": true, "no_setting_probability_optimization": true, "no_timing_benchmark": true}
+{"event": "policy_verified", "id": "192bf47f31816d70", "m": 4, "dense_outcomes": 5674}
+{"event": "policy_verified", "id": "0041ea27af269389", "m": 4, "dense_outcomes": 5800}
+{"event": "policy_verified", "id": "af3592681dfa5c9f", "m": 5, "dense_outcomes": 7816}
+{"event": "policy_verified", "id": "4e8e84e0600f793a", "m": 6, "dense_outcomes": 11848}
+{"verified_at_utc": "2026-10-20T15:05:13.321986+00:00", "unique_policies": 21, "verifier_source_sha256": "823b09d2504e451cee8eaa0db9a3fd9cff062a3f9e616e54228eee6b25b7b94c", "record_reader_sha256": "c26feb6cf959d52b8ee1fe4db88ce37bfb786b0977ed25c7d529ea85f48cfe1a", "unique_loss_basis_records": 1323, "dense_outcome_cases": 11848, "max_dense_qfim_error": 2.7755575615628914e-15, "exact_averaged_policy_rows": 80, "max_achieved_value_error": 4.440892098500626e-15, "evaluated_graph_upper_checks": 185490, "source_sha256_checks": 9, "converged_graph_walks": 84, "terminal_neighbors_checked": 3780, "certified_eta": ["1/10", "9/10", "1"], "all_exported_best_policies_dense_verified": true, "no_setting_probability_optimization": true, "no_timing_benchmark": true}

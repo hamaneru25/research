@@ -1,7 +1,7 @@
 {
   "n": 6,
   "dense_axis_sign_outcomes": 36,
-  "max_error": 1.4210854715202004e-14,
+  "max_error": 1.7763568394002505e-14,
   "checks": [
     {
       "graph_id": "N6_M0_G000024",
@@ -93,8 +93,8 @@
       "axis_tuples": 729,
       "relative_sign_tuples": 32,
       "expected": 12,
-      "direct": 12.000000000000014,
-      "error": 1.4210854715202004e-14
+      "direct": 12.000000000000018,
+      "error": 1.7763568394002505e-14
     },
     {
       "graph_id": "N6_M1_G000089",
@@ -538,7 +538,7 @@
       "error": 8.881784197001252e-16
     },
     {
-      "graph_id": "N6_M4_G012238",
+      "graph_id": "N6_M4_G013465",
       "m": 4,
       "bases": "ZZYZ",
       "survivors": [
@@ -557,12 +557,12 @@
       ],
       "axis_tuples": 729,
       "relative_sign_tuples": 32,
-      "expected": 36,
-      "direct": 36.00000000000001,
-      "error": 7.105427357601002e-15
+      "expected": 10,
+      "direct": 10.000000000000014,
+      "error": 1.4210854715202004e-14
     },
     {
-      "graph_id": "N6_M4_G012238",
+      "graph_id": "N6_M4_G013465",
       "m": 4,
       "bases": "ZZYZ",
       "survivors": [
@@ -581,12 +581,12 @@
       ],
       "axis_tuples": 729,
       "relative_sign_tuples": 32,
-      "expected": 36,
-      "direct": 36.00000000000001,
-      "error": 7.105427357601002e-15
+      "expected": 10,
+      "direct": 10.000000000000014,
+      "error": 1.4210854715202004e-14
     },
     {
-      "graph_id": "N6_M4_G012238",
+      "graph_id": "N6_M4_G013465",
       "m": 4,
       "bases": "ZZYZ",
       "survivors": [
@@ -605,12 +605,12 @@
       ],
       "axis_tuples": 729,
       "relative_sign_tuples": 32,
-      "expected": 36,
-      "direct": 36.00000000000001,
-      "error": 7.105427357601002e-15
+      "expected": 10,
+      "direct": 10.000000000000014,
+      "error": 1.4210854715202004e-14
     },
     {
-      "graph_id": "N6_M4_G012442",
+      "graph_id": "N6_M4_G015011",
       "m": 4,
       "bases": "ZYXX",
       "survivors": [
@@ -626,12 +626,12 @@
       ],
       "axis_tuples": 27,
       "relative_sign_tuples": 4,
-      "expected": 3,
-      "direct": 3.0000000000000027,
-      "error": 2.6645352591003757e-15
+      "expected": 1,
+      "direct": 0.9999999999999984,
+      "error": 1.5543122344752192e-15
     },
     {
-      "graph_id": "N6_M4_G012442",
+      "graph_id": "N6_M4_G015011",
       "m": 4,
       "bases": "ZYXX",
       "survivors": [
@@ -647,12 +647,12 @@
       ],
       "axis_tuples": 27,
       "relative_sign_tuples": 4,
-      "expected": 3,
-      "direct": 3.0000000000000027,
-      "error": 2.6645352591003757e-15
+      "expected": 1,
+      "direct": 1.0000000000000009,
+      "error": 8.881784197001252e-16
     },
     {
-      "graph_id": "N6_M4_G012442",
+      "graph_id": "N6_M4_G015011",
       "m": 4,
       "bases": "ZYXX",
       "survivors": [
@@ -668,12 +668,12 @@
       ],
       "axis_tuples": 27,
       "relative_sign_tuples": 4,
-      "expected": 3,
-      "direct": 3.0000000000000027,
-      "error": 2.6645352591003757e-15
+      "expected": 1,
+      "direct": 1.0000000000000009,
+      "error": 8.881784197001252e-16
     },
     {
-      "graph_id": "N6_M4_G012746",
+      "graph_id": "N6_M4_G017307",
       "m": 4,
       "bases": "XYZY",
       "survivors": [
@@ -689,12 +689,12 @@
       ],
       "axis_tuples": 27,
       "relative_sign_tuples": 4,
-      "expected": 0,
-      "direct": 4.506118910242033e-31,
-      "error": 4.506118910242033e-31
+      "expected": 3,
+      "direct": 2.9999999999999996,
+      "error": 4.440892098500626e-16
     },
     {
-      "graph_id": "N6_M4_G012746",
+      "graph_id": "N6_M4_G017307",
       "m": 4,
       "bases": "XYZY",
       "survivors": [
@@ -710,12 +710,12 @@
       ],
       "axis_tuples": 27,
       "relative_sign_tuples": 4,
-      "expected": 0,
-      "direct": 6.643104779114568e-31,
-      "error": 6.643104779114568e-31
+      "expected": 3,
+      "direct": 2.9999999999999996,
+      "error": 4.440892098500626e-16
     },
     {
-      "graph_id": "N6_M4_G012746",
+      "graph_id": "N6_M4_G017307",
       "m": 4,
       "bases": "XYZY",
       "survivors": [
@@ -731,9 +731,9 @@
       ],
       "axis_tuples": 27,
       "relative_sign_tuples": 4,
-      "expected": 0,
-      "direct": 4.506118910242033e-31,
-      "error": 4.506118910242033e-31
+      "expected": 3,
+      "direct": 2.9999999999999996,
+      "error": 4.440892098500626e-16
     }
   ],
   "no_timing_benchmark": true

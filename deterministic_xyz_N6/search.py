@@ -78,13 +78,15 @@ def bound_fraction(m,coeff,e):
     return sum(a*e**k*(1-e)**(N-k) for k,a in enumerate(coeff))/(N+m)
 
 
-def optimize_policy(m,ordered,matrices,eta_index,passes=3,starts=2):
+def optimize_policy(m,ordered,matrices,eta_index,passes=None,starts=2):
     weights=WEIGHTS[eta_index];best_value=-1.;best_indices=None;best_f=None
     rng=np.random.default_rng(61000+eta_index)
     for start in range(starts):
         indices=np.zeros(len(MASKS),dtype=int) if start==0 else np.array([rng.integers(len(a)) for a in matrices])
         f=sum(w*a[j] for w,a,j in zip(weights,matrices,indices))
-        for _ in range(passes):
+        iteration=0
+        while passes is None or iteration<passes:
+            iteration+=1
             changed=False
             # Large probability loss records first; all ties deterministic.
             for i in np.argsort(-weights,kind='stable'):
@@ -104,7 +106,7 @@ class Search:
     def __init__(self,seed,passes,starts):
         self.rng=np.random.default_rng(seed);self.seed=seed;self.passes=passes;self.starts=starts
         self.records=[];self.cache={};self.best=[];self.exact_upper={m:[Fraction(0)]*10 for m in range(4)}
-        self.per_m={m:[None]*10 for m in range(7)};self.local_events=[]
+        self.per_m={m:[None]*10 for m in range(7)};self.local_events=[];self.local_runs=[]
         for i,rows in enumerate(references()):
             family,m,value=max(rows,key=lambda r:(r[2],-r[1]))
             self.best.append(dict(eta=str(ETAS[i]),m=m,family=family,value=float(value),exact_value=str(value),source='reference'))
@@ -114,29 +116,40 @@ class Search:
                     self.per_m[m][i]=dict(eta=str(ETAS[i]),m=m,family=family,value=float(value),exact_value=str(value),source='reference')
         self.baseline=np.array([b['value'] for b in self.best])
 
-    def evaluate(self,m,edges,source):
+    def evaluate(self,m,edges,source,force_eta=None):
         edges=sorted(tuple(sorted(e)) for e in edges);key=(m,graph_key(m,edges))
-        if key in self.cache:return self.cache[key]
+        cached=self.cache.get(key)
+        if cached is not None:
+            if force_eta is None or force_eta in cached['coordinate_optimized_eta_indices']:return cached
+            edges=list(map(tuple,cached['edges']))
         opts,ordered,matrices,a=graph_options(m,edges)
         upper_exact=[bound_fraction(m,a,e) for e in ETAS]
         initial=np.array([x[0] for x in matrices]);f=np.einsum('es,sij->eij',WEIGHTS,initial)
         values=information_batch(f)/(N+m)
         codes=[[cs[0] for cs in ordered] for _ in ETAS]
-        # Optimize achieved policies only where they can improve the global
-        # incumbent; other entries keep a feasible deterministic default.
-        optimized=[]
+        # A local walk ALWAYS optimizes its target eta, even when the graph
+        # cannot beat the GLOBAL incumbent. Cached default scores are upgraded
+        # before they are used to decide neighborhood convergence.
+        optimized=[];updated=set(range(10)) if cached is None else {force_eta}
         for i,upper in enumerate(upper_exact):
-            if float(upper)>self.best[i]['value']+1e-10:
+            requested=(force_eta==i or cached is None and float(upper)>self.best[i]['value']+1e-10)
+            if requested:
                 value,policy,fi=optimize_policy(m,ordered,matrices,i,self.passes,self.starts)
                 if value>=values[i]-1e-10:values[i]=value;codes[i]=policy;f[i]=fi
                 optimized.append(i)
-        ident=f'N6_M{m}_G{len(self.records):06d}'
-        record=dict(id=ident,m=m,edges=edges,source=source,upper_coefficients=a,
-                    deterministic_values=values.tolist(),coordinate_optimized_eta_indices=optimized)
-        self.records.append(record);self.cache[key]=record
-        if source=='exact_lc':
+        if cached is None:
+            ident=f'N6_M{m}_G{len(self.records):06d}'
+            record=dict(id=ident,m=m,edges=edges,source=source,upper_coefficients=a,
+                        deterministic_values=values.tolist(),coordinate_optimized_eta_indices=optimized)
+            self.records.append(record);self.cache[key]=record
+        else:
+            record=cached;ident=record['id']
+            for i in updated:record['deterministic_values'][i]=float(values[i])
+            record['coordinate_optimized_eta_indices']=sorted(set(record['coordinate_optimized_eta_indices'])|set(optimized))
+        if source=='exact_lc' and cached is None:
             for i,b in enumerate(upper_exact):self.exact_upper[m][i]=max(self.exact_upper[m][i],b)
-        for i,value in enumerate(values):
+        for i in sorted(updated):
+            value=values[i]
             item=dict(eta=str(ETAS[i]),m=m,family='searched_graph',value=float(value),source=source,graph_id=ident,
                       edges=edges,loss_codes=codes[i],auxiliary_bases=[opts[j][c] for j,c in enumerate(codes[i])],
                       averaged_qfim=f[i].tolist())
@@ -165,26 +178,37 @@ class Search:
         for density in [.15,.35,.5,.7,.85]:seeds.append([e for e in all_edges if rng.random()<density])
         return seeds
 
-    def local(self,m,restarts,moves):
+    def local(self,m,restarts):
         pairs=list(combinations(range(N+m),2));seeds=self.seeds(m)
+        while len(seeds)<restarts:
+            density=[.15,.35,.5,.7,.85][(len(seeds)-12)%5]
+            seeds.append([e for e in pairs if self.rng.random()<density])
         for start in range(restarts):
-            target=1+(start%7) # eta .2 through .8; extreme points use analytic bounds.
-            edges=set(tuple(e) for e in seeds[start%len(seeds)])
-            current=self.evaluate(m,edges,'local_seed')
-            for step in range(moves):
-                choices=[]
-                for edge in pairs:
-                    candidate=edges^{edge};r=self.evaluate(m,candidate,'edge_flip');choices.append(r)
-                def score(r):return r['deterministic_values'][target]
-                winner=max(choices,key=lambda r:(score(r),-len(r['edges'])))
-                improved=score(winner)>score(current)+1e-10
-                self.local_events.append(dict(m=m,start=start,step=step,eta=str(ETAS[target]),
-                                              current=current['id'],chosen=winner['id'],improved=improved))
-                if improved:current=winner;edges=set(map(tuple,winner['edges']))
-                else:
-                    # A two-edge perturbation, then a new complete neighborhood.
-                    for j in self.rng.choice(len(pairs),2,replace=False):edges.symmetric_difference_update([pairs[j]])
-                    current=self.evaluate(m,edges,'two_edge_escape')
+            # All seven uncertified eta values use EVERY initial graph. The
+            # three certified extreme points do not need a graph walk.
+            for target in range(1,8):
+                current=self.evaluate(m,seeds[start],'local_seed',force_eta=target);step=0
+                while True:
+                    edges=set(map(tuple,current['edges']));choices=[]
+                    for edge in pairs:
+                        candidate=edges^{edge}
+                        choices.append(self.evaluate(m,candidate,'edge_flip',force_eta=target))
+                    def score(r):return r['deterministic_values'][target]
+                    winner=max(choices,key=lambda r:(score(r),-len(r['edges'])))
+                    improved=score(winner)>score(current)+1e-10
+                    self.local_events.append(dict(m=m,start=start,step=step,eta=str(ETAS[target]),
+                                                  current=current['id'],current_value=score(current),
+                                                  chosen=winner['id'],chosen_value=score(winner),improved=improved))
+                    if not improved:
+                        self.local_runs.append(dict(m=m,start=start,eta=str(ETAS[target]),accepted_moves=step,
+                            neighborhood_checks=step+1,terminal_graph=current['id'],terminal_value=score(current),
+                            maximum_neighbor_value=score(winner),neighbor_ids=[r['id'] for r in choices],
+                            initial_edges=seeds[start],tolerance=1e-10,
+                            termination_reason='no_improving_one_edge_neighbor'))
+                        print(json.dumps(dict(event='local_converged',start=start+1,eta=str(ETAS[target]),moves=step,
+                                              terminal_value=score(current),unique_graphs=len(self.records))),flush=True)
+                        break
+                    current=winner;step+=1
             self.save('local_checkpoint')
             print(json.dumps(dict(event='restart_complete',m=m,start=start+1,restarts=restarts,unique_graphs=len(self.records))),flush=True)
 
@@ -207,7 +231,7 @@ class Search:
                      exact_upper_by_m={str(m):[str(v) for v in vs] for m,vs in self.exact_upper.items()},
                      graph_counts={str(m):sum(r['m']==m for r in self.records) for m in range(5)},
                      best_by_eta=rows,best_found_by_m={str(m):vs for m,vs in self.per_m.items()},
-                     local_events=self.local_events,
+                     local_events=self.local_events,local_runs=self.local_runs,
                      limitations=['M=4 graphs not exhaustively enumerated',
                                   'Graph-policy coordinate search is not a complete deterministic-policy optimization',
                                   'Feasible sensor axes use maximal positive GHZ blocks; upper bounds cover all Cliffords',
@@ -219,22 +243,22 @@ class Search:
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--seed',type=int,default=20261020)
-    p.add_argument('--restarts',type=int,default=12);p.add_argument('--moves',type=int,default=3)
-    p.add_argument('--policy-passes',type=int,default=3);p.add_argument('--policy-starts',type=int,default=2)
+    p.add_argument('--restarts',type=int,default=12)
+    p.add_argument('--policy-starts',type=int,default=2)
     args=p.parse_args();(ROOT/'results').mkdir(exist_ok=True)
     source_hashes={f.name:hashlib.sha256(f.read_bytes()).hexdigest() for f in ROOT.glob('*.py')}
     provenance=dict(started_utc=now(),command_parameters=vars(args),source_sha256=source_hashes,
                     python=platform.python_version(),new_n6_search=True,old_performance_results_loaded=False,
                     timing_benchmark=False)
     (ROOT/'results/provenance.json').write_text(json.dumps(provenance,indent=2))
-    search=Search(args.seed,args.policy_passes,args.policy_starts);catalog=role_catalog(6,3)
+    search=Search(args.seed,None,args.policy_starts);catalog=role_catalog(6,3)
     for m in range(4):
         count=0
         for edges in candidates(N,m,catalog):search.evaluate(m,edges,'exact_lc');count+=1
         assert count==EXPECTED[m],(m,count)
         search.save('exact_low_m_completed')
         print(json.dumps(dict(event='exact_m_complete',m=m,catalogue_count=count,unique_graphs=len(search.records))),flush=True)
-    for m in [4]:search.local(m,args.restarts,args.moves)
+    for m in [4]:search.local(m,args.restarts)
     summary=search.save('search_completed')
     provenance.update(finished_utc=now(),evaluated_graphs=len(search.records),completed=True)
     (ROOT/'results/provenance.json').write_text(json.dumps(provenance,indent=2))

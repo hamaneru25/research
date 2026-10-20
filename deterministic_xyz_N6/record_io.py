@@ -17,7 +17,16 @@ def read_graph_records(root):
 
 def pack_graph_records(root,chunk=800):
     records=read_graph_records(root)
-    for old in (Path(root)/'results').glob('evaluated_graphs.part*.json.gz'):old.unlink()
+    wanted=set()
     for i in range(0,len(records),chunk):
         path=Path(root)/'results'/f'evaluated_graphs.part{i//chunk:03d}.json.gz'
-        with gzip.open(path,'wt') as f:json.dump(records[i:i+chunk],f,separators=(',',':'))
+        wanted.add(path);batch=records[i:i+chunk]
+        if path.exists():
+            with gzip.open(path,'rt') as f:old=json.load(f)
+            if old==batch:continue
+        # Stable compressed bytes make unchanged shards reusable on GitHub.
+        with path.open('wb') as raw:
+            with gzip.GzipFile(filename='',mode='wb',fileobj=raw,mtime=0) as f:
+                f.write(json.dumps(batch,separators=(',',':')).encode())
+    for old in (Path(root)/'results').glob('evaluated_graphs.part*.json.gz'):
+        if old not in wanted:old.unlink()
