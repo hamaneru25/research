@@ -1,0 +1,740 @@
+{
+  "n": 6,
+  "dense_axis_sign_outcomes": 36,
+  "max_error": 1.4210854715202004e-14,
+  "checks": [
+    {
+      "graph_id": "N6_M0_G000024",
+      "m": 0,
+      "bases": "",
+      "survivors": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "outcome": [],
+      "axis_tuples": 729,
+      "relative_sign_tuples": 32,
+      "expected": 6,
+      "direct": 6.0000000000000115,
+      "error": 1.1546319456101628e-14
+    },
+    {
+      "graph_id": "N6_M0_G000020",
+      "m": 0,
+      "bases": "",
+      "survivors": [
+        0,
+        3,
+        4
+      ],
+      "outcome": [],
+      "axis_tuples": 27,
+      "relative_sign_tuples": 4,
+      "expected": 0,
+      "direct": 0.0,
+      "error": 0.0
+    },
+    {
+      "graph_id": "N6_M0_G000020",
+      "m": 0,
+      "bases": "",
+      "survivors": [
+        0,
+        2,
+        4
+      ],
+      "outcome": [],
+      "axis_tuples": 27,
+      "relative_sign_tuples": 4,
+      "expected": 5,
+      "direct": 5.000000000000004,
+      "error": 4.440892098500626e-15
+    },
+    {
+      "graph_id": "N6_M1_G000044",
+      "m": 1,
+      "bases": "X",
+      "survivors": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "outcome": [
+        1
+      ],
+      "axis_tuples": 729,
+      "relative_sign_tuples": 32,
+      "expected": 12,
+      "direct": 12.000000000000004,
+      "error": 3.552713678800501e-15
+    },
+    {
+      "graph_id": "N6_M1_G000044",
+      "m": 1,
+      "bases": "X",
+      "survivors": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "outcome": [
+        -1
+      ],
+      "axis_tuples": 729,
+      "relative_sign_tuples": 32,
+      "expected": 12,
+      "direct": 12.000000000000014,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "graph_id": "N6_M1_G000089",
+      "m": 1,
+      "bases": "Y",
+      "survivors": [
+        2,
+        4,
+        5
+      ],
+      "outcome": [
+        1
+      ],
+      "axis_tuples": 27,
+      "relative_sign_tuples": 4,
+      "expected": 2,
+      "direct": 2.000000000000001,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "graph_id": "N6_M1_G000089",
+      "m": 1,
+      "bases": "Y",
+      "survivors": [
+        2,
+        4,
+        5
+      ],
+      "outcome": [
+        -1
+      ],
+      "axis_tuples": 27,
+      "relative_sign_tuples": 4,
+      "expected": 2,
+      "direct": 2.000000000000001,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "graph_id": "N6_M1_G000087",
+      "m": 1,
+      "bases": "X",
+      "survivors": [
+        0,
+        1,
+        5
+      ],
+      "outcome": [
+        1
+      ],
+      "axis_tuples": 27,
+      "relative_sign_tuples": 4,
+      "expected": 2,
+      "direct": 2.0000000000000027,
+      "error": 2.6645352591003757e-15
+    },
+    {
+      "graph_id": "N6_M1_G000087",
+      "m": 1,
+      "bases": "X",
+      "survivors": [
+        0,
+        1,
+        5
+      ],
+      "outcome": [
+        -1
+      ],
+      "axis_tuples": 27,
+      "relative_sign_tuples": 4,
+      "expected": 2,
+      "direct": 2.0000000000000027,
+      "error": 2.6645352591003757e-15
+    },
+    {
+      "graph_id": "N6_M2_G000388",
+      "m": 2,
+      "bases": "YX",
+      "survivors": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "outcome": [
+        1,
+        1
+      ],
+      "axis_tuples": 729,
+      "relative_sign_tuples": 32,
+      "expected": 12,
+      "direct": 12.0,
+      "error": 0.0
+    },
+    {
+      "graph_id": "N6_M2_G000388",
+      "m": 2,
+      "bases": "YX",
+      "survivors": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "outcome": [
+        1,
+        -1
+      ],
+      "axis_tuples": 729,
+      "relative_sign_tuples": 32,
+      "expected": 12,
+      "direct": 12.0,
+      "error": 0.0
+    },
+    {
+      "graph_id": "N6_M2_G000388",
+      "m": 2,
+      "bases": "YX",
+      "survivors": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "outcome": [
+        -1,
+        1
+      ],
+      "axis_tuples": 729,
+      "relative_sign_tuples": 32,
+      "expected": 12,
+      "direct": 12.0,
+      "error": 0.0
+    },
+    {
+      "graph_id": "N6_M2_G000620",
+      "m": 2,
+      "bases": "ZZ",
+      "survivors": [
+        0,
+        1,
+        2
+      ],
+      "outcome": [
+        1,
+        1
+      ],
+      "axis_tuples": 27,
+      "relative_sign_tuples": 4,
+      "expected": 2,
+      "direct": 1.9999999999999998,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "graph_id": "N6_M2_G000620",
+      "m": 2,
+      "bases": "ZZ",
+      "survivors": [
+        0,
+        1,
+        2
+      ],
+      "outcome": [
+        1,
+        -1
+      ],
+      "axis_tuples": 27,
+      "relative_sign_tuples": 4,
+      "expected": 2,
+      "direct": 1.9999999999999998,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "graph_id": "N6_M2_G000620",
+      "m": 2,
+      "bases": "ZZ",
+      "survivors": [
+        0,
+        1,
+        2
+      ],
+      "outcome": [
+        -1,
+        1
+      ],
+      "axis_tuples": 27,
+      "relative_sign_tuples": 4,
+      "expected": 2,
+      "direct": 1.9999999999999998,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "graph_id": "N6_M2_G000939",
+      "m": 2,
+      "bases": "ZX",
+      "survivors": [
+        0,
+        3,
+        5
+      ],
+      "outcome": [
+        1,
+        1
+      ],
+      "axis_tuples": 27,
+      "relative_sign_tuples": 4,
+      "expected": 0,
+      "direct": 9.012317904013282e-32,
+      "error": 9.012317904013282e-32
+    },
+    {
+      "graph_id": "N6_M2_G000939",
+      "m": 2,
+      "bases": "ZX",
+      "survivors": [
+        0,
+        3,
+        5
+      ],
+      "outcome": [
+        1,
+        -1
+      ],
+      "axis_tuples": 27,
+      "relative_sign_tuples": 4,
+      "expected": 0,
+      "direct": 9.012317904013282e-32,
+      "error": 9.012317904013282e-32
+    },
+    {
+      "graph_id": "N6_M2_G000939",
+      "m": 2,
+      "bases": "ZX",
+      "survivors": [
+        0,
+        3,
+        5
+      ],
+      "outcome": [
+        -1,
+        1
+      ],
+      "axis_tuples": 27,
+      "relative_sign_tuples": 4,
+      "expected": 0,
+      "direct": 9.012317904013282e-32,
+      "error": 9.012317904013282e-32
+    },
+    {
+      "graph_id": "N6_M3_G006022",
+      "m": 3,
+      "bases": "ZZY",
+      "survivors": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "outcome": [
+        1,
+        1,
+        1
+      ],
+      "axis_tuples": 729,
+      "relative_sign_tuples": 32,
+      "expected": 12,
+      "direct": 12.0,
+      "error": 0.0
+    },
+    {
+      "graph_id": "N6_M3_G006022",
+      "m": 3,
+      "bases": "ZZY",
+      "survivors": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "outcome": [
+        1,
+        1,
+        -1
+      ],
+      "axis_tuples": 729,
+      "relative_sign_tuples": 32,
+      "expected": 12,
+      "direct": 12.0,
+      "error": 0.0
+    },
+    {
+      "graph_id": "N6_M3_G006022",
+      "m": 3,
+      "bases": "ZZY",
+      "survivors": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "outcome": [
+        1,
+        -1,
+        1
+      ],
+      "axis_tuples": 729,
+      "relative_sign_tuples": 32,
+      "expected": 12,
+      "direct": 12.0,
+      "error": 0.0
+    },
+    {
+      "graph_id": "N6_M3_G002964",
+      "m": 3,
+      "bases": "YXY",
+      "survivors": [
+        1,
+        2,
+        5
+      ],
+      "outcome": [
+        1,
+        1,
+        1
+      ],
+      "axis_tuples": 27,
+      "relative_sign_tuples": 4,
+      "expected": 2,
+      "direct": 1.9999999999999996,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "graph_id": "N6_M3_G002964",
+      "m": 3,
+      "bases": "YXY",
+      "survivors": [
+        1,
+        2,
+        5
+      ],
+      "outcome": [
+        1,
+        1,
+        -1
+      ],
+      "axis_tuples": 27,
+      "relative_sign_tuples": 4,
+      "expected": 2,
+      "direct": 1.9999999999999996,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "graph_id": "N6_M3_G002964",
+      "m": 3,
+      "bases": "YXY",
+      "survivors": [
+        1,
+        2,
+        5
+      ],
+      "outcome": [
+        1,
+        -1,
+        1
+      ],
+      "axis_tuples": 27,
+      "relative_sign_tuples": 4,
+      "expected": 2,
+      "direct": 1.9999999999999996,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "graph_id": "N6_M3_G003235",
+      "m": 3,
+      "bases": "XZX",
+      "survivors": [
+        2,
+        3,
+        5
+      ],
+      "outcome": [
+        1,
+        1,
+        1
+      ],
+      "axis_tuples": 27,
+      "relative_sign_tuples": 4,
+      "expected": 5,
+      "direct": 4.999999999999999,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "graph_id": "N6_M3_G003235",
+      "m": 3,
+      "bases": "XZX",
+      "survivors": [
+        2,
+        3,
+        5
+      ],
+      "outcome": [
+        1,
+        1,
+        -1
+      ],
+      "axis_tuples": 27,
+      "relative_sign_tuples": 4,
+      "expected": 5,
+      "direct": 5.000000000000001,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "graph_id": "N6_M3_G003235",
+      "m": 3,
+      "bases": "XZX",
+      "survivors": [
+        2,
+        3,
+        5
+      ],
+      "outcome": [
+        1,
+        -1,
+        1
+      ],
+      "axis_tuples": 27,
+      "relative_sign_tuples": 4,
+      "expected": 5,
+      "direct": 5.000000000000001,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "graph_id": "N6_M4_G012238",
+      "m": 4,
+      "bases": "ZZYZ",
+      "survivors": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "outcome": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "axis_tuples": 729,
+      "relative_sign_tuples": 32,
+      "expected": 36,
+      "direct": 36.00000000000001,
+      "error": 7.105427357601002e-15
+    },
+    {
+      "graph_id": "N6_M4_G012238",
+      "m": 4,
+      "bases": "ZZYZ",
+      "survivors": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "outcome": [
+        1,
+        1,
+        1,
+        -1
+      ],
+      "axis_tuples": 729,
+      "relative_sign_tuples": 32,
+      "expected": 36,
+      "direct": 36.00000000000001,
+      "error": 7.105427357601002e-15
+    },
+    {
+      "graph_id": "N6_M4_G012238",
+      "m": 4,
+      "bases": "ZZYZ",
+      "survivors": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "outcome": [
+        1,
+        1,
+        -1,
+        1
+      ],
+      "axis_tuples": 729,
+      "relative_sign_tuples": 32,
+      "expected": 36,
+      "direct": 36.00000000000001,
+      "error": 7.105427357601002e-15
+    },
+    {
+      "graph_id": "N6_M4_G012442",
+      "m": 4,
+      "bases": "ZYXX",
+      "survivors": [
+        1,
+        2,
+        4
+      ],
+      "outcome": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "axis_tuples": 27,
+      "relative_sign_tuples": 4,
+      "expected": 3,
+      "direct": 3.0000000000000027,
+      "error": 2.6645352591003757e-15
+    },
+    {
+      "graph_id": "N6_M4_G012442",
+      "m": 4,
+      "bases": "ZYXX",
+      "survivors": [
+        1,
+        2,
+        4
+      ],
+      "outcome": [
+        1,
+        1,
+        1,
+        -1
+      ],
+      "axis_tuples": 27,
+      "relative_sign_tuples": 4,
+      "expected": 3,
+      "direct": 3.0000000000000027,
+      "error": 2.6645352591003757e-15
+    },
+    {
+      "graph_id": "N6_M4_G012442",
+      "m": 4,
+      "bases": "ZYXX",
+      "survivors": [
+        1,
+        2,
+        4
+      ],
+      "outcome": [
+        1,
+        1,
+        -1,
+        1
+      ],
+      "axis_tuples": 27,
+      "relative_sign_tuples": 4,
+      "expected": 3,
+      "direct": 3.0000000000000027,
+      "error": 2.6645352591003757e-15
+    },
+    {
+      "graph_id": "N6_M4_G012746",
+      "m": 4,
+      "bases": "XYZY",
+      "survivors": [
+        0,
+        3,
+        5
+      ],
+      "outcome": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "axis_tuples": 27,
+      "relative_sign_tuples": 4,
+      "expected": 0,
+      "direct": 4.506118910242033e-31,
+      "error": 4.506118910242033e-31
+    },
+    {
+      "graph_id": "N6_M4_G012746",
+      "m": 4,
+      "bases": "XYZY",
+      "survivors": [
+        0,
+        3,
+        5
+      ],
+      "outcome": [
+        1,
+        1,
+        1,
+        -1
+      ],
+      "axis_tuples": 27,
+      "relative_sign_tuples": 4,
+      "expected": 0,
+      "direct": 6.643104779114568e-31,
+      "error": 6.643104779114568e-31
+    },
+    {
+      "graph_id": "N6_M4_G012746",
+      "m": 4,
+      "bases": "XYZY",
+      "survivors": [
+        0,
+        3,
+        5
+      ],
+      "outcome": [
+        1,
+        1,
+        -1,
+        1
+      ],
+      "axis_tuples": 27,
+      "relative_sign_tuples": 4,
+      "expected": 0,
+      "direct": 4.506118910242033e-31,
+      "error": 4.506118910242033e-31
+    }
+  ],
+  "no_timing_benchmark": true
+}

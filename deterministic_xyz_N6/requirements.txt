@@ -1,0 +1,4 @@
+numpy>=1.26
+networkx>=3.0
+pynauty>=2.8
+matplotlib>=3.7

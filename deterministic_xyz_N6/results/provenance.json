@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-10-20T13:32:24.460716+00:00",
+  "command_parameters": {
+    "seed": 20261020,
+    "restarts": 12,
+    "moves": 3,
+    "policy_passes": 3,
+    "policy_starts": 2
+  },
+  "source_sha256": {
+    "search.py": "4ffef70a462eddd7b463a2a4821d223f5b58c349a3a25218ba6e933f5b2ab190",
+    "dense_reference.py": "096144abec0445c41bea628eaffcd0c3888b5b4440ac9b76a96ac3229f5901de",
+    "catalogue.py": "1e88fbdee2757c1ca21b2dc7c7a6cec55c36d3bd6b3c1dae5598228d5fda773e",
+    "algebra.py": "84694465b51e2bb85acbde19d05529b485b50b5e9aa067c7ac7095fb3a8b67d1"
+  },
+  "python": "3.12.14",
+  "new_n6_search": true,
+  "old_performance_results_loaded": false,
+  "timing_benchmark": false,
+  "finished_utc": "2026-10-20T13:33:43.401905+00:00",
+  "evaluated_graphs": 12911,
+  "completed": true
+}

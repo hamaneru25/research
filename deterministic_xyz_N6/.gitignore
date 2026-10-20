@@ -1,0 +1,8 @@
+__pycache__/
+.venv/
+results/role_catalog_*.json.gz
+results/search_cache*
+results/initial_search*
+results/evaluated_graphs.json.gz
+!results/search.log
+!results/verification.log

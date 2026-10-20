@@ -1,0 +1,19 @@
+{
+  "verified_at_utc": "2026-10-20T13:33:59.131278+00:00",
+  "unique_policies": 21,
+  "unique_loss_basis_records": 1323,
+  "dense_outcome_cases": 11785,
+  "max_dense_qfim_error": 2.886579864025407e-15,
+  "exact_averaged_policy_rows": 80,
+  "max_achieved_value_error": 4.440892098500626e-15,
+  "evaluated_graph_upper_checks": 129110,
+  "source_sha256_checks": 9,
+  "certified_eta": [
+    "1/10",
+    "9/10",
+    "1"
+  ],
+  "all_exported_best_policies_dense_verified": true,
+  "no_setting_probability_optimization": true,
+  "no_timing_benchmark": true
+}

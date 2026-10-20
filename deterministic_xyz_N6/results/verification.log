@@ -1,0 +1,22 @@
+{"event": "policy_verified", "id": "bfc190fc5bfbb2a4", "m": 0, "dense_outcomes": 63}
+{"event": "policy_verified", "id": "e2b581e31a43209a", "m": 0, "dense_outcomes": 126}
+{"event": "policy_verified", "id": "d684a8480928e753", "m": 0, "dense_outcomes": 189}
+{"event": "policy_verified", "id": "7fd85c1acb65ac3c", "m": 0, "dense_outcomes": 252}
+{"event": "policy_verified", "id": "f8ea155a7aa0afe2", "m": 1, "dense_outcomes": 378}
+{"event": "policy_verified", "id": "620faf8b457ec3e4", "m": 1, "dense_outcomes": 504}
+{"event": "policy_verified", "id": "6232ce1b0c82aa43", "m": 1, "dense_outcomes": 630}
+{"event": "policy_verified", "id": "d3d1627b4c4f06f9", "m": 2, "dense_outcomes": 882}
+{"event": "policy_verified", "id": "2aeb93e52acae81d", "m": 2, "dense_outcomes": 1134}
+{"event": "policy_verified", "id": "e48b3826c49f179f", "m": 2, "dense_outcomes": 1386}
+{"event": "policy_verified", "id": "95d86e6bd3f30033", "m": 2, "dense_outcomes": 1638}
+{"event": "policy_verified", "id": "dad367dddc61c0a0", "m": 2, "dense_outcomes": 1890}
+{"event": "policy_verified", "id": "0bf39f8a37eb5936", "m": 3, "dense_outcomes": 2394}
+{"event": "policy_verified", "id": "8e99b33a2b721187", "m": 3, "dense_outcomes": 2898}
+{"event": "policy_verified", "id": "fdc05911ff9efc1c", "m": 3, "dense_outcomes": 3402}
+{"event": "policy_verified", "id": "6f3cf79e1261cc2f", "m": 3, "dense_outcomes": 3658}
+{"event": "policy_verified", "id": "4f0aec9638c74e7a", "m": 4, "dense_outcomes": 4666}
+{"event": "policy_verified", "id": "97005037f78ec57d", "m": 4, "dense_outcomes": 5674}
+{"event": "policy_verified", "id": "92fced9acded4797", "m": 4, "dense_outcomes": 5737}
+{"event": "policy_verified", "id": "af3592681dfa5c9f", "m": 5, "dense_outcomes": 7753}
+{"event": "policy_verified", "id": "4e8e84e0600f793a", "m": 6, "dense_outcomes": 11785}
+{"verified_at_utc": "2026-10-20T13:33:59.131278+00:00", "unique_policies": 21, "unique_loss_basis_records": 1323, "dense_outcome_cases": 11785, "max_dense_qfim_error": 2.886579864025407e-15, "exact_averaged_policy_rows": 80, "max_achieved_value_error": 4.440892098500626e-15, "evaluated_graph_upper_checks": 129110, "source_sha256_checks": 9, "certified_eta": ["1/10", "9/10", "1"], "all_exported_best_policies_dense_verified": true, "no_setting_probability_optimization": true, "no_timing_benchmark": true}
