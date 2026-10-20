@@ -148,9 +148,6 @@ def connected_graphs(vertices):
             (ROOT/'data'/f'vncorbits{vertices}.g6').read_bytes().splitlines() if line]
 
 def role_catalog(max_n,max_m):
-    path=ROOT/'results'/f'role_catalog_{max_n}_{max_m}.json.gz'
-    if path.exists():
-        with gzip.open(path,'rt') as f:return json.load(f)
     result=[]
     for total in range(1,max_n+max_m+1):
         for index,graph in enumerate(connected_graphs(total)):
@@ -158,7 +155,6 @@ def role_catalog(max_n,max_m):
                 mask=orbit[0][0];n=mask.bit_count();m=total-n
                 if n and n<=max_n and m<=max_m:result.append([total,index,mask,n,m])
         print(json.dumps(dict(stage='role_catalog',vertices=total,types=len(result))),flush=True)
-    with gzip.open(path,'wt') as f:json.dump(result,f)
     return result
 
 

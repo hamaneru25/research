@@ -538,7 +538,7 @@
       "error": 8.881784197001252e-16
     },
     {
-      "graph_id": "N6_M4_G013465",
+      "graph_id": "N6_M4_G013603",
       "m": 4,
       "bases": "ZZYZ",
       "survivors": [
@@ -558,11 +558,11 @@
       "axis_tuples": 729,
       "relative_sign_tuples": 32,
       "expected": 10,
-      "direct": 10.000000000000014,
-      "error": 1.4210854715202004e-14
+      "direct": 10.00000000000001,
+      "error": 1.0658141036401503e-14
     },
     {
-      "graph_id": "N6_M4_G013465",
+      "graph_id": "N6_M4_G013603",
       "m": 4,
       "bases": "ZZYZ",
       "survivors": [
@@ -582,11 +582,11 @@
       "axis_tuples": 729,
       "relative_sign_tuples": 32,
       "expected": 10,
-      "direct": 10.000000000000014,
-      "error": 1.4210854715202004e-14
+      "direct": 10.000000000000012,
+      "error": 1.2434497875801753e-14
     },
     {
-      "graph_id": "N6_M4_G013465",
+      "graph_id": "N6_M4_G013603",
       "m": 4,
       "bases": "ZZYZ",
       "survivors": [
@@ -606,11 +606,11 @@
       "axis_tuples": 729,
       "relative_sign_tuples": 32,
       "expected": 10,
-      "direct": 10.000000000000014,
-      "error": 1.4210854715202004e-14
+      "direct": 10.00000000000001,
+      "error": 1.0658141036401503e-14
     },
     {
-      "graph_id": "N6_M4_G015011",
+      "graph_id": "N6_M4_G015300",
       "m": 4,
       "bases": "ZYXX",
       "survivors": [
@@ -626,33 +626,33 @@
       ],
       "axis_tuples": 27,
       "relative_sign_tuples": 4,
-      "expected": 1,
-      "direct": 0.9999999999999984,
-      "error": 1.5543122344752192e-15
-    },
-    {
-      "graph_id": "N6_M4_G015011",
-      "m": 4,
-      "bases": "ZYXX",
-      "survivors": [
-        1,
-        2,
-        4
-      ],
-      "outcome": [
-        1,
-        1,
-        1,
-        -1
-      ],
-      "axis_tuples": 27,
-      "relative_sign_tuples": 4,
-      "expected": 1,
-      "direct": 1.0000000000000009,
+      "expected": 5,
+      "direct": 4.999999999999999,
       "error": 8.881784197001252e-16
     },
     {
-      "graph_id": "N6_M4_G015011",
+      "graph_id": "N6_M4_G015300",
+      "m": 4,
+      "bases": "ZYXX",
+      "survivors": [
+        1,
+        2,
+        4
+      ],
+      "outcome": [
+        1,
+        1,
+        1,
+        -1
+      ],
+      "axis_tuples": 27,
+      "relative_sign_tuples": 4,
+      "expected": 5,
+      "direct": 4.999999999999999,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "graph_id": "N6_M4_G015300",
       "m": 4,
       "bases": "ZYXX",
       "survivors": [
@@ -668,12 +668,12 @@
       ],
       "axis_tuples": 27,
       "relative_sign_tuples": 4,
-      "expected": 1,
-      "direct": 1.0000000000000009,
+      "expected": 5,
+      "direct": 4.999999999999999,
       "error": 8.881784197001252e-16
     },
     {
-      "graph_id": "N6_M4_G017307",
+      "graph_id": "N6_M4_G017820",
       "m": 4,
       "bases": "XYZY",
       "survivors": [
@@ -689,12 +689,12 @@
       ],
       "axis_tuples": 27,
       "relative_sign_tuples": 4,
-      "expected": 3,
-      "direct": 2.9999999999999996,
-      "error": 4.440892098500626e-16
+      "expected": 1,
+      "direct": 1.000000000000001,
+      "error": 1.1102230246251565e-15
     },
     {
-      "graph_id": "N6_M4_G017307",
+      "graph_id": "N6_M4_G017820",
       "m": 4,
       "bases": "XYZY",
       "survivors": [
@@ -710,12 +710,12 @@
       ],
       "axis_tuples": 27,
       "relative_sign_tuples": 4,
-      "expected": 3,
-      "direct": 2.9999999999999996,
-      "error": 4.440892098500626e-16
+      "expected": 1,
+      "direct": 0.9999999999999998,
+      "error": 2.220446049250313e-16
     },
     {
-      "graph_id": "N6_M4_G017307",
+      "graph_id": "N6_M4_G017820",
       "m": 4,
       "bases": "XYZY",
       "survivors": [
@@ -731,9 +731,9 @@
       ],
       "axis_tuples": 27,
       "relative_sign_tuples": 4,
-      "expected": 3,
-      "direct": 2.9999999999999996,
-      "error": 4.440892098500626e-16
+      "expected": 1,
+      "direct": 1.000000000000001,
+      "error": 1.1102230246251565e-15
     }
   ],
   "no_timing_benchmark": true

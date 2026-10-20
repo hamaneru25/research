@@ -9,9 +9,8 @@ from pathlib import Path
 from datetime import datetime,timezone
 import csv,gzip,hashlib,json
 import numpy as np
-from search import N,ETAS,ROOT,endpoint_edges,bound_fraction,information_batch,graph_key
+from search import N,ROOT,endpoint_edges,bound_fraction,information_batch,graph_key
 from algebra import qmatrix,sensor_stabilizers,pure_profile
-from record_io import read_graph_records
 from dense_reference import I,X,Y,Z,H,tensor,graph_state,conditional_sensor_states,local_generators,qufim,effective_information
 
 
@@ -94,15 +93,23 @@ def signs_for(raw,target):
     return signs
 
 
-def main():
+def main(records=None):
     summary=json.loads((ROOT/'results/summary.json').read_text());assert summary['status']=='search_completed'
     assert summary['exact_graph_counts']=={'0':26,'1':115,'2':964,'3':10946}
-    records=read_graph_records(ROOT);by_id={r['id']:r for r in records}
+    full_candidate_check=records is not None
+    records=[] if records is None else records
+    by_id={r['id']:r for r in records}
+    if not full_candidate_check:
+        assert summary.get('candidate_checks',{}).get('all_passed'), 'Run search.py first; it verifies candidates in memory.'
     provenance=json.loads((ROOT/'results/provenance.json').read_text())
-    assert len(summary['local_runs'])==7*provenance['command_parameters']['restarts']
+    etas=[F(e) for e in summary['eta_grid']];local_etas=summary['local_eta_grid']
+    assert len(etas)==summary['eta_points']==provenance['command_parameters']['eta_points']
+    assert len(summary['best_by_eta'])==len(etas)
+    assert len(summary['local_runs'])==len(local_etas)*provenance['command_parameters']['restarts']
+    for r in records:assert len(r['deterministic_values'])==len(etas)
     from collections import Counter
-    for run in summary['local_runs']:
-        target=ETAS.index(F(run['eta']));terminal=by_id[run['terminal_graph']]
+    for run in summary['local_runs'] if full_candidate_check else []:
+        target=etas.index(F(run['eta']));terminal=by_id[run['terminal_graph']]
         assert run['termination_reason']=='no_improving_one_edge_neighbor'
         assert abs(terminal['deterministic_values'][target]-run['terminal_value'])<1e-10
         assert len(run['neighbor_ids'])==45
@@ -115,7 +122,7 @@ def main():
             assert r['deterministic_values'][target]<=run['terminal_value']+run['tolerance']
     unique={};policy_list=[];loss_cache={};dense_cases=0;maximum_error=0.;average_error=0.
     csv_rows=[]
-    # All 70 best-found-by-M entries and the global winners get reproducible policies.
+    # All per-M entries and global winners get reproducible policies.
     rows=[r for rs in summary['best_found_by_m'].values() for r in rs]+summary['best_by_eta']
     for row in rows:
         p=reference_policy(row['family']) if row['source']=='reference' else {k:row[k] for k in ['m','edges','loss_codes','auxiliary_bases','family']}
@@ -153,7 +160,7 @@ def main():
     # Global upper includes every unsearched M=4 graph via U_N/(N+4).
     for row in summary['best_by_eta']:
         eta=F(row['eta']);u=N*eta+N*(N-1)*eta*eta
-        upper=max([F(summary['exact_upper_by_m'][str(m)][ETAS.index(eta)]) for m in range(4)]+[u/10,u/11,u/12])
+        upper=max([F(summary['exact_upper_by_m'][str(m)][etas.index(eta)]) for m in range(4)]+[u/10,u/11,u/12])
         assert str(upper)==row['global_upper']
         row['global_optimum_certified']=F(row['exact_value'])==upper
         row['absolute_gap']=float(upper-F(row['exact_value']))
@@ -170,7 +177,13 @@ def main():
     with (ROOT/'results/local_convergence.csv').open('w',newline='') as f:
         writer=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore');writer.writeheader();writer.writerows(summary['local_runs'])
     for r in records:
-        for i,e in enumerate(ETAS):assert r['deterministic_values'][i]<=float(bound_fraction(r['m'],r['upper_coefficients'],e))+1e-8
+        for i,e in enumerate(etas):assert r['deterministic_values'][i]<=float(bound_fraction(r['m'],r['upper_coefficients'],e))+1e-8
+    if full_candidate_check:
+        summary['candidate_checks']=dict(all_passed=True,evaluated_graphs=len(records),
+            evaluated_graph_upper_checks=len(records)*len(etas),
+            terminal_neighbors_checked=45*len(summary['local_runs']),candidate_data_retained=False)
+        (ROOT/'results/summary.json').write_text(json.dumps(summary,indent=2))
+    checks=summary['candidate_checks']
     sources=json.loads((ROOT/'data/sources.json').read_text())
     for s in sources:assert hashlib.sha256((ROOT/'data'/f"vncorbits{s['vertices']}.g6").read_bytes()).hexdigest()==s['sha256']
     result=dict(verified_at_utc=datetime.now(timezone.utc).isoformat(),unique_policies=len(policy_list),
@@ -178,7 +191,8 @@ def main():
                 record_reader_sha256=hashlib.sha256((ROOT/'record_io.py').read_bytes()).hexdigest(),
                 unique_loss_basis_records=len(loss_cache),dense_outcome_cases=dense_cases,max_dense_qfim_error=maximum_error,
                 exact_averaged_policy_rows=len(rows),max_achieved_value_error=average_error,
-                evaluated_graph_upper_checks=len(records)*10,source_sha256_checks=len(sources),
+                eta_points=len(etas),evaluated_graph_upper_checks=checks['evaluated_graph_upper_checks'],source_sha256_checks=len(sources),
+                candidate_checks_recomputed_this_invocation=full_candidate_check,candidate_data_retained=False,
                 converged_graph_walks=len(summary['local_runs']),terminal_neighbors_checked=45*len(summary['local_runs']),
                 certified_eta=[r['eta'] for r in summary['best_by_eta'] if r['global_optimum_certified']],
                 all_exported_best_policies_dense_verified=True,no_setting_probability_optimization=True,
