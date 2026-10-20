@@ -1,0 +1,2887 @@
+{
+  "graph_count": 8,
+  "dense_outcome_cases": 480,
+  "max_absolute_error": 2.6645352591003757e-15,
+  "records": [
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 1.6653345369377348e-16
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 1.6653345369377348e-16
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 1.3322676295501878e-15
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 1.3322676295501878e-15
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 1.3877787807814457e-16
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 1.3877787807814457e-16
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-15
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-15
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 1.7763568394002505e-15
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 1.7763568394002505e-15
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 1.6653345369377348e-16
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 1.6653345369377348e-16
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 1.5543122344752192e-15
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 1.5543122344752192e-15
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 0.0
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 1.3322676295501878e-15
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 0.0
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 8.326672684688674e-17
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 8.326672684688674e-17
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 2.6645352591003757e-15
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 2.6645352591003757e-15
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 1.6653345369377348e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 1.6653345369377348e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 5.551115123125783e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 5.551115123125783e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 0.0
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 0.0
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 8.726112069399953e-34
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 8.726112069399953e-34
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 2.5974889272058465e-32
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 2.5974889272058465e-32
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 1.483696841407482e-31
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 1.483696841407482e-31
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 1.7763568394002505e-15
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 1.7763568394002505e-15
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 0.0
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 0.0
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 0.0
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 0.0
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 2.4424906541753444e-15
+    },
+    {
+      "n": 8,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 2.4424906541753444e-15
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 1.3877787807814457e-17
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 1.3877787807814457e-17
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 1.3877787807814457e-17
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 1.3877787807814457e-17
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 7.771561172376096e-16
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 7.771561172376096e-16
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-15
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-15
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 5.551115123125783e-16
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 5.551115123125783e-16
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 3.5239306481450984e-32
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 3.5239306481450984e-32
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 4.39407569479995e-33
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 4.39407569479995e-33
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 4.3715475070868204e-33
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 4.3715475070868204e-33
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 7.591165572587596e-32
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 7.591165572587596e-32
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 3.469446951953614e-17
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 3.469446951953614e-17
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 5.551115123125783e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 5.551115123125783e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 1.1102230246251565e-15
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 5.295625904455518e-35
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 5.295625904455518e-35
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 3.863269943006261e-34
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 3.863269943006261e-34
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 8.924132310538632e-32
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 8.924132310538632e-32
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 2.869962404067143e-32
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 2.869962404067143e-32
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 8.326672684688674e-17
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 8.326672684688674e-17
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 2.7755575615628914e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 2.7755575615628914e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 5.551115123125783e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 5.551115123125783e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 2.5261944046510857e-32
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 2.5261944046510857e-32
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 8.390139057047036e-32
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 8.390139057047036e-32
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 0.0
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 2.7755575615628914e-17
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 1.34401451850858e-31
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 1.34401451850858e-31
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 9,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 5.551115123125783e-16
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 5.551115123125783e-16
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 5.551115123125783e-16
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 1.3322676295501878e-15
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 8.326672684688674e-17
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 8.326672684688674e-17
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 1.1578693033759593e-33
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 1.1578693033759593e-33
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 5.551115123125783e-16
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 5.551115123125783e-16
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 3,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 1.3877787807814457e-16
+    },
+    {
+      "n": 10,
+      "m": 1,
+      "survivor_count": 4,
+      "error": 1.3877787807814457e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 1.7763568394002505e-15
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 1.7763568394002505e-15
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 4.996003610813204e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 4.996003610813204e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 5.551115123125783e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 5.551115123125783e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 1,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 2,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 2.3193327291888247e-31
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 2.3193327291888247e-31
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 1.3322676295501878e-15
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 1.3322676295501878e-15
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 3,
+      "error": 6.661338147750939e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 0.0
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 5.551115123125783e-16
+    },
+    {
+      "n": 10,
+      "m": 2,
+      "survivor_count": 4,
+      "error": 5.551115123125783e-16
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "exact_rational_certificate": true,
+  "unique_graph_upper_polynomials": 167,
+  "interval_checks": 501,
+  "max_subdivision_depth": 0,
+  "bernstein_subintervals": 501,
+  "failures": [],
+  "scope": "N=4, all simple CZ graphs, X/Y central measurements, local Cliffords, all M>=0; ideal model",
+  "optimum": "max(eta, eta/2+3*eta^2/2, 3*eta^2-3*eta^3+4*eta^4)"
+}

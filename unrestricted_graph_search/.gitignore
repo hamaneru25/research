@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.log
+results/catalog_N*.json.gz
+results/*.tmp
+results/results_N*.json
+results/summary.json

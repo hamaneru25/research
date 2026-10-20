@@ -1,0 +1,464 @@
+{
+  "seed": 20261020,
+  "eta_grid": "0.01,0.02,...,1.00",
+  "total_evaluations_including_revisits": 60147,
+  "results": [
+    {
+      "n": 4,
+      "evaluations_including_revisits": 29519,
+      "profile_count": 1452,
+      "convex_optimizations": 0,
+      "max_witness_gap": 0.0,
+      "peak_gain": 1.0,
+      "peak_eta": 0.01,
+      "peak_m": 0,
+      "peak_graph_edges": [],
+      "grid_intervals": [
+        {
+          "choice": "independent",
+          "first_grid_eta": 0.01,
+          "last_grid_eta": 0.33
+        },
+        {
+          "choice": "4",
+          "first_grid_eta": 0.34,
+          "last_grid_eta": 0.49
+        },
+        {
+          "choice": "0",
+          "first_grid_eta": 0.5,
+          "last_grid_eta": 1.0
+        }
+      ],
+      "exhaustive_topology_ranges": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "m_equals_n_optimum_known": true,
+      "global_optimum_certified": true
+    },
+    {
+      "n": 5,
+      "evaluations_including_revisits": 18427,
+      "profile_count": 5758,
+      "convex_optimizations": 12,
+      "max_witness_gap": 8.546139652745615e-16,
+      "peak_gain": 1.0183480901723676,
+      "peak_eta": 0.69,
+      "peak_m": 1,
+      "peak_graph_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "grid_intervals": [
+        {
+          "choice": "independent",
+          "first_grid_eta": 0.01,
+          "last_grid_eta": 0.24
+        },
+        {
+          "choice": "5",
+          "first_grid_eta": 0.25,
+          "last_grid_eta": 0.66
+        },
+        {
+          "choice": "1",
+          "first_grid_eta": 0.67,
+          "last_grid_eta": 0.72
+        },
+        {
+          "choice": "0",
+          "first_grid_eta": 0.73,
+          "last_grid_eta": 1.0
+        }
+      ],
+      "exhaustive_topology_ranges": [
+        0,
+        1,
+        2
+      ],
+      "m_equals_n_optimum_known": true,
+      "global_optimum_certified": false
+    },
+    {
+      "n": 6,
+      "evaluations_including_revisits": 6881,
+      "profile_count": 4257,
+      "convex_optimizations": 11,
+      "max_witness_gap": 0.0,
+      "peak_gain": 1.0738707151486886,
+      "peak_eta": 0.78,
+      "peak_m": 1,
+      "peak_graph_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "grid_intervals": [
+        {
+          "choice": "independent",
+          "first_grid_eta": 0.01,
+          "last_grid_eta": 0.19
+        },
+        {
+          "choice": "6",
+          "first_grid_eta": 0.2,
+          "last_grid_eta": 0.74
+        },
+        {
+          "choice": "1",
+          "first_grid_eta": 0.75,
+          "last_grid_eta": 0.85
+        },
+        {
+          "choice": "0",
+          "first_grid_eta": 0.86,
+          "last_grid_eta": 1.0
+        }
+      ],
+      "exhaustive_topology_ranges": [
+        0,
+        1
+      ],
+      "m_equals_n_optimum_known": true,
+      "global_optimum_certified": false
+    },
+    {
+      "n": 7,
+      "evaluations_including_revisits": 1665,
+      "profile_count": 1350,
+      "convex_optimizations": 10,
+      "max_witness_gap": 8.21343954823876e-16,
+      "peak_gain": 1.0787653740932373,
+      "peak_eta": 0.83,
+      "peak_m": 1,
+      "peak_graph_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "grid_intervals": [
+        {
+          "choice": "independent",
+          "first_grid_eta": 0.01,
+          "last_grid_eta": 0.16
+        },
+        {
+          "choice": "7",
+          "first_grid_eta": 0.17,
+          "last_grid_eta": 0.79
+        },
+        {
+          "choice": "1",
+          "first_grid_eta": 0.8,
+          "last_grid_eta": 0.89
+        },
+        {
+          "choice": "0",
+          "first_grid_eta": 0.9,
+          "last_grid_eta": 1.0
+        }
+      ],
+      "exhaustive_topology_ranges": [
+        0
+      ],
+      "m_equals_n_optimum_known": true,
+      "global_optimum_certified": false
+    },
+    {
+      "n": 8,
+      "evaluations_including_revisits": 852,
+      "profile_count": 742,
+      "convex_optimizations": 11,
+      "max_witness_gap": 6.471636985528059e-16,
+      "peak_gain": 1.0947494670264821,
+      "peak_eta": 0.87,
+      "peak_m": 1,
+      "peak_graph_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "grid_intervals": [
+        {
+          "choice": "independent",
+          "first_grid_eta": 0.01,
+          "last_grid_eta": 0.14
+        },
+        {
+          "choice": "8",
+          "first_grid_eta": 0.15,
+          "last_grid_eta": 0.83
+        },
+        {
+          "choice": "1",
+          "first_grid_eta": 0.84,
+          "last_grid_eta": 0.92
+        },
+        {
+          "choice": "0",
+          "first_grid_eta": 0.93,
+          "last_grid_eta": 1.0
+        }
+      ],
+      "exhaustive_topology_ranges": [],
+      "m_equals_n_optimum_known": true,
+      "global_optimum_certified": false
+    },
+    {
+      "n": 9,
+      "evaluations_including_revisits": 1240,
+      "profile_count": 1095,
+      "convex_optimizations": 53,
+      "max_witness_gap": 2.2312508441219387e-09,
+      "peak_gain": 1.102662530655113,
+      "peak_eta": 0.89,
+      "peak_m": 1,
+      "peak_graph_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          9
+        ]
+      ],
+      "grid_intervals": [
+        {
+          "choice": "independent",
+          "first_grid_eta": 0.01,
+          "last_grid_eta": 0.12
+        },
+        {
+          "choice": "9",
+          "first_grid_eta": 0.13,
+          "last_grid_eta": 0.85
+        },
+        {
+          "choice": "2",
+          "first_grid_eta": 0.86,
+          "last_grid_eta": 0.87
+        },
+        {
+          "choice": "1",
+          "first_grid_eta": 0.88,
+          "last_grid_eta": 0.94
+        },
+        {
+          "choice": "0",
+          "first_grid_eta": 0.95,
+          "last_grid_eta": 1.0
+        }
+      ],
+      "exhaustive_topology_ranges": [],
+      "m_equals_n_optimum_known": true,
+      "global_optimum_certified": false
+    },
+    {
+      "n": 10,
+      "evaluations_including_revisits": 1563,
+      "profile_count": 1362,
+      "convex_optimizations": 45,
+      "max_witness_gap": 5.099790028156827e-10,
+      "peak_gain": 1.111184055944057,
+      "peak_eta": 0.9,
+      "peak_m": 1,
+      "peak_graph_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          5,
+          10
+        ]
+      ],
+      "grid_intervals": [
+        {
+          "choice": "independent",
+          "first_grid_eta": 0.01,
+          "last_grid_eta": 0.11
+        },
+        {
+          "choice": "10",
+          "first_grid_eta": 0.12,
+          "last_grid_eta": 0.87
+        },
+        {
+          "choice": "2",
+          "first_grid_eta": 0.88,
+          "last_grid_eta": 0.89
+        },
+        {
+          "choice": "1",
+          "first_grid_eta": 0.9,
+          "last_grid_eta": 0.95
+        },
+        {
+          "choice": "0",
+          "first_grid_eta": 0.96,
+          "last_grid_eta": 1.0
+        }
+      ],
+      "exhaustive_topology_ranges": [],
+      "m_equals_n_optimum_known": true,
+      "global_optimum_certified": false
+    }
+  ]
+}
