@@ -1,0 +1,6 @@
+__pycache__/
+results/cache/
+results/*.log
+results/*.tmp
+results/uniform_scan_seeds.json
+results/kernel_validation.json

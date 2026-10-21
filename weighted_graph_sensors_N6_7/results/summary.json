@@ -1,0 +1,96 @@
+{
+  "configuration": {
+    "sensors": [
+      6,
+      7
+    ],
+    "etas": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95,
+      1.0
+    ],
+    "coarse_etas": [
+      0.2,
+      0.5,
+      0.7,
+      0.85
+    ],
+    "uniform_points": 33,
+    "topology_starts": 6,
+    "random_starts": 64,
+    "perturbed_starts": 16,
+    "seed": 20261023,
+    "maxiter": 400,
+    "gtol": 1e-08,
+    "ftol": 1e-12,
+    "ridge": 1e-10,
+    "de_etas": [
+      0.5,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8
+    ],
+    "de_maxiter": 100,
+    "de_popsize": 6,
+    "workers": 6,
+    "continuation_passes": 2
+  },
+  "started_utc": "2026-10-21T17:30:46.829045+00:00",
+  "finished_utc": "2026-10-21T17:30:59.499396+00:00",
+  "elapsed_seconds_this_invocation": 12.67037065600016,
+  "elapsed_seconds_since_first_configuration": 2080.2365515232086,
+  "first_configuration_utc": "2026-10-21T16:56:19.262862+00:00",
+  "cached_coarse_graphs_at_start": 1200,
+  "coarse_graphs": {
+    "6": 156,
+    "7": 1044
+  },
+  "coarse_state_evaluations": 39600,
+  "local_optimization_runs": 4076,
+  "differential_evolution_runs": 12,
+  "updated_points": 34,
+  "maximum_relative_improvement": 0.2683555054993712,
+  "source_sha256": {
+    "engine.py": "e1ee693aac0ebd9117318768f4d854f7b40d8879d3402fbb540cc4e002bbca0c",
+    "run_search.py": "f14bacc78d108d718e62bba1f20c7ad32ff8a6f0c337b55857e28bf33c74005d",
+    "verify.py": "3fe78f2a3970ea1590212c606ebb8d8eab253a74d47dc9001976080f7d6fafee"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "scope": "Independent edge weights; fixed local Clifford before IID flagged erasure and independent phase encoding; arithmetic mean; all trials; QFI bound only.",
+  "optimality": "Best found by continuous heuristic search; global weighted optimum NOT certified.",
+  "coarse_search": "All unlabeled graph shapes, uniform weight at four anchor survival probabilities by default; 0..pi covers conjugate 2pi-phi inputs with transformed Clifford axes.",
+  "graph_reduction": "Only vertex permutations in coarse graph atlas. No weighted LC equivalence or stabilizer assumption.",
+  "clifford_candidates": {
+    "6": {
+      "physical_axes": 46656,
+      "relative_sign_representatives": 23328
+    },
+    "7": {
+      "physical_axes": 279936,
+      "relative_sign_representatives": 139968
+    }
+  }
+}
