@@ -1,0 +1,8998 @@
+{
+  "configuration": {
+    "min_sensors": 8,
+    "max_sensors": 8,
+    "eta_min": "0.05",
+    "eta_max": "1",
+    "eta_points": 20,
+    "etas": null,
+    "axis_reduction": "symmetry",
+    "output": "results",
+    "overwrite": true,
+    "tie_tol": 1e-10,
+    "log_every_graphs": 1,
+    "eta_grid": [
+      "0.05",
+      "0.1",
+      "0.15",
+      "0.2",
+      "0.25",
+      "0.3",
+      "0.35",
+      "0.4",
+      "0.45",
+      "0.5",
+      "0.55",
+      "0.6",
+      "0.65",
+      "0.7",
+      "0.75",
+      "0.8",
+      "0.85",
+      "0.9",
+      "0.95",
+      "1"
+    ],
+    "ancillas": 0,
+    "target": "arithmetic_mean",
+    "fixed_before_loss": true,
+    "phase_generator": "Z/2",
+    "loss": "independent_flagged_erasure",
+    "phase_location": "after_loss",
+    "readout": "QFI only"
+  },
+  "search_statistics": [
+    {
+      "n": 8,
+      "lc_representatives": 182,
+      "unreduced_signed_axes": 305690112,
+      "valid_unsigned_axes": 1010389,
+      "evaluated_axis_candidates": 417105,
+      "unique_QFIM_polynomials": 13109,
+      "seconds": 449.5640201770002,
+      "max_GHZ_dominance_bound_violation": 1.3322676295501878e-15,
+      "all_unique_polynomials_checked_with_QFIM_eigensolver": 13109,
+      "max_block_score_eigensolver_error": 1.7763568394002505e-15,
+      "graph_statistics": [
+        {
+          "graph_id": 0,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "edges": [],
+          "automorphisms": 40320,
+          "valid_unsigned_axes": 256,
+          "evaluated_axis_orbits": 9,
+          "burnside_orbits": 9
+        },
+        {
+          "graph_id": 1,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "edges": [
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 1440,
+          "valid_unsigned_axes": 576,
+          "evaluated_axis_orbits": 42,
+          "burnside_orbits": 42
+        },
+        {
+          "graph_id": 2,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "edges": [
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 240,
+          "valid_unsigned_axes": 864,
+          "evaluated_axis_orbits": 108,
+          "burnside_orbits": 108
+        },
+        {
+          "graph_id": 3,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "edges": [
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 192,
+          "valid_unsigned_axes": 1296,
+          "evaluated_axis_orbits": 105,
+          "burnside_orbits": 105
+        },
+        {
+          "graph_id": 4,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "edges": [
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 144,
+          "valid_unsigned_axes": 1296,
+          "evaluated_axis_orbits": 150,
+          "burnside_orbits": 150
+        },
+        {
+          "graph_id": 5,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "edges": [
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 48,
+          "valid_unsigned_axes": 1296,
+          "evaluated_axis_orbits": 225,
+          "burnside_orbits": 225
+        },
+        {
+          "graph_id": 6,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "edges": [
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 24,
+          "valid_unsigned_axes": 1944,
+          "evaluated_axis_orbits": 432,
+          "burnside_orbits": 432
+        },
+        {
+          "graph_id": 7,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              5,
+              0
+            ]
+          ],
+          "edges": [
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 144,
+          "valid_unsigned_axes": 1944,
+          "evaluated_axis_orbits": 180,
+          "burnside_orbits": 180
+        },
+        {
+          "graph_id": 8,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "edges": [
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 12,
+          "valid_unsigned_axes": 1944,
+          "evaluated_axis_orbits": 648,
+          "burnside_orbits": 648
+        },
+        {
+          "graph_id": 9,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              5,
+              2
+            ]
+          ],
+          "edges": [
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 12,
+          "valid_unsigned_axes": 1944,
+          "evaluated_axis_orbits": 648,
+          "burnside_orbits": 648
+        },
+        {
+          "graph_id": 10,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              5,
+              3
+            ]
+          ],
+          "edges": [
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 60,
+          "valid_unsigned_axes": 1944,
+          "evaluated_axis_orbits": 156,
+          "burnside_orbits": 156
+        },
+        {
+          "graph_id": 11,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "edges": [
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 96,
+          "valid_unsigned_axes": 2916,
+          "evaluated_axis_orbits": 168,
+          "burnside_orbits": 168
+        },
+        {
+          "graph_id": 12,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "edges": [
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 24,
+          "valid_unsigned_axes": 2916,
+          "evaluated_axis_orbits": 540,
+          "burnside_orbits": 540
+        },
+        {
+          "graph_id": 13,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "edges": [
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 8,
+          "valid_unsigned_axes": 2916,
+          "evaluated_axis_orbits": 810,
+          "burnside_orbits": 810
+        },
+        {
+          "graph_id": 14,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "edges": [
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 16,
+          "valid_unsigned_axes": 2916,
+          "evaluated_axis_orbits": 513,
+          "burnside_orbits": 513
+        },
+        {
+          "graph_id": 15,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              6,
+              0
+            ]
+          ],
+          "edges": [
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 240,
+          "valid_unsigned_axes": 2916,
+          "evaluated_axis_orbits": 189,
+          "burnside_orbits": 189
+        },
+        {
+          "graph_id": 16,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              6,
+              1
+            ]
+          ],
+          "edges": [
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 16,
+          "valid_unsigned_axes": 2916,
+          "evaluated_axis_orbits": 513,
+          "burnside_orbits": 513
+        },
+        {
+          "graph_id": 17,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              6,
+              2
+            ]
+          ],
+          "edges": [
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 12,
+          "valid_unsigned_axes": 2916,
+          "evaluated_axis_orbits": 495,
+          "burnside_orbits": 495
+        },
+        {
+          "graph_id": 18,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              6,
+              3
+            ]
+          ],
+          "edges": [
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 8,
+          "valid_unsigned_axes": 2916,
+          "evaluated_axis_orbits": 810,
+          "burnside_orbits": 810
+        },
+        {
+          "graph_id": 19,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              6,
+              4
+            ]
+          ],
+          "edges": [
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 12,
+          "valid_unsigned_axes": 2916,
+          "evaluated_axis_orbits": 810,
+          "burnside_orbits": 810
+        },
+        {
+          "graph_id": 20,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              6,
+              5
+            ]
+          ],
+          "edges": [
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 2916,
+          "evaluated_axis_orbits": 1215,
+          "burnside_orbits": 1215
+        },
+        {
+          "graph_id": 21,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "edges": [
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 2916,
+          "evaluated_axis_orbits": 1458,
+          "burnside_orbits": 1458
+        },
+        {
+          "graph_id": 22,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "edges": [
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 2916,
+          "evaluated_axis_orbits": 1215,
+          "burnside_orbits": 1215
+        },
+        {
+          "graph_id": 23,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              6,
+              8
+            ]
+          ],
+          "edges": [
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 2916,
+          "evaluated_axis_orbits": 1134,
+          "burnside_orbits": 1134
+        },
+        {
+          "graph_id": 24,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              6,
+              9
+            ]
+          ],
+          "edges": [
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 24,
+          "valid_unsigned_axes": 2916,
+          "evaluated_axis_orbits": 276,
+          "burnside_orbits": 276
+        },
+        {
+          "graph_id": 25,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              6,
+              10
+            ]
+          ],
+          "edges": [
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 20,
+          "valid_unsigned_axes": 2916,
+          "evaluated_axis_orbits": 351,
+          "burnside_orbits": 351
+        },
+        {
+          "graph_id": 26,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 16,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 756,
+          "burnside_orbits": 756
+        },
+        {
+          "graph_id": 27,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              5,
+              0
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 48,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 540,
+          "burnside_orbits": 540
+        },
+        {
+          "graph_id": 28,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 1944,
+          "burnside_orbits": 1944
+        },
+        {
+          "graph_id": 29,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              5,
+              2
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 1944,
+          "burnside_orbits": 1944
+        },
+        {
+          "graph_id": 30,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              5,
+              3
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 20,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 468,
+          "burnside_orbits": 468
+        },
+        {
+          "graph_id": 31,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 12,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 1080,
+          "burnside_orbits": 1080
+        },
+        {
+          "graph_id": 32,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 1620,
+          "burnside_orbits": 1620
+        },
+        {
+          "graph_id": 33,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              7,
+              0
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 720,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 168,
+          "burnside_orbits": 168
+        },
+        {
+          "graph_id": 34,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              7,
+              1
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 24,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 810,
+          "burnside_orbits": 810
+        },
+        {
+          "graph_id": 35,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              7,
+              2
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 12,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 1080,
+          "burnside_orbits": 1080
+        },
+        {
+          "graph_id": 36,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              7,
+              3
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 10,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 702,
+          "burnside_orbits": 702
+        },
+        {
+          "graph_id": 37,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              7,
+              4
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 1620,
+          "burnside_orbits": 1620
+        },
+        {
+          "graph_id": 38,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              7,
+              5
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 1620,
+          "burnside_orbits": 1620
+        },
+        {
+          "graph_id": 39,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              7,
+              6
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 1944,
+          "burnside_orbits": 1944
+        },
+        {
+          "graph_id": 40,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              7,
+              7
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 8,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 1026,
+          "burnside_orbits": 1026
+        },
+        {
+          "graph_id": 41,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              7,
+              8
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 1620,
+          "burnside_orbits": 1620
+        },
+        {
+          "graph_id": 42,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              7,
+              9
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 2916,
+          "burnside_orbits": 2916
+        },
+        {
+          "graph_id": 43,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              7,
+              10
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 6,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 1620,
+          "burnside_orbits": 1620
+        },
+        {
+          "graph_id": 44,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              7,
+              11
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 1620,
+          "burnside_orbits": 1620
+        },
+        {
+          "graph_id": 45,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              7,
+              12
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 2430,
+          "burnside_orbits": 2430
+        },
+        {
+          "graph_id": 46,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              7,
+              13
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 2430,
+          "burnside_orbits": 2430
+        },
+        {
+          "graph_id": 47,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              7,
+              14
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 2268,
+          "burnside_orbits": 2268
+        },
+        {
+          "graph_id": 48,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 1,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 4374,
+          "burnside_orbits": 4374
+        },
+        {
+          "graph_id": 49,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              7,
+              16
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 2916,
+          "burnside_orbits": 2916
+        },
+        {
+          "graph_id": 50,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              7,
+              17
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 2430,
+          "burnside_orbits": 2430
+        },
+        {
+          "graph_id": 51,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              7,
+              18
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 2430,
+          "burnside_orbits": 2430
+        },
+        {
+          "graph_id": 52,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              7,
+              19
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 1,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 4374,
+          "burnside_orbits": 4374
+        },
+        {
+          "graph_id": 53,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              7,
+              20
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 2268,
+          "burnside_orbits": 2268
+        },
+        {
+          "graph_id": 54,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              7,
+              21
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 2430,
+          "burnside_orbits": 2430
+        },
+        {
+          "graph_id": 55,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              7,
+              22
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              6
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 2430,
+          "burnside_orbits": 2430
+        },
+        {
+          "graph_id": 56,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              7,
+              23
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 1296,
+          "burnside_orbits": 1296
+        },
+        {
+          "graph_id": 57,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              7,
+              24
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "automorphisms": 6,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 990,
+          "burnside_orbits": 990
+        },
+        {
+          "graph_id": 58,
+          "components": [
+            [
+              1,
+              0
+            ],
+            [
+              7,
+              25
+            ]
+          ],
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 14,
+          "valid_unsigned_axes": 4374,
+          "evaluated_axis_orbits": 396,
+          "burnside_orbits": 396
+        },
+        {
+          "graph_id": 59,
+          "components": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 384,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 126,
+          "burnside_orbits": 126
+        },
+        {
+          "graph_id": 60,
+          "components": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 48,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 630,
+          "burnside_orbits": 630
+        },
+        {
+          "graph_id": 61,
+          "components": [
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 16,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 945,
+          "burnside_orbits": 945
+        },
+        {
+          "graph_id": 62,
+          "components": [
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 16,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 1026,
+          "burnside_orbits": 1026
+        },
+        {
+          "graph_id": 63,
+          "components": [
+            [
+              2,
+              0
+            ],
+            [
+              6,
+              0
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 240,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 378,
+          "burnside_orbits": 378
+        },
+        {
+          "graph_id": 64,
+          "components": [
+            [
+              2,
+              0
+            ],
+            [
+              6,
+              1
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 16,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 1026,
+          "burnside_orbits": 1026
+        },
+        {
+          "graph_id": 65,
+          "components": [
+            [
+              2,
+              0
+            ],
+            [
+              6,
+              2
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 12,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 990,
+          "burnside_orbits": 990
+        },
+        {
+          "graph_id": 66,
+          "components": [
+            [
+              2,
+              0
+            ],
+            [
+              6,
+              3
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 8,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 1620,
+          "burnside_orbits": 1620
+        },
+        {
+          "graph_id": 67,
+          "components": [
+            [
+              2,
+              0
+            ],
+            [
+              6,
+              4
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 12,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 1620,
+          "burnside_orbits": 1620
+        },
+        {
+          "graph_id": 68,
+          "components": [
+            [
+              2,
+              0
+            ],
+            [
+              6,
+              5
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 2430,
+          "burnside_orbits": 2430
+        },
+        {
+          "graph_id": 69,
+          "components": [
+            [
+              2,
+              0
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 2916,
+          "burnside_orbits": 2916
+        },
+        {
+          "graph_id": 70,
+          "components": [
+            [
+              2,
+              0
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 2430,
+          "burnside_orbits": 2430
+        },
+        {
+          "graph_id": 71,
+          "components": [
+            [
+              2,
+              0
+            ],
+            [
+              6,
+              8
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 2268,
+          "burnside_orbits": 2268
+        },
+        {
+          "graph_id": 72,
+          "components": [
+            [
+              2,
+              0
+            ],
+            [
+              6,
+              9
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 24,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 552,
+          "burnside_orbits": 552
+        },
+        {
+          "graph_id": 73,
+          "components": [
+            [
+              2,
+              0
+            ],
+            [
+              6,
+              10
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 20,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 702,
+          "burnside_orbits": 702
+        },
+        {
+          "graph_id": 74,
+          "components": [
+            [
+              3,
+              0
+            ],
+            [
+              5,
+              0
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 48,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 810,
+          "burnside_orbits": 810
+        },
+        {
+          "graph_id": 75,
+          "components": [
+            [
+              3,
+              0
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 2916,
+          "burnside_orbits": 2916
+        },
+        {
+          "graph_id": 76,
+          "components": [
+            [
+              3,
+              0
+            ],
+            [
+              5,
+              2
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 2916,
+          "burnside_orbits": 2916
+        },
+        {
+          "graph_id": 77,
+          "components": [
+            [
+              3,
+              0
+            ],
+            [
+              5,
+              3
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 20,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 702,
+          "burnside_orbits": 702
+        },
+        {
+          "graph_id": 78,
+          "components": [
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 72,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 465,
+          "burnside_orbits": 465
+        },
+        {
+          "graph_id": 79,
+          "components": [
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 12,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 1350,
+          "burnside_orbits": 1350
+        },
+        {
+          "graph_id": 80,
+          "components": [
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 8,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 1035,
+          "burnside_orbits": 1035
+        },
+        {
+          "graph_id": 81,
+          "components": [
+            [
+              8,
+              0
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 5040,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 108,
+          "burnside_orbits": 108
+        },
+        {
+          "graph_id": 82,
+          "components": [
+            [
+              8,
+              1
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 72,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 465,
+          "burnside_orbits": 465
+        },
+        {
+          "graph_id": 83,
+          "components": [
+            [
+              8,
+              2
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 48,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 810,
+          "burnside_orbits": 810
+        },
+        {
+          "graph_id": 84,
+          "components": [
+            [
+              8,
+              3
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 120,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 567,
+          "burnside_orbits": 567
+        },
+        {
+          "graph_id": 85,
+          "components": [
+            [
+              8,
+              4
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 12,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 990,
+          "burnside_orbits": 990
+        },
+        {
+          "graph_id": 86,
+          "components": [
+            [
+              8,
+              5
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 24,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 495,
+          "burnside_orbits": 495
+        },
+        {
+          "graph_id": 87,
+          "components": [
+            [
+              8,
+              6
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 20,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 702,
+          "burnside_orbits": 702
+        },
+        {
+          "graph_id": 88,
+          "components": [
+            [
+              8,
+              7
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 2430,
+          "burnside_orbits": 2430
+        },
+        {
+          "graph_id": 89,
+          "components": [
+            [
+              8,
+              8
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 8,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 1035,
+          "burnside_orbits": 1035
+        },
+        {
+          "graph_id": 90,
+          "components": [
+            [
+              8,
+              9
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 8,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 1539,
+          "burnside_orbits": 1539
+        },
+        {
+          "graph_id": 91,
+          "components": [
+            [
+              8,
+              10
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 16,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 1026,
+          "burnside_orbits": 1026
+        },
+        {
+          "graph_id": 92,
+          "components": [
+            [
+              8,
+              11
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 16,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 1026,
+          "burnside_orbits": 1026
+        },
+        {
+          "graph_id": 93,
+          "components": [
+            [
+              8,
+              12
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 12,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 1350,
+          "burnside_orbits": 1350
+        },
+        {
+          "graph_id": 94,
+          "components": [
+            [
+              8,
+              13
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 12,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 1350,
+          "burnside_orbits": 1350
+        },
+        {
+          "graph_id": 95,
+          "components": [
+            [
+              8,
+              14
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 12,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 1620,
+          "burnside_orbits": 1620
+        },
+        {
+          "graph_id": 96,
+          "components": [
+            [
+              8,
+              15
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 2268,
+          "burnside_orbits": 2268
+        },
+        {
+          "graph_id": 97,
+          "components": [
+            [
+              8,
+              16
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 6,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 1485,
+          "burnside_orbits": 1485
+        },
+        {
+          "graph_id": 98,
+          "components": [
+            [
+              8,
+              17
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 24,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 1215,
+          "burnside_orbits": 1215
+        },
+        {
+          "graph_id": 99,
+          "components": [
+            [
+              8,
+              18
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 2916,
+          "burnside_orbits": 2916
+        },
+        {
+          "graph_id": 100,
+          "components": [
+            [
+              8,
+              19
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 6,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 2430,
+          "burnside_orbits": 2430
+        },
+        {
+          "graph_id": 101,
+          "components": [
+            [
+              8,
+              20
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 12,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 1620,
+          "burnside_orbits": 1620
+        },
+        {
+          "graph_id": 102,
+          "components": [
+            [
+              8,
+              21
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 2025,
+          "burnside_orbits": 2025
+        },
+        {
+          "graph_id": 103,
+          "components": [
+            [
+              8,
+              22
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "automorphisms": 12,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 1350,
+          "burnside_orbits": 1350
+        },
+        {
+          "graph_id": 104,
+          "components": [
+            [
+              8,
+              23
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 10,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 1053,
+          "burnside_orbits": 1053
+        },
+        {
+          "graph_id": 105,
+          "components": [
+            [
+              8,
+              24
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3321,
+          "burnside_orbits": 3321
+        },
+        {
+          "graph_id": 106,
+          "components": [
+            [
+              8,
+              25
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 8,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 1485,
+          "burnside_orbits": 1485
+        },
+        {
+          "graph_id": 107,
+          "components": [
+            [
+              8,
+              26
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 4374,
+          "burnside_orbits": 4374
+        },
+        {
+          "graph_id": 108,
+          "components": [
+            [
+              8,
+              27
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 2916,
+          "burnside_orbits": 2916
+        },
+        {
+          "graph_id": 109,
+          "components": [
+            [
+              8,
+              28
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 2430,
+          "burnside_orbits": 2430
+        },
+        {
+          "graph_id": 110,
+          "components": [
+            [
+              8,
+              29
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3402,
+          "burnside_orbits": 3402
+        },
+        {
+          "graph_id": 111,
+          "components": [
+            [
+              8,
+              30
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3645,
+          "burnside_orbits": 3645
+        },
+        {
+          "graph_id": 112,
+          "components": [
+            [
+              8,
+              31
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 2430,
+          "burnside_orbits": 2430
+        },
+        {
+          "graph_id": 113,
+          "components": [
+            [
+              8,
+              32
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3645,
+          "burnside_orbits": 3645
+        },
+        {
+          "graph_id": 114,
+          "components": [
+            [
+              8,
+              33
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3645,
+          "burnside_orbits": 3645
+        },
+        {
+          "graph_id": 115,
+          "components": [
+            [
+              8,
+              34
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3645,
+          "burnside_orbits": 3645
+        },
+        {
+          "graph_id": 116,
+          "components": [
+            [
+              8,
+              35
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 2916,
+          "burnside_orbits": 2916
+        },
+        {
+          "graph_id": 117,
+          "components": [
+            [
+              8,
+              36
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 4374,
+          "burnside_orbits": 4374
+        },
+        {
+          "graph_id": 118,
+          "components": [
+            [
+              8,
+              37
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 4374,
+          "burnside_orbits": 4374
+        },
+        {
+          "graph_id": 119,
+          "components": [
+            [
+              8,
+              38
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 4374,
+          "burnside_orbits": 4374
+        },
+        {
+          "graph_id": 120,
+          "components": [
+            [
+              8,
+              39
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 4374,
+          "burnside_orbits": 4374
+        },
+        {
+          "graph_id": 121,
+          "components": [
+            [
+              8,
+              40
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "automorphisms": 6,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 2430,
+          "burnside_orbits": 2430
+        },
+        {
+          "graph_id": 122,
+          "components": [
+            [
+              8,
+              41
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3645,
+          "burnside_orbits": 3645
+        },
+        {
+          "graph_id": 123,
+          "components": [
+            [
+              8,
+              42
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 12,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 828,
+          "burnside_orbits": 828
+        },
+        {
+          "graph_id": 124,
+          "components": [
+            [
+              8,
+              43
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "automorphisms": 6,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 1485,
+          "burnside_orbits": 1485
+        },
+        {
+          "graph_id": 125,
+          "components": [
+            [
+              8,
+              44
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3645,
+          "burnside_orbits": 3645
+        },
+        {
+          "graph_id": 126,
+          "components": [
+            [
+              8,
+              45
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 2430,
+          "burnside_orbits": 2430
+        },
+        {
+          "graph_id": 127,
+          "components": [
+            [
+              8,
+              46
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 2430,
+          "burnside_orbits": 2430
+        },
+        {
+          "graph_id": 128,
+          "components": [
+            [
+              8,
+              47
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 1863,
+          "burnside_orbits": 1863
+        },
+        {
+          "graph_id": 129,
+          "components": [
+            [
+              8,
+              48
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3402,
+          "burnside_orbits": 3402
+        },
+        {
+          "graph_id": 130,
+          "components": [
+            [
+              8,
+              49
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3402,
+          "burnside_orbits": 3402
+        },
+        {
+          "graph_id": 131,
+          "components": [
+            [
+              8,
+              50
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 1,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 6561,
+          "burnside_orbits": 6561
+        },
+        {
+          "graph_id": 132,
+          "components": [
+            [
+              8,
+              51
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 1,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 6561,
+          "burnside_orbits": 6561
+        },
+        {
+          "graph_id": 133,
+          "components": [
+            [
+              8,
+              52
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 2268,
+          "burnside_orbits": 2268
+        },
+        {
+          "graph_id": 134,
+          "components": [
+            [
+              8,
+              53
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 4374,
+          "burnside_orbits": 4374
+        },
+        {
+          "graph_id": 135,
+          "components": [
+            [
+              8,
+              54
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 2025,
+          "burnside_orbits": 2025
+        },
+        {
+          "graph_id": 136,
+          "components": [
+            [
+              8,
+              55
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 1,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 6561,
+          "burnside_orbits": 6561
+        },
+        {
+          "graph_id": 137,
+          "components": [
+            [
+              8,
+              56
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 1,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 6561,
+          "burnside_orbits": 6561
+        },
+        {
+          "graph_id": 138,
+          "components": [
+            [
+              8,
+              57
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3645,
+          "burnside_orbits": 3645
+        },
+        {
+          "graph_id": 139,
+          "components": [
+            [
+              8,
+              58
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3645,
+          "burnside_orbits": 3645
+        },
+        {
+          "graph_id": 140,
+          "components": [
+            [
+              8,
+              59
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3402,
+          "burnside_orbits": 3402
+        },
+        {
+          "graph_id": 141,
+          "components": [
+            [
+              8,
+              60
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3645,
+          "burnside_orbits": 3645
+        },
+        {
+          "graph_id": 142,
+          "components": [
+            [
+              8,
+              61
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3645,
+          "burnside_orbits": 3645
+        },
+        {
+          "graph_id": 143,
+          "components": [
+            [
+              8,
+              62
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3645,
+          "burnside_orbits": 3645
+        },
+        {
+          "graph_id": 144,
+          "components": [
+            [
+              8,
+              63
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 1,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 6561,
+          "burnside_orbits": 6561
+        },
+        {
+          "graph_id": 145,
+          "components": [
+            [
+              8,
+              64
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3645,
+          "burnside_orbits": 3645
+        },
+        {
+          "graph_id": 146,
+          "components": [
+            [
+              8,
+              65
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 2430,
+          "burnside_orbits": 2430
+        },
+        {
+          "graph_id": 147,
+          "components": [
+            [
+              8,
+              66
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "automorphisms": 1,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 6561,
+          "burnside_orbits": 6561
+        },
+        {
+          "graph_id": 148,
+          "components": [
+            [
+              8,
+              67
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 4374,
+          "burnside_orbits": 4374
+        },
+        {
+          "graph_id": 149,
+          "components": [
+            [
+              8,
+              68
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 4374,
+          "burnside_orbits": 4374
+        },
+        {
+          "graph_id": 150,
+          "components": [
+            [
+              8,
+              69
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3645,
+          "burnside_orbits": 3645
+        },
+        {
+          "graph_id": 151,
+          "components": [
+            [
+              8,
+              70
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3645,
+          "burnside_orbits": 3645
+        },
+        {
+          "graph_id": 152,
+          "components": [
+            [
+              8,
+              71
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3645,
+          "burnside_orbits": 3645
+        },
+        {
+          "graph_id": 153,
+          "components": [
+            [
+              8,
+              72
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 1,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 6561,
+          "burnside_orbits": 6561
+        },
+        {
+          "graph_id": 154,
+          "components": [
+            [
+              8,
+              73
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 1944,
+          "burnside_orbits": 1944
+        },
+        {
+          "graph_id": 155,
+          "components": [
+            [
+              8,
+              74
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 1,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 6561,
+          "burnside_orbits": 6561
+        },
+        {
+          "graph_id": 156,
+          "components": [
+            [
+              8,
+              75
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3321,
+          "burnside_orbits": 3321
+        },
+        {
+          "graph_id": 157,
+          "components": [
+            [
+              8,
+              76
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3402,
+          "burnside_orbits": 3402
+        },
+        {
+          "graph_id": 158,
+          "components": [
+            [
+              8,
+              77
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 1,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 6561,
+          "burnside_orbits": 6561
+        },
+        {
+          "graph_id": 159,
+          "components": [
+            [
+              8,
+              78
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3645,
+          "burnside_orbits": 3645
+        },
+        {
+          "graph_id": 160,
+          "components": [
+            [
+              8,
+              79
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3645,
+          "burnside_orbits": 3645
+        },
+        {
+          "graph_id": 161,
+          "components": [
+            [
+              8,
+              80
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 1,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 6561,
+          "burnside_orbits": 6561
+        },
+        {
+          "graph_id": 162,
+          "components": [
+            [
+              8,
+              81
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 1,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 6561,
+          "burnside_orbits": 6561
+        },
+        {
+          "graph_id": 163,
+          "components": [
+            [
+              8,
+              82
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 1,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 6561,
+          "burnside_orbits": 6561
+        },
+        {
+          "graph_id": 164,
+          "components": [
+            [
+              8,
+              83
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 2268,
+          "burnside_orbits": 2268
+        },
+        {
+          "graph_id": 165,
+          "components": [
+            [
+              8,
+              84
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3402,
+          "burnside_orbits": 3402
+        },
+        {
+          "graph_id": 166,
+          "components": [
+            [
+              8,
+              85
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 8,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 1035,
+          "burnside_orbits": 1035
+        },
+        {
+          "graph_id": 167,
+          "components": [
+            [
+              8,
+              86
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3645,
+          "burnside_orbits": 3645
+        },
+        {
+          "graph_id": 168,
+          "components": [
+            [
+              8,
+              87
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 1,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 6561,
+          "burnside_orbits": 6561
+        },
+        {
+          "graph_id": 169,
+          "components": [
+            [
+              8,
+              88
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 16,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 498,
+          "burnside_orbits": 498
+        },
+        {
+          "graph_id": 170,
+          "components": [
+            [
+              8,
+              89
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3645,
+          "burnside_orbits": 3645
+        },
+        {
+          "graph_id": 171,
+          "components": [
+            [
+              8,
+              90
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3402,
+          "burnside_orbits": 3402
+        },
+        {
+          "graph_id": 172,
+          "components": [
+            [
+              8,
+              91
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3645,
+          "burnside_orbits": 3645
+        },
+        {
+          "graph_id": 173,
+          "components": [
+            [
+              8,
+              92
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3402,
+          "burnside_orbits": 3402
+        },
+        {
+          "graph_id": 174,
+          "components": [
+            [
+              8,
+              93
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 1,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 6561,
+          "burnside_orbits": 6561
+        },
+        {
+          "graph_id": 175,
+          "components": [
+            [
+              8,
+              94
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3645,
+          "burnside_orbits": 3645
+        },
+        {
+          "graph_id": 176,
+          "components": [
+            [
+              8,
+              95
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 1782,
+          "burnside_orbits": 1782
+        },
+        {
+          "graph_id": 177,
+          "components": [
+            [
+              8,
+              96
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ]
+          ],
+          "automorphisms": 48,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 267,
+          "burnside_orbits": 267
+        },
+        {
+          "graph_id": 178,
+          "components": [
+            [
+              8,
+              97
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 1944,
+          "burnside_orbits": 1944
+        },
+        {
+          "graph_id": 179,
+          "components": [
+            [
+              8,
+              98
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 14,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 594,
+          "burnside_orbits": 594
+        },
+        {
+          "graph_id": 180,
+          "components": [
+            [
+              8,
+              99
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 4,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 2025,
+          "burnside_orbits": 2025
+        },
+        {
+          "graph_id": 181,
+          "components": [
+            [
+              8,
+              100
+            ]
+          ],
+          "edges": [
+            [
+              0,
+              5
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "automorphisms": 2,
+          "valid_unsigned_axes": 6561,
+          "evaluated_axis_orbits": 3645,
+          "burnside_orbits": 3645
+        }
+      ]
+    }
+  ],
+  "started_utc": "2026-10-21T12:36:17.883252+00:00",
+  "finished_utc": "2026-10-21T12:43:47.447381+00:00",
+  "elapsed_seconds": 449.56414396400214,
+  "source_sha256": {
+    "core.py": "e1e616622ed8fb6cb0d62e5bc3b7f5a5e834b44520dbd6cb5f844172a9d71675",
+    "make_report.py": "e008b16623084971e19db0fd6174771ddc15e9468c93cf3aa7b60a7b2210ac6a",
+    "run_search.py": "1f60221f646554ae18b166e1de6f8c69f3f1bc196a88431be02fdc3bc61a7fe8",
+    "verify.py": "4585ca5b3248526aa1bcc822dbd004fd08cb1724e5a831dc5d457b04b43c5520",
+    "requirements.txt": "3375370eec2c6a1f458a4abab8f8f13f27981197d3b20cb8b14fb200dacf3fca",
+    "../fixed_clifford_sensors/engine.py": "99af3b6e76b22028650e183ad18774b92e6e10a45e32bd62a08fb742a45d7a07"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "optimality": "Exhaustive fixed-Clifford search modulo exact stabilizer/sign/graph reductions; numerical screening with rational contenders",
+  "tie_policy": "one witness per information-polynomial signature, first rational maximizer retained"
+}

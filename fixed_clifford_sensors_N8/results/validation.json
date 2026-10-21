@@ -1,0 +1,22 @@
+{
+  "verified_utc": "2026-10-21T12:44:06.827540+00:00",
+  "sign_checks": {
+    "8": {
+      "signed_assignments_checked": 305690112,
+      "identifiable_signed_assignments": 211286778,
+      "maximum_state_vector_QFIM_error": 0.0,
+      "random_signed_mixed_cases": 543,
+      "maximum_random_signed_mixed_QFIM_error": 5.995204332975845e-15,
+      "all_signs_mean_range_checked": true,
+      "all_unsigned_loss_supports_checked": true
+    }
+  },
+  "saved_protocols_dense_checked": 5,
+  "survivor_patterns_dense_checked": 1280,
+  "maximum_dense_QFIM_error": 3.1086244689504383e-15,
+  "maximum_dense_aggregate_error": 8.526512829121202e-14,
+  "verification_seed": 20261021,
+  "unequal_nonzero_phase_vector_error": 5.684341886080802e-14,
+  "rational_grid_rows_checked": 20,
+  "elapsed_seconds": 657.2219750240001
+}
