@@ -1,0 +1,15 @@
+{
+  "README.md": "16e081cf779d697e40198a1434184246f8ee3b113a60660bd149613971ad70be",
+  "engine.py": "99af3b6e76b22028650e183ad18774b92e6e10a45e32bd62a08fb742a45d7a07",
+  "make_report.py": "9fa28fdc087cbd8b68992879d9a9b865f51165c653aedd453ff691c858c11de4",
+  "requirements.txt": "3375370eec2c6a1f458a4abab8f8f13f27981197d3b20cb8b14fb200dacf3fca",
+  "results/best_by_lc_class.csv": "dbe8b30d8793b4071c39886a5cb8aed685e319a694dff3e69cb47b524ec12390",
+  "results/best_by_n_eta.csv": "a2642a21e1421284eb9285a09db5fa68b38501bed4718c44b8e1eb497f24b56d",
+  "results/performance.svg": "fed698205e44138dc97107a1cd6988a428488d385102d204e68adc87cc21989c",
+  "results/protocols.json": "ca17ddd98ed2c510372e81902e8373d36320c4ff693c6e3e5adfc507abdbda6d",
+  "results/report.md": "7ff76b146ec57eb2184de889ed910149c0f128dd40e99f43958d99d5afc6878b",
+  "results/summary.json": "67e0954ad5b88d34bf80f911585454bfbb1b997dc2d2180c47fec353d99b563e",
+  "results/validation.json": "0a5492138f2ec0a32989f1eef5ff65793a6913f1d60c83449e70230a13059cb4",
+  "run_search.py": "84124acdfb194e407a377a8abe419aa1a718036e9a1688016cbd7db4849299fa",
+  "verify.py": "3044ac30b3677644841acaa27d43e9aa25a09c781a0f24208a292082d5477c30"
+}

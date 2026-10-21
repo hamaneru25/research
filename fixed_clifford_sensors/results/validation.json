@@ -1,0 +1,166 @@
+{
+  "verified_utc": "2026-10-21T10:40:20.549153+00:00",
+  "saved_protocols_dense_checked": 13,
+  "saved_grid_rows_exact_checked": 100,
+  "maximum_dense_QFIM_error": 2.1094237467877974e-15,
+  "candidate_count": 94038,
+  "mathematical_tests_run": 7,
+  "mathematical_tests_passed": true,
+  "unreduced_comparison": {
+    "compared_configuration": {
+      "min_sensors": 1,
+      "max_sensors": 4,
+      "eta_min": "0.05",
+      "eta_max": "1",
+      "eta_points": 20,
+      "etas": "0,0.05,0.5,0.55,0.65,0.8,1",
+      "graph_reduction": "labeled",
+      "output": "check_labeled_n4",
+      "overwrite": false,
+      "eig_rtol": 1e-10,
+      "range_tol": 1e-08,
+      "tie_tol": 1e-10,
+      "log_every": 10000,
+      "eta_grid": [
+        "0",
+        "0.05",
+        "0.5",
+        "0.55",
+        "0.65",
+        "0.8",
+        "1"
+      ],
+      "fixed_before_loss": true,
+      "ancillas": 0,
+      "target": "arithmetic_mean",
+      "phase_generator": "Z/2",
+      "loss": "independent_flagged_erasure",
+      "phase_location": "after_loss",
+      "criterion": "inverse_mean_QCRB_per_generated_photon"
+    },
+    "compared_candidates": 84750,
+    "matched_rows": [
+      {
+        "n": 1,
+        "eta": "0.05",
+        "effective_information_exact": "1/20"
+      },
+      {
+        "n": 1,
+        "eta": "0.5",
+        "effective_information_exact": "1/2"
+      },
+      {
+        "n": 1,
+        "eta": "0.55",
+        "effective_information_exact": "11/20"
+      },
+      {
+        "n": 1,
+        "eta": "0.65",
+        "effective_information_exact": "13/20"
+      },
+      {
+        "n": 1,
+        "eta": "0.8",
+        "effective_information_exact": "4/5"
+      },
+      {
+        "n": 1,
+        "eta": "1",
+        "effective_information_exact": "1"
+      },
+      {
+        "n": 2,
+        "eta": "0.05",
+        "effective_information_exact": "1/10"
+      },
+      {
+        "n": 2,
+        "eta": "0.5",
+        "effective_information_exact": "1"
+      },
+      {
+        "n": 2,
+        "eta": "0.55",
+        "effective_information_exact": "121/100"
+      },
+      {
+        "n": 2,
+        "eta": "0.65",
+        "effective_information_exact": "169/100"
+      },
+      {
+        "n": 2,
+        "eta": "0.8",
+        "effective_information_exact": "64/25"
+      },
+      {
+        "n": 2,
+        "eta": "1",
+        "effective_information_exact": "4"
+      },
+      {
+        "n": 3,
+        "eta": "0.05",
+        "effective_information_exact": "3/20"
+      },
+      {
+        "n": 3,
+        "eta": "0.5",
+        "effective_information_exact": "3/2"
+      },
+      {
+        "n": 3,
+        "eta": "0.55",
+        "effective_information_exact": "1089/620"
+      },
+      {
+        "n": 3,
+        "eta": "0.65",
+        "effective_information_exact": "19773/8000"
+      },
+      {
+        "n": 3,
+        "eta": "0.8",
+        "effective_information_exact": "576/125"
+      },
+      {
+        "n": 3,
+        "eta": "1",
+        "effective_information_exact": "9"
+      },
+      {
+        "n": 4,
+        "eta": "0.05",
+        "effective_information_exact": "1/5"
+      },
+      {
+        "n": 4,
+        "eta": "0.5",
+        "effective_information_exact": "2"
+      },
+      {
+        "n": 4,
+        "eta": "0.55",
+        "effective_information_exact": "121/50"
+      },
+      {
+        "n": 4,
+        "eta": "0.65",
+        "effective_information_exact": "169/50"
+      },
+      {
+        "n": 4,
+        "eta": "0.8",
+        "effective_information_exact": "4096/625"
+      },
+      {
+        "n": 4,
+        "eta": "1",
+        "effective_information_exact": "16"
+      }
+    ],
+    "all_matched": true
+  }
+}
