@@ -1,0 +1,740 @@
+{
+  "verified_utc": "2026-10-21T12:12:51.793107+00:00",
+  "sign_checks": {
+    "6": {
+      "signed_assignments_checked": 1213056,
+      "identifiable_signed_assignments": 756338,
+      "maximum_state_vector_QFIM_error": 0.0,
+      "random_signed_mixed_cases": 76,
+      "maximum_random_signed_mixed_QFIM_error": 2.886579864025407e-15,
+      "all_signs_mean_range_checked": true,
+      "all_unsigned_loss_supports_checked": true
+    },
+    "7": {
+      "signed_assignments_checked": 16516224,
+      "identifiable_signed_assignments": 10491746,
+      "maximum_state_vector_QFIM_error": 1.1102230246251565e-16,
+      "random_signed_mixed_cases": 176,
+      "maximum_random_signed_mixed_QFIM_error": 3.4416913763379853e-15,
+      "all_signs_mean_range_checked": true,
+      "all_unsigned_loss_supports_checked": true
+    }
+  },
+  "saved_protocols_dense_checked": 9,
+  "survivor_patterns_dense_checked": 896,
+  "maximum_dense_QFIM_error": 3.219646771412954e-15,
+  "maximum_dense_aggregate_error": 2.842170943040401e-14,
+  "verification_seed": 20261021,
+  "unequal_nonzero_phase_vector_error": 2.842170943040401e-14,
+  "rational_grid_rows_checked": 40,
+  "graph_symmetry_reduction_comparison": {
+    "matched_rows": [
+      {
+        "n": 6,
+        "eta": "0.05",
+        "effective_information_exact": "3/10"
+      },
+      {
+        "n": 6,
+        "eta": "0.1",
+        "effective_information_exact": "3/5"
+      },
+      {
+        "n": 6,
+        "eta": "0.15",
+        "effective_information_exact": "9/10"
+      },
+      {
+        "n": 6,
+        "eta": "0.2",
+        "effective_information_exact": "6/5"
+      },
+      {
+        "n": 6,
+        "eta": "0.25",
+        "effective_information_exact": "3/2"
+      },
+      {
+        "n": 6,
+        "eta": "0.3",
+        "effective_information_exact": "9/5"
+      },
+      {
+        "n": 6,
+        "eta": "0.35",
+        "effective_information_exact": "21/10"
+      },
+      {
+        "n": 6,
+        "eta": "0.4",
+        "effective_information_exact": "12/5"
+      },
+      {
+        "n": 6,
+        "eta": "0.45",
+        "effective_information_exact": "27/10"
+      },
+      {
+        "n": 6,
+        "eta": "0.5",
+        "effective_information_exact": "3"
+      },
+      {
+        "n": 6,
+        "eta": "0.55",
+        "effective_information_exact": "363/100"
+      },
+      {
+        "n": 6,
+        "eta": "0.6",
+        "effective_information_exact": "108/25"
+      },
+      {
+        "n": 6,
+        "eta": "0.65",
+        "effective_information_exact": "507/100"
+      },
+      {
+        "n": 6,
+        "eta": "0.7",
+        "effective_information_exact": "3087/500"
+      },
+      {
+        "n": 6,
+        "eta": "0.75",
+        "effective_information_exact": "243/32"
+      },
+      {
+        "n": 6,
+        "eta": "0.8",
+        "effective_information_exact": "147456/15625"
+      },
+      {
+        "n": 6,
+        "eta": "0.85",
+        "effective_information_exact": "217238121/16000000"
+      },
+      {
+        "n": 6,
+        "eta": "0.9",
+        "effective_information_exact": "4782969/250000"
+      },
+      {
+        "n": 6,
+        "eta": "0.95",
+        "effective_information_exact": "423412929/16000000"
+      },
+      {
+        "n": 6,
+        "eta": "1",
+        "effective_information_exact": "36"
+      },
+      {
+        "n": 7,
+        "eta": "0.05",
+        "effective_information_exact": "7/20"
+      },
+      {
+        "n": 7,
+        "eta": "0.1",
+        "effective_information_exact": "7/10"
+      },
+      {
+        "n": 7,
+        "eta": "0.15",
+        "effective_information_exact": "21/20"
+      },
+      {
+        "n": 7,
+        "eta": "0.2",
+        "effective_information_exact": "7/5"
+      },
+      {
+        "n": 7,
+        "eta": "0.25",
+        "effective_information_exact": "7/4"
+      },
+      {
+        "n": 7,
+        "eta": "0.3",
+        "effective_information_exact": "21/10"
+      },
+      {
+        "n": 7,
+        "eta": "0.35",
+        "effective_information_exact": "49/20"
+      },
+      {
+        "n": 7,
+        "eta": "0.4",
+        "effective_information_exact": "14/5"
+      },
+      {
+        "n": 7,
+        "eta": "0.45",
+        "effective_information_exact": "63/20"
+      },
+      {
+        "n": 7,
+        "eta": "0.5",
+        "effective_information_exact": "7/2"
+      },
+      {
+        "n": 7,
+        "eta": "0.55",
+        "effective_information_exact": "5929/1420"
+      },
+      {
+        "n": 7,
+        "eta": "0.6",
+        "effective_information_exact": "49/10"
+      },
+      {
+        "n": 7,
+        "eta": "0.65",
+        "effective_information_exact": "107653/18400"
+      },
+      {
+        "n": 7,
+        "eta": "0.7",
+        "effective_information_exact": "16807/2400"
+      },
+      {
+        "n": 7,
+        "eta": "0.75",
+        "effective_information_exact": "567/64"
+      },
+      {
+        "n": 7,
+        "eta": "0.8",
+        "effective_information_exact": "12544/1125"
+      },
+      {
+        "n": 7,
+        "eta": "0.85",
+        "effective_information_exact": "20106594977/1280000000"
+      },
+      {
+        "n": 7,
+        "eta": "0.9",
+        "effective_information_exact": "234365481/10000000"
+      },
+      {
+        "n": 7,
+        "eta": "0.95",
+        "effective_information_exact": "43799715211/1280000000"
+      },
+      {
+        "n": 7,
+        "eta": "1",
+        "effective_information_exact": "49"
+      }
+    ],
+    "all_matched": true
+  },
+  "previous_N1_to_5_comparison": {
+    "matched_rows": [
+      {
+        "n": 1,
+        "eta": "0.05",
+        "effective_information_exact": "1/20"
+      },
+      {
+        "n": 1,
+        "eta": "0.1",
+        "effective_information_exact": "1/10"
+      },
+      {
+        "n": 1,
+        "eta": "0.15",
+        "effective_information_exact": "3/20"
+      },
+      {
+        "n": 1,
+        "eta": "0.2",
+        "effective_information_exact": "1/5"
+      },
+      {
+        "n": 1,
+        "eta": "0.25",
+        "effective_information_exact": "1/4"
+      },
+      {
+        "n": 1,
+        "eta": "0.3",
+        "effective_information_exact": "3/10"
+      },
+      {
+        "n": 1,
+        "eta": "0.35",
+        "effective_information_exact": "7/20"
+      },
+      {
+        "n": 1,
+        "eta": "0.4",
+        "effective_information_exact": "2/5"
+      },
+      {
+        "n": 1,
+        "eta": "0.45",
+        "effective_information_exact": "9/20"
+      },
+      {
+        "n": 1,
+        "eta": "0.5",
+        "effective_information_exact": "1/2"
+      },
+      {
+        "n": 1,
+        "eta": "0.55",
+        "effective_information_exact": "11/20"
+      },
+      {
+        "n": 1,
+        "eta": "0.6",
+        "effective_information_exact": "3/5"
+      },
+      {
+        "n": 1,
+        "eta": "0.65",
+        "effective_information_exact": "13/20"
+      },
+      {
+        "n": 1,
+        "eta": "0.7",
+        "effective_information_exact": "7/10"
+      },
+      {
+        "n": 1,
+        "eta": "0.75",
+        "effective_information_exact": "3/4"
+      },
+      {
+        "n": 1,
+        "eta": "0.8",
+        "effective_information_exact": "4/5"
+      },
+      {
+        "n": 1,
+        "eta": "0.85",
+        "effective_information_exact": "17/20"
+      },
+      {
+        "n": 1,
+        "eta": "0.9",
+        "effective_information_exact": "9/10"
+      },
+      {
+        "n": 1,
+        "eta": "0.95",
+        "effective_information_exact": "19/20"
+      },
+      {
+        "n": 1,
+        "eta": "1",
+        "effective_information_exact": "1"
+      },
+      {
+        "n": 2,
+        "eta": "0.05",
+        "effective_information_exact": "1/10"
+      },
+      {
+        "n": 2,
+        "eta": "0.1",
+        "effective_information_exact": "1/5"
+      },
+      {
+        "n": 2,
+        "eta": "0.15",
+        "effective_information_exact": "3/10"
+      },
+      {
+        "n": 2,
+        "eta": "0.2",
+        "effective_information_exact": "2/5"
+      },
+      {
+        "n": 2,
+        "eta": "0.25",
+        "effective_information_exact": "1/2"
+      },
+      {
+        "n": 2,
+        "eta": "0.3",
+        "effective_information_exact": "3/5"
+      },
+      {
+        "n": 2,
+        "eta": "0.35",
+        "effective_information_exact": "7/10"
+      },
+      {
+        "n": 2,
+        "eta": "0.4",
+        "effective_information_exact": "4/5"
+      },
+      {
+        "n": 2,
+        "eta": "0.45",
+        "effective_information_exact": "9/10"
+      },
+      {
+        "n": 2,
+        "eta": "0.5",
+        "effective_information_exact": "1"
+      },
+      {
+        "n": 2,
+        "eta": "0.55",
+        "effective_information_exact": "121/100"
+      },
+      {
+        "n": 2,
+        "eta": "0.6",
+        "effective_information_exact": "36/25"
+      },
+      {
+        "n": 2,
+        "eta": "0.65",
+        "effective_information_exact": "169/100"
+      },
+      {
+        "n": 2,
+        "eta": "0.7",
+        "effective_information_exact": "49/25"
+      },
+      {
+        "n": 2,
+        "eta": "0.75",
+        "effective_information_exact": "9/4"
+      },
+      {
+        "n": 2,
+        "eta": "0.8",
+        "effective_information_exact": "64/25"
+      },
+      {
+        "n": 2,
+        "eta": "0.85",
+        "effective_information_exact": "289/100"
+      },
+      {
+        "n": 2,
+        "eta": "0.9",
+        "effective_information_exact": "81/25"
+      },
+      {
+        "n": 2,
+        "eta": "0.95",
+        "effective_information_exact": "361/100"
+      },
+      {
+        "n": 2,
+        "eta": "1",
+        "effective_information_exact": "4"
+      },
+      {
+        "n": 3,
+        "eta": "0.05",
+        "effective_information_exact": "3/20"
+      },
+      {
+        "n": 3,
+        "eta": "0.1",
+        "effective_information_exact": "3/10"
+      },
+      {
+        "n": 3,
+        "eta": "0.15",
+        "effective_information_exact": "9/20"
+      },
+      {
+        "n": 3,
+        "eta": "0.2",
+        "effective_information_exact": "3/5"
+      },
+      {
+        "n": 3,
+        "eta": "0.25",
+        "effective_information_exact": "3/4"
+      },
+      {
+        "n": 3,
+        "eta": "0.3",
+        "effective_information_exact": "9/10"
+      },
+      {
+        "n": 3,
+        "eta": "0.35",
+        "effective_information_exact": "21/20"
+      },
+      {
+        "n": 3,
+        "eta": "0.4",
+        "effective_information_exact": "6/5"
+      },
+      {
+        "n": 3,
+        "eta": "0.45",
+        "effective_information_exact": "27/20"
+      },
+      {
+        "n": 3,
+        "eta": "0.5",
+        "effective_information_exact": "3/2"
+      },
+      {
+        "n": 3,
+        "eta": "0.55",
+        "effective_information_exact": "1089/620"
+      },
+      {
+        "n": 3,
+        "eta": "0.6",
+        "effective_information_exact": "81/40"
+      },
+      {
+        "n": 3,
+        "eta": "0.65",
+        "effective_information_exact": "19773/8000"
+      },
+      {
+        "n": 3,
+        "eta": "0.7",
+        "effective_information_exact": "3087/1000"
+      },
+      {
+        "n": 3,
+        "eta": "0.75",
+        "effective_information_exact": "243/64"
+      },
+      {
+        "n": 3,
+        "eta": "0.8",
+        "effective_information_exact": "576/125"
+      },
+      {
+        "n": 3,
+        "eta": "0.85",
+        "effective_information_exact": "44217/8000"
+      },
+      {
+        "n": 3,
+        "eta": "0.9",
+        "effective_information_exact": "6561/1000"
+      },
+      {
+        "n": 3,
+        "eta": "0.95",
+        "effective_information_exact": "61731/8000"
+      },
+      {
+        "n": 3,
+        "eta": "1",
+        "effective_information_exact": "9"
+      },
+      {
+        "n": 4,
+        "eta": "0.05",
+        "effective_information_exact": "1/5"
+      },
+      {
+        "n": 4,
+        "eta": "0.1",
+        "effective_information_exact": "2/5"
+      },
+      {
+        "n": 4,
+        "eta": "0.15",
+        "effective_information_exact": "3/5"
+      },
+      {
+        "n": 4,
+        "eta": "0.2",
+        "effective_information_exact": "4/5"
+      },
+      {
+        "n": 4,
+        "eta": "0.25",
+        "effective_information_exact": "1"
+      },
+      {
+        "n": 4,
+        "eta": "0.3",
+        "effective_information_exact": "6/5"
+      },
+      {
+        "n": 4,
+        "eta": "0.35",
+        "effective_information_exact": "7/5"
+      },
+      {
+        "n": 4,
+        "eta": "0.4",
+        "effective_information_exact": "8/5"
+      },
+      {
+        "n": 4,
+        "eta": "0.45",
+        "effective_information_exact": "9/5"
+      },
+      {
+        "n": 4,
+        "eta": "0.5",
+        "effective_information_exact": "2"
+      },
+      {
+        "n": 4,
+        "eta": "0.55",
+        "effective_information_exact": "121/50"
+      },
+      {
+        "n": 4,
+        "eta": "0.6",
+        "effective_information_exact": "72/25"
+      },
+      {
+        "n": 4,
+        "eta": "0.65",
+        "effective_information_exact": "169/50"
+      },
+      {
+        "n": 4,
+        "eta": "0.7",
+        "effective_information_exact": "98/25"
+      },
+      {
+        "n": 4,
+        "eta": "0.75",
+        "effective_information_exact": "81/16"
+      },
+      {
+        "n": 4,
+        "eta": "0.8",
+        "effective_information_exact": "4096/625"
+      },
+      {
+        "n": 4,
+        "eta": "0.85",
+        "effective_information_exact": "83521/10000"
+      },
+      {
+        "n": 4,
+        "eta": "0.9",
+        "effective_information_exact": "6561/625"
+      },
+      {
+        "n": 4,
+        "eta": "0.95",
+        "effective_information_exact": "130321/10000"
+      },
+      {
+        "n": 4,
+        "eta": "1",
+        "effective_information_exact": "16"
+      },
+      {
+        "n": 5,
+        "eta": "0.05",
+        "effective_information_exact": "1/4"
+      },
+      {
+        "n": 5,
+        "eta": "0.1",
+        "effective_information_exact": "1/2"
+      },
+      {
+        "n": 5,
+        "eta": "0.15",
+        "effective_information_exact": "3/4"
+      },
+      {
+        "n": 5,
+        "eta": "0.2",
+        "effective_information_exact": "1"
+      },
+      {
+        "n": 5,
+        "eta": "0.25",
+        "effective_information_exact": "5/4"
+      },
+      {
+        "n": 5,
+        "eta": "0.3",
+        "effective_information_exact": "3/2"
+      },
+      {
+        "n": 5,
+        "eta": "0.35",
+        "effective_information_exact": "7/4"
+      },
+      {
+        "n": 5,
+        "eta": "0.4",
+        "effective_information_exact": "2"
+      },
+      {
+        "n": 5,
+        "eta": "0.45",
+        "effective_information_exact": "9/4"
+      },
+      {
+        "n": 5,
+        "eta": "0.5",
+        "effective_information_exact": "5/2"
+      },
+      {
+        "n": 5,
+        "eta": "0.55",
+        "effective_information_exact": "605/204"
+      },
+      {
+        "n": 5,
+        "eta": "0.6",
+        "effective_information_exact": "45/13"
+      },
+      {
+        "n": 5,
+        "eta": "0.65",
+        "effective_information_exact": "2197/528"
+      },
+      {
+        "n": 5,
+        "eta": "0.7",
+        "effective_information_exact": "343/68"
+      },
+      {
+        "n": 5,
+        "eta": "0.75",
+        "effective_information_exact": "675/112"
+      },
+      {
+        "n": 5,
+        "eta": "0.8",
+        "effective_information_exact": "1024/125"
+      },
+      {
+        "n": 5,
+        "eta": "0.85",
+        "effective_information_exact": "1419857/128000"
+      },
+      {
+        "n": 5,
+        "eta": "0.9",
+        "effective_information_exact": "59049/4000"
+      },
+      {
+        "n": 5,
+        "eta": "0.95",
+        "effective_information_exact": "2476099/128000"
+      },
+      {
+        "n": 5,
+        "eta": "1",
+        "effective_information_exact": "25"
+      }
+    ],
+    "all_matched": true
+  }
+}
