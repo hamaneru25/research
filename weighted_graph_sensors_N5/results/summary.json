@@ -1,0 +1,114 @@
+{
+  "configuration": {
+    "sensors": 5,
+    "etas": "0.05,0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.5,0.55,0.6,0.65,0.7,0.75,0.8,0.85,0.9,0.95,1.0",
+    "uniform_points": 65,
+    "uniform_cache": "uniform_scan_seeds.json",
+    "topology_starts": 6,
+    "random_starts": 64,
+    "perturbed_starts": 16,
+    "seed": 20261022,
+    "maxiter": 400,
+    "gtol": 1e-08,
+    "ftol": 1e-12,
+    "ridge": 1e-10,
+    "de_etas": "0.5,0.6,0.65,0.7,0.75,0.8",
+    "de_maxiter": 100,
+    "de_popsize": 6,
+    "improvement_atol": 1e-07,
+    "improvement_rtol": 1e-07,
+    "output": "results",
+    "overwrite": true
+  },
+  "eta_grid": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    1.0
+  ],
+  "edge_order": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "unlabeled_graph_topologies": 34,
+  "uniform_weight_state_evaluations": 0,
+  "clifford_choices_per_weight_eta": 7776,
+  "evaluated_relative_signs_per_unsigned_axis": 16,
+  "local_optimization_runs": 1759,
+  "differential_evolution_runs": 6,
+  "updated_points": 16,
+  "maximum_relative_improvement": 0.22448606031445006,
+  "started_utc": "2026-10-21T15:16:02.199663+00:00",
+  "finished_utc": "2026-10-21T15:20:54.982298+00:00",
+  "elapsed_seconds": 292.782610602997,
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "source_sha256": {
+    "engine.py": "f470e3cb8c7025355ff70ee02050b2ea047fafa6d886b3a6fe47a713508b7d58",
+    "run_search.py": "09e1af8415967ade285be89c1f21f5152e4ff27196a331c217a0e858d53bcaa1",
+    "verify.py": "fe7c96a334ee0c86513d0bdc6fd0a2b8c80d56c6bb09140fad1ad2e763fa3c8c"
+  },
+  "scope": "5 sensors, all ten K5 controlled-phase weights independently variable modulo 2pi, fixed local Clifford, flagged IID erasure, independent phases arithmetic mean, all trials, QFI only.",
+  "optimality": "Improved feasible witnesses relative to exhaustive ordinary-graph/Clifford baseline; continuous global optimality NOT proved.",
+  "mixed_state_QFI": "General spectral SLD formula; no flat-spectrum stabilizer assumption.",
+  "graph_reduction": "Only vertex permutations for uniform scan (34 topologies). No weighted LC reduction.",
+  "uniform_cache_sha256": "835b22ff95f02970bd5ca9d9ac1f9ad45f1dec787dda9746f7a142984c736978",
+  "uniform_cached_states": 2210
+}

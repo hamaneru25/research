@@ -1,0 +1,18 @@
+{
+  "verified_utc": "2026-10-21T15:21:15.099552+00:00",
+  "seed": 20261022,
+  "kernel_physical_protocols": 12,
+  "loss_patterns_per_protocol": 32,
+  "maximum_kernel_QFIM_error": 2.55351295663786e-15,
+  "weight_gradient_checks": 3,
+  "maximum_weight_gradient_error": 3.0564053891957155e-11,
+  "literal_signed_Clifford_assignments_checked": 7776,
+  "maximum_Clifford_enumeration_error": 0.0,
+  "saved_winners_checked": 20,
+  "maximum_saved_QFIM_error": 1.587618925213974e-14,
+  "maximum_saved_score_error": 1.0658141036401503e-14,
+  "nonzero_independent_phase_checks": 3,
+  "maximum_nonzero_phase_QFIM_error": 1.7763568394002505e-15,
+  "earlier_baseline_points_matched": 20,
+  "all_checks_passed": true
+}
