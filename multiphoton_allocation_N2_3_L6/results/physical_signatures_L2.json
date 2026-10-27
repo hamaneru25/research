@@ -1,0 +1,1 @@
+[{"graph_id":0,"edges":[],"unsigned_axes":[2,2],"aligning_signs":[1,1],"blocks":[[0],[1]],"coefficients":[[0,1,1],[0,1,1]]},{"graph_id":1,"edges":[[0,1]],"unsigned_axes":[0,0],"aligning_signs":[1,1],"blocks":[[0],[1]],"coefficients":[[0,0,1],[0,0,1]]},{"graph_id":1,"edges":[[0,1]],"unsigned_axes":[0,2],"aligning_signs":[1,1],"blocks":[[0,1]],"coefficients":[[0,0,1]]}]

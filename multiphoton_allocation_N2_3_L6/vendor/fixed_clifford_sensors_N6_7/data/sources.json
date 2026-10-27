@@ -1,0 +1,44 @@
+[
+  {
+    "vertices": 1,
+    "connected_classes": 1,
+    "url": "https://www.codetables.de/larsed/vncorbits/vncorbits1.g6",
+    "sha256": "ecf5de1a2ecc66a1876a832804c64f6b5125784e94c82285d9720621c613ab46"
+  },
+  {
+    "vertices": 2,
+    "connected_classes": 1,
+    "url": "https://www.codetables.de/larsed/vncorbits/vncorbits2.g6",
+    "sha256": "fae4bfc454bd04363dcd5222772f2973b1193e1ff6f676e822a427323a677ef9"
+  },
+  {
+    "vertices": 3,
+    "connected_classes": 1,
+    "url": "https://www.codetables.de/larsed/vncorbits/vncorbits3.g6",
+    "sha256": "881159da90c6f28631b6a3eafd6d6d13cda0d0e4cc09d828374719d272f3da34"
+  },
+  {
+    "vertices": 4,
+    "connected_classes": 2,
+    "url": "https://www.codetables.de/larsed/vncorbits/vncorbits4.g6",
+    "sha256": "9879efc8c9b3235f2c57306a13c1f9548cf56e9795671a542f04b2a4dfc3c547"
+  },
+  {
+    "vertices": 5,
+    "connected_classes": 4,
+    "url": "https://www.codetables.de/larsed/vncorbits/vncorbits5.g6",
+    "sha256": "cb031d9b7c45046642715d9456b22b909624185e3abb0103e7e79cf8c33d53af"
+  },
+  {
+    "vertices": 6,
+    "connected_classes": 11,
+    "url": "https://www.codetables.de/larsed/vncorbits/vncorbits6.g6",
+    "sha256": "5a6dba6aec9a4ad3c02e0abcdca6af9589d8cd5cca44714c0a07cc60430ed222"
+  },
+  {
+    "vertices": 7,
+    "connected_classes": 26,
+    "url": "https://www.codetables.de/larsed/vncorbits/vncorbits7.g6",
+    "sha256": "db980752c571699473a557f689321bbd499e4c12ff75b38da8b3bed3bb6fda80"
+  }
+]

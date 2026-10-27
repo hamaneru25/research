@@ -1,0 +1,694 @@
+{
+  "configuration": {
+    "nodes": [
+      2,
+      3
+    ],
+    "max_total_generated_photons": 6,
+    "eta_grid": [
+      "0.05",
+      "0.1",
+      "0.15",
+      "0.2",
+      "0.25",
+      "0.3",
+      "0.35",
+      "0.4",
+      "0.45",
+      "0.5",
+      "0.55",
+      "0.6",
+      "0.65",
+      "0.7",
+      "0.75",
+      "0.8",
+      "0.85",
+      "0.9",
+      "0.95",
+      "1"
+    ],
+    "edge_weight": "pi",
+    "ancillas": 0,
+    "adaptive_input": false,
+    "setting_mixture": false,
+    "allocation": "all positive allocations; zero at any unknown node cannot identify the mean",
+    "loss": "independent polarization-blind flagged erasure with common eta",
+    "target": "unweighted arithmetic mean of N independent unknown node phases",
+    "resource": "actual L generated sensor photons, including lost ones",
+    "objective": "R=1/(L*w^T*Qbar^+*w); w=(1/N,...,1/N); range checked",
+    "readout": "SLD QFIM bound, without a local-measurement restriction",
+    "tie_policy": "minimum L among exact best per-photon scores"
+  },
+  "search_statistics": [
+    {
+      "N": 2,
+      "L": 2,
+      "node_set_partitions": 1,
+      "allocations_modulo_node_permutation": [
+        [
+          1,
+          1
+        ]
+      ],
+      "relative_sign_patterns": 2,
+      "generated_grouped_signed_profiles": 6,
+      "unidentifiable_without_loss": 1,
+      "unique_node_QFIM_polynomials": 3,
+      "ghz_unique_polynomials": 2,
+      "physical_search": {
+        "photons": 2,
+        "LC_graphs": 2,
+        "physical_signatures": 3,
+        "graphs": [
+          {
+            "graph_id": 0,
+            "evaluated_unsigned_axes": 1
+          },
+          {
+            "graph_id": 1,
+            "evaluated_unsigned_axes": 9
+          }
+        ],
+        "seconds": 0.0013781310008198489
+      },
+      "seconds": 0.017641409000134445
+    },
+    {
+      "N": 2,
+      "L": 3,
+      "node_set_partitions": 3,
+      "allocations_modulo_node_permutation": [
+        [
+          1,
+          2
+        ]
+      ],
+      "relative_sign_patterns": 4,
+      "generated_grouped_signed_profiles": 84,
+      "unidentifiable_without_loss": 16,
+      "unique_node_QFIM_polynomials": 12,
+      "ghz_unique_polynomials": 4,
+      "physical_search": {
+        "photons": 3,
+        "LC_graphs": 3,
+        "physical_signatures": 7,
+        "graphs": [
+          {
+            "graph_id": 0,
+            "evaluated_unsigned_axes": 1
+          },
+          {
+            "graph_id": 1,
+            "evaluated_unsigned_axes": 9
+          },
+          {
+            "graph_id": 2,
+            "evaluated_unsigned_axes": 27
+          }
+        ],
+        "seconds": 0.0036916760000167415
+      },
+      "seconds": 0.022813966999819968
+    },
+    {
+      "N": 2,
+      "L": 4,
+      "node_set_partitions": 7,
+      "allocations_modulo_node_permutation": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "relative_sign_patterns": 8,
+      "generated_grouped_signed_profiles": 1176,
+      "unidentifiable_without_loss": 125,
+      "unique_node_QFIM_polynomials": 99,
+      "ghz_unique_polynomials": 23,
+      "physical_search": {
+        "photons": 4,
+        "LC_graphs": 6,
+        "physical_signatures": 21,
+        "graphs": [
+          {
+            "graph_id": 0,
+            "evaluated_unsigned_axes": 1
+          },
+          {
+            "graph_id": 1,
+            "evaluated_unsigned_axes": 9
+          },
+          {
+            "graph_id": 2,
+            "evaluated_unsigned_axes": 27
+          },
+          {
+            "graph_id": 3,
+            "evaluated_unsigned_axes": 81
+          },
+          {
+            "graph_id": 4,
+            "evaluated_unsigned_axes": 81
+          },
+          {
+            "graph_id": 5,
+            "evaluated_unsigned_axes": 81
+          }
+        ],
+        "seconds": 0.025034043999767164
+      },
+      "seconds": 0.0989937349995671
+    },
+    {
+      "N": 2,
+      "L": 5,
+      "node_set_partitions": 15,
+      "allocations_modulo_node_permutation": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "relative_sign_patterns": 16,
+      "generated_grouped_signed_profiles": 15840,
+      "unidentifiable_without_loss": 928,
+      "unique_node_QFIM_polynomials": 734,
+      "ghz_unique_polynomials": 68,
+      "physical_search": {
+        "photons": 5,
+        "LC_graphs": 11,
+        "physical_signatures": 66,
+        "graphs": [
+          {
+            "graph_id": 0,
+            "evaluated_unsigned_axes": 1
+          },
+          {
+            "graph_id": 1,
+            "evaluated_unsigned_axes": 9
+          },
+          {
+            "graph_id": 2,
+            "evaluated_unsigned_axes": 27
+          },
+          {
+            "graph_id": 3,
+            "evaluated_unsigned_axes": 81
+          },
+          {
+            "graph_id": 4,
+            "evaluated_unsigned_axes": 81
+          },
+          {
+            "graph_id": 5,
+            "evaluated_unsigned_axes": 81
+          },
+          {
+            "graph_id": 6,
+            "evaluated_unsigned_axes": 243
+          },
+          {
+            "graph_id": 7,
+            "evaluated_unsigned_axes": 243
+          },
+          {
+            "graph_id": 8,
+            "evaluated_unsigned_axes": 243
+          },
+          {
+            "graph_id": 9,
+            "evaluated_unsigned_axes": 243
+          },
+          {
+            "graph_id": 10,
+            "evaluated_unsigned_axes": 243
+          }
+        ],
+        "seconds": 0.1613077730007717
+      },
+      "seconds": 0.5911853930001598
+    },
+    {
+      "N": 2,
+      "L": 6,
+      "node_set_partitions": 31,
+      "allocations_modulo_node_permutation": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "relative_sign_patterns": 32,
+      "generated_grouped_signed_profiles": 264864,
+      "unidentifiable_without_loss": 8100,
+      "unique_node_QFIM_polynomials": 5667,
+      "ghz_unique_polynomials": 217,
+      "physical_search": {
+        "photons": 6,
+        "LC_graphs": 26,
+        "physical_signatures": 267,
+        "graphs": [
+          {
+            "graph_id": 0,
+            "evaluated_unsigned_axes": 1
+          },
+          {
+            "graph_id": 1,
+            "evaluated_unsigned_axes": 9
+          },
+          {
+            "graph_id": 2,
+            "evaluated_unsigned_axes": 27
+          },
+          {
+            "graph_id": 3,
+            "evaluated_unsigned_axes": 81
+          },
+          {
+            "graph_id": 4,
+            "evaluated_unsigned_axes": 81
+          },
+          {
+            "graph_id": 5,
+            "evaluated_unsigned_axes": 81
+          },
+          {
+            "graph_id": 6,
+            "evaluated_unsigned_axes": 243
+          },
+          {
+            "graph_id": 7,
+            "evaluated_unsigned_axes": 243
+          },
+          {
+            "graph_id": 8,
+            "evaluated_unsigned_axes": 243
+          },
+          {
+            "graph_id": 9,
+            "evaluated_unsigned_axes": 243
+          },
+          {
+            "graph_id": 10,
+            "evaluated_unsigned_axes": 243
+          },
+          {
+            "graph_id": 11,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 12,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 13,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 14,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 15,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 16,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 17,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 18,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 19,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 20,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 21,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 22,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 23,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 24,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 25,
+            "evaluated_unsigned_axes": 729
+          }
+        ],
+        "seconds": 1.7214479869999195
+      },
+      "seconds": 6.769745213000533
+    },
+    {
+      "N": 3,
+      "L": 3,
+      "node_set_partitions": 1,
+      "allocations_modulo_node_permutation": [
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "relative_sign_patterns": 4,
+      "generated_grouped_signed_profiles": 28,
+      "unidentifiable_without_loss": 7,
+      "unique_node_QFIM_polynomials": 7,
+      "ghz_unique_polynomials": 3,
+      "physical_search": {
+        "photons": 3,
+        "LC_graphs": 3,
+        "physical_signatures": 7,
+        "graphs": [
+          {
+            "graph_id": 0,
+            "evaluated_unsigned_axes": 1
+          },
+          {
+            "graph_id": 1,
+            "evaluated_unsigned_axes": 9
+          },
+          {
+            "graph_id": 2,
+            "evaluated_unsigned_axes": 27
+          }
+        ],
+        "seconds": 0.0036916760000167415
+      },
+      "seconds": 0.0252969530001792
+    },
+    {
+      "N": 3,
+      "L": 4,
+      "node_set_partitions": 6,
+      "allocations_modulo_node_permutation": [
+        [
+          1,
+          1,
+          2
+        ]
+      ],
+      "relative_sign_patterns": 8,
+      "generated_grouped_signed_profiles": 1008,
+      "unidentifiable_without_loss": 256,
+      "unique_node_QFIM_polynomials": 54,
+      "ghz_unique_polynomials": 8,
+      "physical_search": {
+        "photons": 4,
+        "LC_graphs": 6,
+        "physical_signatures": 21,
+        "graphs": [
+          {
+            "graph_id": 0,
+            "evaluated_unsigned_axes": 1
+          },
+          {
+            "graph_id": 1,
+            "evaluated_unsigned_axes": 9
+          },
+          {
+            "graph_id": 2,
+            "evaluated_unsigned_axes": 27
+          },
+          {
+            "graph_id": 3,
+            "evaluated_unsigned_axes": 81
+          },
+          {
+            "graph_id": 4,
+            "evaluated_unsigned_axes": 81
+          },
+          {
+            "graph_id": 5,
+            "evaluated_unsigned_axes": 81
+          }
+        ],
+        "seconds": 0.025034043999767164
+      },
+      "seconds": 0.07774140699984855
+    },
+    {
+      "N": 3,
+      "L": 5,
+      "node_set_partitions": 25,
+      "allocations_modulo_node_permutation": [
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          2
+        ]
+      ],
+      "relative_sign_patterns": 16,
+      "generated_grouped_signed_profiles": 26400,
+      "unidentifiable_without_loss": 3566,
+      "unique_node_QFIM_polynomials": 805,
+      "ghz_unique_polynomials": 53,
+      "physical_search": {
+        "photons": 5,
+        "LC_graphs": 11,
+        "physical_signatures": 66,
+        "graphs": [
+          {
+            "graph_id": 0,
+            "evaluated_unsigned_axes": 1
+          },
+          {
+            "graph_id": 1,
+            "evaluated_unsigned_axes": 9
+          },
+          {
+            "graph_id": 2,
+            "evaluated_unsigned_axes": 27
+          },
+          {
+            "graph_id": 3,
+            "evaluated_unsigned_axes": 81
+          },
+          {
+            "graph_id": 4,
+            "evaluated_unsigned_axes": 81
+          },
+          {
+            "graph_id": 5,
+            "evaluated_unsigned_axes": 81
+          },
+          {
+            "graph_id": 6,
+            "evaluated_unsigned_axes": 243
+          },
+          {
+            "graph_id": 7,
+            "evaluated_unsigned_axes": 243
+          },
+          {
+            "graph_id": 8,
+            "evaluated_unsigned_axes": 243
+          },
+          {
+            "graph_id": 9,
+            "evaluated_unsigned_axes": 243
+          },
+          {
+            "graph_id": 10,
+            "evaluated_unsigned_axes": 243
+          }
+        ],
+        "seconds": 0.1613077730007717
+      },
+      "seconds": 1.2701276339994365
+    },
+    {
+      "N": 3,
+      "L": 6,
+      "node_set_partitions": 90,
+      "allocations_modulo_node_permutation": [
+        [
+          1,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          2,
+          2
+        ]
+      ],
+      "relative_sign_patterns": 32,
+      "generated_grouped_signed_profiles": 768960,
+      "unidentifiable_without_loss": 66893,
+      "unique_node_QFIM_polynomials": 10583,
+      "ghz_unique_polynomials": 238,
+      "physical_search": {
+        "photons": 6,
+        "LC_graphs": 26,
+        "physical_signatures": 267,
+        "graphs": [
+          {
+            "graph_id": 0,
+            "evaluated_unsigned_axes": 1
+          },
+          {
+            "graph_id": 1,
+            "evaluated_unsigned_axes": 9
+          },
+          {
+            "graph_id": 2,
+            "evaluated_unsigned_axes": 27
+          },
+          {
+            "graph_id": 3,
+            "evaluated_unsigned_axes": 81
+          },
+          {
+            "graph_id": 4,
+            "evaluated_unsigned_axes": 81
+          },
+          {
+            "graph_id": 5,
+            "evaluated_unsigned_axes": 81
+          },
+          {
+            "graph_id": 6,
+            "evaluated_unsigned_axes": 243
+          },
+          {
+            "graph_id": 7,
+            "evaluated_unsigned_axes": 243
+          },
+          {
+            "graph_id": 8,
+            "evaluated_unsigned_axes": 243
+          },
+          {
+            "graph_id": 9,
+            "evaluated_unsigned_axes": 243
+          },
+          {
+            "graph_id": 10,
+            "evaluated_unsigned_axes": 243
+          },
+          {
+            "graph_id": 11,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 12,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 13,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 14,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 15,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 16,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 17,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 18,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 19,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 20,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 21,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 22,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 23,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 24,
+            "evaluated_unsigned_axes": 729
+          },
+          {
+            "graph_id": 25,
+            "evaluated_unsigned_axes": 729
+          }
+        ],
+        "seconds": 1.7214479869999195
+      },
+      "seconds": 29.957455376000325
+    }
+  ],
+  "total_seconds": 38.84954413700052,
+  "finished_utc": "2026-10-27T06:13:42.244666+00:00",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "source_sha256": {
+    "make_report.py": "dc58915f3db34d01fe95da853ca556da69c70df8d2628b42cc1c39a8e963e12e",
+    "run_search.py": "466f2f81b718e9095d19d62c5eb8ad423dfc6d4d82a3cdf03080138222abced7",
+    "vendor/fixed_clifford_sensors/engine.py": "99af3b6e76b22028650e183ad18774b92e6e10a45e32bd62a08fb742a45d7a07",
+    "vendor/fixed_clifford_sensors_N6_7/core.py": "927c87173a04248cb4231305de0ff13e8c8aeb2b4faae7e2e4e93ecc6a45a115",
+    "verify.py": "f3989e42bd6d58dec9350fa9ae87db42418be6a107b30803d2c55567d92af98d"
+  },
+  "optimality_scope": "All ordinary graph states, fixed local Cliffords, and photon allocations at each N,L, on the specified eta grid. Exact GHZ domination certificates are generated by verify.py."
+}
