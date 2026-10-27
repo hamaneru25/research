@@ -11,13 +11,16 @@ import matplotlib.pyplot as plt
 ROOT=Path(__file__).resolve().parent
 sys.path.insert(0,str(ROOT.parent))
 from fixed_clifford_sensors.engine import GATES
+from make_graphs import make_graphs
 
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--results',type=Path,default=ROOT/'results')
     p.add_argument('--preview',type=Path,help='Optional PNG preview for visual inspection')
+    p.add_argument('--graph-threshold',type=float,default=1e-4,help='Graph display only; saved state is not rounded')
     a=p.parse_args();out=a.results
+    make_graphs(out,a.graph_threshold)
     rows=list(csv.DictReader((out/'best_by_eta.csv').open()))
     s=json.loads((out/'summary.json').read_text());v=json.loads((out/'validation.json').read_text())
     protocols=json.loads((out/'protocols.json').read_text())
@@ -77,6 +80,14 @@ def main():
            '```bash','python simple_witness.py --eta 0.5 --phi 0.6666666666666666','```','',
            '各etaの数値最良構成はbest_protocols.csvに10辺の重みと5個の局所ゲートを保存した。',
            '読み出し測定基底の最適化をした結果ではない。','',
+           '## 各透過率のグラフ構造','',
+           '![5センサの重み付きグラフ一覧](graphs_N5.svg)','',
+           '各パネルは保存済みの最良発見構成。節点番号は0〜4、全てセンサ。',
+           '青は正、赤は負の主値角（−π以上π未満）。辺の太さは角度の絶対値に対応。',
+           '下のゲート列は頂点番号順の局所Cliffordで、ゲート積は右から作用する。',
+           f'図だけは絶対値{a.graph_threshold:g} rad以下の辺を省略。元の重み・スコアは変更していない。',
+           '構造名は描画閾値に基づく分類であり、厳密な零重みや対称性の証明ではない。','',
+           '[描画した辺と構造の一覧](graph_structures.json) ／ [全辺の正確な重みとゲート](best_protocols.csv)','',
            '## 探索方法','',
            f"- 共通重みの粗い探索：全{s['unlabeled_graph_topologies']}同型代表×{s['configuration']['uniform_points']}重み×{len(rows)}生存確率。π以外にLC削減は使わない。",
            '- 個別重み：全10辺の位相を独立に変え、辺なしも含む。',
@@ -105,3 +116,4 @@ def main():
     print(out/'report.md')
 
 if __name__=='__main__':main()
+

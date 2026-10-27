@@ -4,6 +4,8 @@
 局所回転はCliffordに限定する。全試行で同じ状態・回転を使い、補助や設定混合は使わない。
 
 - [結果レポート](results/report.md)
+- [透過率ごとのグラフ図（全20点）](results/graphs_N5.svg)
+- [描画した辺と構造の一覧](results/graph_structures.json)
 - [既存最適値との数値比較](results/best_by_eta.csv)
 - [各辺の重み・局所ゲートの表](results/best_protocols.csv)
 - [全損失パターンのQFIM](results/protocols.json)
@@ -138,5 +140,18 @@ protocols.jsonの`weights_rad`は`edge_order`の順。番号は0始まり。
 |-Z|X|
 
 `best_protocols.csv`には各etaの10辺の重みと5センサのゲートを同時に保存する。
+`results/graphs_N5.svg`には各etaの構造を図示する。青は正、赤は負の主値角（−π以上π未満）、
+辺の太さは角度の絶対値。下のゲート列は頂点番号順で、積は右から作用する。
+図だけは絶対値1e-4 rad以下の辺を省略し、計算結果と元の保存重みは変更しない。
+描画上の構造名はこの閾値で分類したもので、厳密な零重みを意味しない。
+
+図だけを再生成する場合（最適化は実行しない）：
+
+```bash
+python make_graphs.py --results results --graph-threshold 1e-4
+```
+
+`make_report.py`も同じ図と`graph_structures.json`を生成する。
 全32生存パターンのQFIMでは、マスクのビットiがセンサiの生存を表す。
 密度行列のテンソル順ではセンサ0が左端。
+
