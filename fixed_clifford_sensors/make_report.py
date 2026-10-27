@@ -6,6 +6,7 @@ from pathlib import Path
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+from make_graphs import make_graphs, graph_report_lines
 
 
 def main():
@@ -70,9 +71,12 @@ def main():
               "- 指標は平均位相のQCRB。平均が識別不能な場合は有効情報ゼロ。",
               "- 辺の生成コスト、操作誤差、検出器不完全性は含めない。",
               "- センサの読み出し測定基底や、局所測定による達成可能性は未探索。", ""]
+    make_graphs(results)
+    lines += graph_report_lines()
     (results/"report.md").write_text("\n".join(lines), encoding="utf-8")
     print(results/"report.md")
 
 
 if __name__ == "__main__":
     main()
+

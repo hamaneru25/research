@@ -1,0 +1,1096 @@
+{
+  "deduplication": "exact graph isomorphism at the same vertex count; not LC equivalence",
+  "selected_grid_rows": 100,
+  "unique_structures": 13,
+  "structures": [
+    {
+      "structure_id": "N1_S01",
+      "n": 1,
+      "representative_protocol_id": "N1_g0_pY",
+      "edges": [],
+      "sensor_gates": [
+        "HSdg"
+      ],
+      "effective_axes": [
+        "+Y"
+      ],
+      "components": [
+        [
+          0
+        ]
+      ],
+      "variants": [
+        {
+          "protocol_id": "N1_g0_pY",
+          "original_to_diagram": [
+            0
+          ],
+          "gates_in_diagram_order": [
+            "HSdg"
+          ],
+          "axes_in_diagram_order": [
+            "+Y"
+          ],
+          "eta_values": [
+            0.05,
+            0.1,
+            0.15,
+            0.2,
+            0.25,
+            0.3,
+            0.35,
+            0.4,
+            0.45,
+            0.5,
+            0.55,
+            0.6,
+            0.65,
+            0.7,
+            0.75,
+            0.8,
+            0.85,
+            0.9,
+            0.95,
+            1.0
+          ],
+          "R_by_eta": {
+            "0.05": 0.05,
+            "0.1": 0.1,
+            "0.15": 0.15,
+            "0.2": 0.2,
+            "0.25": 0.25,
+            "0.3": 0.3,
+            "0.35": 0.35,
+            "0.4": 0.4,
+            "0.45": 0.45,
+            "0.5": 0.5,
+            "0.55": 0.55,
+            "0.6": 0.6,
+            "0.65": 0.65,
+            "0.7": 0.7,
+            "0.75": 0.75,
+            "0.8": 0.8,
+            "0.85": 0.85,
+            "0.9": 0.9,
+            "0.95": 0.95,
+            "1": 1.0
+          }
+        }
+      ],
+      "eta_values": [
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5,
+        0.55,
+        0.6,
+        0.65,
+        0.7,
+        0.75,
+        0.8,
+        0.85,
+        0.9,
+        0.95,
+        1.0
+      ]
+    },
+    {
+      "structure_id": "N2_S01",
+      "n": 2,
+      "representative_protocol_id": "N2_g0_pY_pY",
+      "edges": [],
+      "sensor_gates": [
+        "HSdg",
+        "HSdg"
+      ],
+      "effective_axes": [
+        "+Y",
+        "+Y"
+      ],
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "variants": [
+        {
+          "protocol_id": "N2_g0_pY_pY",
+          "original_to_diagram": [
+            0,
+            1
+          ],
+          "gates_in_diagram_order": [
+            "HSdg",
+            "HSdg"
+          ],
+          "axes_in_diagram_order": [
+            "+Y",
+            "+Y"
+          ],
+          "eta_values": [
+            0.05,
+            0.1,
+            0.15,
+            0.2,
+            0.25,
+            0.3,
+            0.35,
+            0.4,
+            0.45,
+            0.5
+          ],
+          "R_by_eta": {
+            "0.05": 0.05,
+            "0.1": 0.1,
+            "0.15": 0.15,
+            "0.2": 0.2,
+            "0.25": 0.25,
+            "0.3": 0.3,
+            "0.35": 0.35,
+            "0.4": 0.4,
+            "0.45": 0.45,
+            "0.5": 0.5
+          }
+        }
+      ],
+      "eta_values": [
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5
+      ]
+    },
+    {
+      "structure_id": "N2_S02",
+      "n": 2,
+      "representative_protocol_id": "N2_g1_pX_pZ",
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "sensor_gates": [
+        "H",
+        "I"
+      ],
+      "effective_axes": [
+        "+X",
+        "+Z"
+      ],
+      "components": [
+        [
+          0,
+          1
+        ]
+      ],
+      "variants": [
+        {
+          "protocol_id": "N2_g1_pX_pZ",
+          "original_to_diagram": [
+            0,
+            1
+          ],
+          "gates_in_diagram_order": [
+            "H",
+            "I"
+          ],
+          "axes_in_diagram_order": [
+            "+X",
+            "+Z"
+          ],
+          "eta_values": [
+            0.55,
+            0.6,
+            0.65,
+            0.7,
+            0.75,
+            0.8,
+            0.85,
+            0.9,
+            0.95,
+            1.0
+          ],
+          "R_by_eta": {
+            "0.55": 0.605,
+            "0.6": 0.72,
+            "0.65": 0.845,
+            "0.7": 0.98,
+            "0.75": 1.125,
+            "0.8": 1.28,
+            "0.85": 1.445,
+            "0.9": 1.62,
+            "0.95": 1.805,
+            "1": 2.0
+          }
+        }
+      ],
+      "eta_values": [
+        0.55,
+        0.6,
+        0.65,
+        0.7,
+        0.75,
+        0.8,
+        0.85,
+        0.9,
+        0.95,
+        1.0
+      ]
+    },
+    {
+      "structure_id": "N3_S01",
+      "n": 3,
+      "representative_protocol_id": "N3_g0_pY_pY_pY",
+      "edges": [],
+      "sensor_gates": [
+        "HSdg",
+        "HSdg",
+        "HSdg"
+      ],
+      "effective_axes": [
+        "+Y",
+        "+Y",
+        "+Y"
+      ],
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "variants": [
+        {
+          "protocol_id": "N3_g0_pY_pY_pY",
+          "original_to_diagram": [
+            0,
+            1,
+            2
+          ],
+          "gates_in_diagram_order": [
+            "HSdg",
+            "HSdg",
+            "HSdg"
+          ],
+          "axes_in_diagram_order": [
+            "+Y",
+            "+Y",
+            "+Y"
+          ],
+          "eta_values": [
+            0.05,
+            0.1,
+            0.15,
+            0.2,
+            0.25,
+            0.3,
+            0.35,
+            0.4,
+            0.45,
+            0.5
+          ],
+          "R_by_eta": {
+            "0.05": 0.05,
+            "0.1": 0.1,
+            "0.15": 0.15,
+            "0.2": 0.2,
+            "0.25": 0.25,
+            "0.3": 0.3,
+            "0.35": 0.35,
+            "0.4": 0.4,
+            "0.45": 0.45,
+            "0.5": 0.5
+          }
+        }
+      ],
+      "eta_values": [
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5
+      ]
+    },
+    {
+      "structure_id": "N3_S02",
+      "n": 3,
+      "representative_protocol_id": "N3_g1_pX_pZ_pY",
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "sensor_gates": [
+        "H",
+        "I",
+        "HSdg"
+      ],
+      "effective_axes": [
+        "+X",
+        "+Z",
+        "+Y"
+      ],
+      "components": [
+        [
+          0,
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "variants": [
+        {
+          "protocol_id": "N3_g1_pX_pZ_pY",
+          "original_to_diagram": [
+            0,
+            1,
+            2
+          ],
+          "gates_in_diagram_order": [
+            "H",
+            "I",
+            "HSdg"
+          ],
+          "axes_in_diagram_order": [
+            "+X",
+            "+Z",
+            "+Y"
+          ],
+          "eta_values": [
+            0.55,
+            0.6
+          ],
+          "R_by_eta": {
+            "0.55": 0.5854838709677419,
+            "0.6": 0.675
+          }
+        }
+      ],
+      "eta_values": [
+        0.55,
+        0.6
+      ]
+    },
+    {
+      "structure_id": "N3_S03",
+      "n": 3,
+      "representative_protocol_id": "N3_g3_pZ_pX_pX",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "sensor_gates": [
+        "I",
+        "H",
+        "H"
+      ],
+      "effective_axes": [
+        "+Z",
+        "+X",
+        "+X"
+      ],
+      "components": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "variants": [
+        {
+          "protocol_id": "N3_g3_pZ_pX_pX",
+          "original_to_diagram": [
+            0,
+            1,
+            2
+          ],
+          "gates_in_diagram_order": [
+            "I",
+            "H",
+            "H"
+          ],
+          "axes_in_diagram_order": [
+            "+Z",
+            "+X",
+            "+X"
+          ],
+          "eta_values": [
+            0.65,
+            0.7,
+            0.75,
+            0.8,
+            0.85,
+            0.9,
+            0.95,
+            1.0
+          ],
+          "R_by_eta": {
+            "0.65": 0.823875,
+            "0.7": 1.029,
+            "0.75": 1.265625,
+            "0.8": 1.536,
+            "0.85": 1.842375,
+            "0.9": 2.187,
+            "0.95": 2.572125,
+            "1": 3.0
+          }
+        }
+      ],
+      "eta_values": [
+        0.65,
+        0.7,
+        0.75,
+        0.8,
+        0.85,
+        0.9,
+        0.95,
+        1.0
+      ]
+    },
+    {
+      "structure_id": "N4_S01",
+      "n": 4,
+      "representative_protocol_id": "N4_g0_pY_pY_pY_pY",
+      "edges": [],
+      "sensor_gates": [
+        "HSdg",
+        "HSdg",
+        "HSdg",
+        "HSdg"
+      ],
+      "effective_axes": [
+        "+Y",
+        "+Y",
+        "+Y",
+        "+Y"
+      ],
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "variants": [
+        {
+          "protocol_id": "N4_g0_pY_pY_pY_pY",
+          "original_to_diagram": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "gates_in_diagram_order": [
+            "HSdg",
+            "HSdg",
+            "HSdg",
+            "HSdg"
+          ],
+          "axes_in_diagram_order": [
+            "+Y",
+            "+Y",
+            "+Y",
+            "+Y"
+          ],
+          "eta_values": [
+            0.05,
+            0.1,
+            0.15,
+            0.2,
+            0.25,
+            0.3,
+            0.35,
+            0.4,
+            0.45,
+            0.5
+          ],
+          "R_by_eta": {
+            "0.05": 0.05,
+            "0.1": 0.1,
+            "0.15": 0.15,
+            "0.2": 0.2,
+            "0.25": 0.25,
+            "0.3": 0.3,
+            "0.35": 0.35,
+            "0.4": 0.4,
+            "0.45": 0.45,
+            "0.5": 0.5
+          }
+        }
+      ],
+      "eta_values": [
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5
+      ]
+    },
+    {
+      "structure_id": "N4_S02",
+      "n": 4,
+      "representative_protocol_id": "N4_g12_pX_pX_pZ_pZ",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "sensor_gates": [
+        "H",
+        "H",
+        "I",
+        "I"
+      ],
+      "effective_axes": [
+        "+X",
+        "+X",
+        "+Z",
+        "+Z"
+      ],
+      "components": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "variants": [
+        {
+          "protocol_id": "N4_g12_pX_pX_pZ_pZ",
+          "original_to_diagram": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "gates_in_diagram_order": [
+            "H",
+            "H",
+            "I",
+            "I"
+          ],
+          "axes_in_diagram_order": [
+            "+X",
+            "+X",
+            "+Z",
+            "+Z"
+          ],
+          "eta_values": [
+            0.55,
+            0.6,
+            0.65,
+            0.7
+          ],
+          "R_by_eta": {
+            "0.55": 0.605,
+            "0.6": 0.72,
+            "0.65": 0.845,
+            "0.7": 0.98
+          }
+        }
+      ],
+      "eta_values": [
+        0.55,
+        0.6,
+        0.65,
+        0.7
+      ]
+    },
+    {
+      "structure_id": "N4_S03",
+      "n": 4,
+      "representative_protocol_id": "N4_g7_pZ_pX_pX_pX",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "sensor_gates": [
+        "I",
+        "H",
+        "H",
+        "H"
+      ],
+      "effective_axes": [
+        "+Z",
+        "+X",
+        "+X",
+        "+X"
+      ],
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "variants": [
+        {
+          "protocol_id": "N4_g7_pZ_pX_pX_pX",
+          "original_to_diagram": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "gates_in_diagram_order": [
+            "I",
+            "H",
+            "H",
+            "H"
+          ],
+          "axes_in_diagram_order": [
+            "+Z",
+            "+X",
+            "+X",
+            "+X"
+          ],
+          "eta_values": [
+            0.75,
+            0.8,
+            0.85,
+            0.9,
+            0.95,
+            1.0
+          ],
+          "R_by_eta": {
+            "0.75": 1.265625,
+            "0.8": 1.6384,
+            "0.85": 2.088025,
+            "0.9": 2.6244,
+            "0.95": 3.258025,
+            "1": 4.0
+          }
+        }
+      ],
+      "eta_values": [
+        0.75,
+        0.8,
+        0.85,
+        0.9,
+        0.95,
+        1.0
+      ]
+    },
+    {
+      "structure_id": "N5_S01",
+      "n": 5,
+      "representative_protocol_id": "N5_g0_pY_pY_pY_pY_pY",
+      "edges": [],
+      "sensor_gates": [
+        "HSdg",
+        "HSdg",
+        "HSdg",
+        "HSdg",
+        "HSdg"
+      ],
+      "effective_axes": [
+        "+Y",
+        "+Y",
+        "+Y",
+        "+Y",
+        "+Y"
+      ],
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "variants": [
+        {
+          "protocol_id": "N5_g0_pY_pY_pY_pY_pY",
+          "original_to_diagram": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "gates_in_diagram_order": [
+            "HSdg",
+            "HSdg",
+            "HSdg",
+            "HSdg",
+            "HSdg"
+          ],
+          "axes_in_diagram_order": [
+            "+Y",
+            "+Y",
+            "+Y",
+            "+Y",
+            "+Y"
+          ],
+          "eta_values": [
+            0.05,
+            0.1,
+            0.15,
+            0.2,
+            0.25,
+            0.3,
+            0.35,
+            0.4,
+            0.45,
+            0.5
+          ],
+          "R_by_eta": {
+            "0.05": 0.05,
+            "0.1": 0.1,
+            "0.15": 0.15,
+            "0.2": 0.2,
+            "0.25": 0.25,
+            "0.3": 0.3,
+            "0.35": 0.35,
+            "0.4": 0.4,
+            "0.45": 0.45,
+            "0.5": 0.5
+          }
+        }
+      ],
+      "eta_values": [
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5
+      ]
+    },
+    {
+      "structure_id": "N5_S02",
+      "n": 5,
+      "representative_protocol_id": "N5_g20_pX_pX_pZ_pZ_pY",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "sensor_gates": [
+        "H",
+        "H",
+        "I",
+        "I",
+        "HSdg"
+      ],
+      "effective_axes": [
+        "+X",
+        "+X",
+        "+Z",
+        "+Z",
+        "+Y"
+      ],
+      "components": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4
+        ]
+      ],
+      "variants": [
+        {
+          "protocol_id": "N5_g20_pX_pX_pZ_pZ_pY",
+          "original_to_diagram": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "gates_in_diagram_order": [
+            "H",
+            "H",
+            "I",
+            "I",
+            "HSdg"
+          ],
+          "axes_in_diagram_order": [
+            "+X",
+            "+X",
+            "+Z",
+            "+Z",
+            "+Y"
+          ],
+          "eta_values": [
+            0.55,
+            0.6
+          ],
+          "R_by_eta": {
+            "0.55": 0.5931372549019608,
+            "0.6": 0.6923076923076923
+          }
+        }
+      ],
+      "eta_values": [
+        0.55,
+        0.6
+      ]
+    },
+    {
+      "structure_id": "N5_S03",
+      "n": 5,
+      "representative_protocol_id": "N5_g28_pZ_pX_pZ_pX_pX",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "sensor_gates": [
+        "I",
+        "H",
+        "I",
+        "H",
+        "H"
+      ],
+      "effective_axes": [
+        "+Z",
+        "+X",
+        "+Z",
+        "+X",
+        "+X"
+      ],
+      "components": [
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "variants": [
+        {
+          "protocol_id": "N5_g28_pZ_pX_pZ_pX_pX",
+          "original_to_diagram": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "gates_in_diagram_order": [
+            "I",
+            "H",
+            "I",
+            "H",
+            "H"
+          ],
+          "axes_in_diagram_order": [
+            "+Z",
+            "+X",
+            "+Z",
+            "+X",
+            "+X"
+          ],
+          "eta_values": [
+            0.65,
+            0.7,
+            0.75
+          ],
+          "R_by_eta": {
+            "0.65": 0.8321969696969697,
+            "0.7": 1.0088235294117647,
+            "0.75": 1.2053571428571428
+          }
+        }
+      ],
+      "eta_values": [
+        0.65,
+        0.7,
+        0.75
+      ]
+    },
+    {
+      "structure_id": "N5_S04",
+      "n": 5,
+      "representative_protocol_id": "N5_g15_pZ_pX_pX_pX_pX",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "sensor_gates": [
+        "I",
+        "H",
+        "H",
+        "H",
+        "H"
+      ],
+      "effective_axes": [
+        "+Z",
+        "+X",
+        "+X",
+        "+X",
+        "+X"
+      ],
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "variants": [
+        {
+          "protocol_id": "N5_g15_pZ_pX_pX_pX_pX",
+          "original_to_diagram": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "gates_in_diagram_order": [
+            "I",
+            "H",
+            "H",
+            "H",
+            "H"
+          ],
+          "axes_in_diagram_order": [
+            "+Z",
+            "+X",
+            "+X",
+            "+X",
+            "+X"
+          ],
+          "eta_values": [
+            0.8,
+            0.85,
+            0.9,
+            0.95,
+            1.0
+          ],
+          "R_by_eta": {
+            "0.8": 1.6384,
+            "0.85": 2.2185265625,
+            "0.9": 2.95245,
+            "0.95": 3.8689046875,
+            "1": 5.0
+          }
+        }
+      ],
+      "eta_values": [
+        0.8,
+        0.85,
+        0.9,
+        0.95,
+        1.0
+      ]
+    }
+  ]
+}

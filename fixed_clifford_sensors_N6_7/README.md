@@ -205,3 +205,22 @@ N. Shettell and D. Markham, “Graph States as a Resource for Quantum Metrology,
 Physical Review Letters 124, 110502 (2020). https://arxiv.org/abs/1908.05047
 
 本実装は、共通の単一位相の感度ではなく、独立な局所位相の平均のQCRBを評価する。
+
+## 採用グラフの図
+
+[重複を除いた構造一覧と透過率・ゲートの対応表](results/graphs.md) ／ [グラフ図](results/graphs_unique.svg)
+
+同じ頂点数で番号交換により一致する構造は1枚に集約する。全ての辺はCZ（重みπ）。
+各図の下は頂点番号順の局所Cliffordで、ゲート積は右から作用する。
+図は保存済み評価点の採用代表解を示し、全同率解や評価点間の最適性を意味しない。
+詳細な辺・ゲート変種・元の番号との対応は[graph_structures.json](results/graph_structures.json)に保存する。
+
+図だけを再生成する場合（researchリポジトリのルートから実行、最適化は再実行しない）：
+
+```bash
+python fixed_clifford_sensors/make_graphs.py --results fixed_clifford_sensors_N6_7/results --columns 3
+```
+
+`make_report.py`でも同じ図と対応表を再生成する。描画列数は上の`--columns`で変更できる。
+
+

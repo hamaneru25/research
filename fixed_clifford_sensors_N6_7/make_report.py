@@ -3,10 +3,13 @@ import argparse
 import csv
 import json
 from pathlib import Path
+import sys
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from core import ROOT
+sys.path.insert(0, str(ROOT.parent))
+from fixed_clifford_sensors.make_graphs import make_graphs, graph_report_lines
 
 
 def main():
@@ -94,9 +97,12 @@ def main():
               "- 辺の生成コスト・操作誤差・検出器不完全性は含めない。",
               "- 具体的な読み出し測定と、そのCFIによる達成可能性は未探索。",
               "- 有理数比較の前に浮動小数点の近接候補選別を使う。任意角度までの大域最適性ではない。", ""]
+    make_graphs(out)
+    lines += graph_report_lines()
     (out/"report.md").write_text("\n".join(lines), encoding="utf-8")
     print(out/"report.md")
 
 
 if __name__ == "__main__":
     main()
+

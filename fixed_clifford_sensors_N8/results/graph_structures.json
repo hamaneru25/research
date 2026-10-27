@@ -1,0 +1,580 @@
+{
+  "deduplication": "exact graph isomorphism at the same vertex count; not LC equivalence",
+  "selected_grid_rows": 20,
+  "unique_structures": 5,
+  "structures": [
+    {
+      "structure_id": "N8_S01",
+      "n": 8,
+      "representative_protocol_id": "N8_g0_pY_pY_pY_pY_pY_pY_pY_pY",
+      "edges": [],
+      "sensor_gates": [
+        "HSdg",
+        "HSdg",
+        "HSdg",
+        "HSdg",
+        "HSdg",
+        "HSdg",
+        "HSdg",
+        "HSdg"
+      ],
+      "effective_axes": [
+        "+Y",
+        "+Y",
+        "+Y",
+        "+Y",
+        "+Y",
+        "+Y",
+        "+Y",
+        "+Y"
+      ],
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ]
+      ],
+      "variants": [
+        {
+          "protocol_id": "N8_g0_pY_pY_pY_pY_pY_pY_pY_pY",
+          "original_to_diagram": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "gates_in_diagram_order": [
+            "HSdg",
+            "HSdg",
+            "HSdg",
+            "HSdg",
+            "HSdg",
+            "HSdg",
+            "HSdg",
+            "HSdg"
+          ],
+          "axes_in_diagram_order": [
+            "+Y",
+            "+Y",
+            "+Y",
+            "+Y",
+            "+Y",
+            "+Y",
+            "+Y",
+            "+Y"
+          ],
+          "eta_values": [
+            0.05,
+            0.1,
+            0.15,
+            0.2,
+            0.25,
+            0.3,
+            0.35,
+            0.4,
+            0.45,
+            0.5
+          ],
+          "R_by_eta": {
+            "0.05": 0.05,
+            "0.1": 0.1,
+            "0.15": 0.15,
+            "0.2": 0.2,
+            "0.25": 0.25,
+            "0.3": 0.3,
+            "0.35": 0.35,
+            "0.4": 0.4,
+            "0.45": 0.45,
+            "0.5": 0.5
+          }
+        }
+      ],
+      "eta_values": [
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5
+      ]
+    },
+    {
+      "structure_id": "N8_S02",
+      "n": 8,
+      "representative_protocol_id": "N8_g59_pX_pZ_pX_pZ_pX_pZ_pX_pZ",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "sensor_gates": [
+        "H",
+        "I",
+        "H",
+        "I",
+        "H",
+        "I",
+        "H",
+        "I"
+      ],
+      "effective_axes": [
+        "+X",
+        "+Z",
+        "+X",
+        "+Z",
+        "+X",
+        "+Z",
+        "+X",
+        "+Z"
+      ],
+      "components": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "variants": [
+        {
+          "protocol_id": "N8_g59_pX_pZ_pX_pZ_pX_pZ_pX_pZ",
+          "original_to_diagram": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "gates_in_diagram_order": [
+            "H",
+            "I",
+            "H",
+            "I",
+            "H",
+            "I",
+            "H",
+            "I"
+          ],
+          "axes_in_diagram_order": [
+            "+X",
+            "+Z",
+            "+X",
+            "+Z",
+            "+X",
+            "+Z",
+            "+X",
+            "+Z"
+          ],
+          "eta_values": [
+            0.55,
+            0.6,
+            0.65
+          ],
+          "R_by_eta": {
+            "0.55": 0.605,
+            "0.6": 0.72,
+            "0.65": 0.845
+          }
+        }
+      ],
+      "eta_values": [
+        0.55,
+        0.6,
+        0.65
+      ]
+    },
+    {
+      "structure_id": "N8_S03",
+      "n": 8,
+      "representative_protocol_id": "N8_g62_pX_pZ_pZ_pX_pX_pZ_pX_pX",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "sensor_gates": [
+        "H",
+        "I",
+        "I",
+        "H",
+        "H",
+        "I",
+        "H",
+        "H"
+      ],
+      "effective_axes": [
+        "+X",
+        "+Z",
+        "+Z",
+        "+X",
+        "+X",
+        "+Z",
+        "+X",
+        "+X"
+      ],
+      "components": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          5,
+          6,
+          7
+        ]
+      ],
+      "variants": [
+        {
+          "protocol_id": "N8_g62_pX_pZ_pZ_pX_pX_pZ_pX_pX",
+          "original_to_diagram": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "gates_in_diagram_order": [
+            "H",
+            "I",
+            "I",
+            "H",
+            "H",
+            "I",
+            "H",
+            "H"
+          ],
+          "axes_in_diagram_order": [
+            "+X",
+            "+Z",
+            "+Z",
+            "+X",
+            "+X",
+            "+Z",
+            "+X",
+            "+X"
+          ],
+          "eta_values": [
+            0.7
+          ],
+          "R_by_eta": {
+            "0.7": 1.0162962962962963
+          }
+        }
+      ],
+      "eta_values": [
+        0.7
+      ]
+    },
+    {
+      "structure_id": "N8_S04",
+      "n": 8,
+      "representative_protocol_id": "N8_g78_pX_pX_pX_pZ_pX_pX_pX_pZ",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "sensor_gates": [
+        "H",
+        "H",
+        "H",
+        "I",
+        "H",
+        "H",
+        "H",
+        "I"
+      ],
+      "effective_axes": [
+        "+X",
+        "+X",
+        "+X",
+        "+Z",
+        "+X",
+        "+X",
+        "+X",
+        "+Z"
+      ],
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "variants": [
+        {
+          "protocol_id": "N8_g78_pX_pX_pX_pZ_pX_pX_pX_pZ",
+          "original_to_diagram": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "gates_in_diagram_order": [
+            "H",
+            "H",
+            "H",
+            "I",
+            "H",
+            "H",
+            "H",
+            "I"
+          ],
+          "axes_in_diagram_order": [
+            "+X",
+            "+X",
+            "+X",
+            "+Z",
+            "+X",
+            "+X",
+            "+X",
+            "+Z"
+          ],
+          "eta_values": [
+            0.75,
+            0.8
+          ],
+          "R_by_eta": {
+            "0.75": 1.265625,
+            "0.8": 1.6384
+          }
+        }
+      ],
+      "eta_values": [
+        0.75,
+        0.8
+      ]
+    },
+    {
+      "structure_id": "N8_S05",
+      "n": 8,
+      "representative_protocol_id": "N8_g81_pX_pX_pX_pX_pX_pX_pX_pZ",
+      "edges": [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "sensor_gates": [
+        "H",
+        "H",
+        "H",
+        "H",
+        "H",
+        "H",
+        "H",
+        "I"
+      ],
+      "effective_axes": [
+        "+X",
+        "+X",
+        "+X",
+        "+X",
+        "+X",
+        "+X",
+        "+X",
+        "+Z"
+      ],
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "variants": [
+        {
+          "protocol_id": "N8_g81_pX_pX_pX_pX_pX_pX_pX_pZ",
+          "original_to_diagram": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "gates_in_diagram_order": [
+            "H",
+            "H",
+            "H",
+            "H",
+            "H",
+            "H",
+            "H",
+            "I"
+          ],
+          "axes_in_diagram_order": [
+            "+X",
+            "+X",
+            "+X",
+            "+X",
+            "+X",
+            "+X",
+            "+X",
+            "+Z"
+          ],
+          "eta_values": [
+            0.85,
+            0.9,
+            0.95,
+            1.0
+          ],
+          "R_by_eta": {
+            "0.85": 2.1799242003125,
+            "0.9": 3.44373768,
+            "0.95": 5.3073634503125,
+            "1": 8.0
+          }
+        }
+      ],
+      "eta_values": [
+        0.85,
+        0.9,
+        0.95,
+        1.0
+      ]
+    }
+  ]
+}
