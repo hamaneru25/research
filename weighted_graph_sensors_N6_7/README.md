@@ -151,3 +151,21 @@ cache/：再開用ファイル。実行中に生成し、公開リポジトリ�
 
 ゲート誤差、状態生成成功確率、重み設定誤差、具体的な読み出し測定、
 Cliffordの確率混合、損失位置に応じた入力適応は評価していない。
+
+## 情報量の追加図
+
+- [光子当たりの有効QFI R](results/information.svg)
+- [1試行当たりの有効QFI F_eff = N R](results/information_total.svg)
+
+既存の改善率の図も保持。上段は全範囲、下段は透過率0.50〜0.90を表示する。
+保存済みCSVからの描画であり、再最適化や平滑化は行わない。
+
+リポジトリのルートから両フォルダの追加図を再生成する場合：
+
+```bash
+python weighted_graph_sensors_N5/make_information.py --zoom 0.5 0.9 --combined weighted_graph_sensors_N6_7/results/information_N5_6_7.svg
+```
+
+`--results`で入力結果フォルダ、`--zoom`で下段の表示範囲を変更できる。`make_report.py`でも各フォルダの追加図を生成する。
+
+[5・6・7センサを並べた情報量の比較図](results/information_N5_6_7.svg)

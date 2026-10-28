@@ -12,6 +12,7 @@ ROOT=Path(__file__).resolve().parent
 sys.path.insert(0,str(ROOT.parent))
 from fixed_clifford_sensors.engine import GATES
 from make_graphs import make_graphs
+from make_information import make_information
 
 
 def main():
@@ -112,8 +113,15 @@ def main():
            '一方、新しく発見した構成が重み付きグラフ全体で最適であるかは未証明。',
            f"eta={unchanged or '（該当なし）'}では今回の探索で改善候補が見つからなかった。",
            'これは未評価の中間透過率、任意局所回転を同時に許した場合、または具体的な局所測定CFIに関する結論ではない。','']
+    make_information([out])
+    text += ['', '## 情報量そのものの比較（追加図）', '',
+             '既存の改善率の図に加え、光子当たりの有効QFIと1試行当たりの有効QFIを示す。',
+             '上段は全範囲、下段は透過率0.50〜0.90。保存済み評価点を線で結んだもので、追加最適化や平滑化は行っていない。', '',
+             '![光子当たり有効QFI R](information.svg)', '',
+             '[1試行当たりの有効QFI F_eff = N R](information_total.svg)', '']
     (out/'report.md').write_text('\n'.join(text),encoding='utf-8')
     print(out/'report.md')
 
 if __name__=='__main__':main()
+
 

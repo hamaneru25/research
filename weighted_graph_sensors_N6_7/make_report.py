@@ -10,6 +10,7 @@ from matplotlib.lines import Line2D
 ROOT=Path(__file__).resolve().parent
 sys.path.insert(0,str(ROOT.parent))
 from fixed_clifford_sensors.engine import GATES
+from weighted_graph_sensors_N5.make_information import make_information
 
 
 def write_csv(path,rows):
@@ -167,8 +168,15 @@ def main():
         '改善のない点も、未探索の重みで改善できないとは証明していない。',
         '重み付きグラフ全体の最適性、任意局所回転との同時最適化、局所読み出しの達成可能性、',
         '生成成功率・ゲート誤差を含めた実験上の優位性は別の問題。','']
+    make_information([out])
+    text += ['', '## 情報量そのものの比較（追加図）', '',
+             '既存の改善率の図に加え、光子当たりの有効QFIと1試行当たりの有効QFIを示す。',
+             '上段は全範囲、下段は透過率0.50〜0.90。保存済み評価点を線で結んだもので、追加最適化や平滑化は行っていない。', '',
+             '![光子当たり有効QFI R](information.svg)', '',
+             '[1試行当たりの有効QFI F_eff = N R](information_total.svg)', '']
     (out/'report.md').write_text('\n'.join(text),encoding='utf-8')
     print(out/'report.md')
 
 
 if __name__=='__main__':main()
+
