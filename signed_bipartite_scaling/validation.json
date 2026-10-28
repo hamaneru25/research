@@ -1,0 +1,52 @@
+[
+  {
+    "n": 5,
+    "h": 2,
+    "negative_hubs": 1,
+    "phi": 0.9358262683387703,
+    "eta": 0.65,
+    "Qbar_group_max_error": 2.220446049250313e-15,
+    "R_compressed": 0.9441448843106001,
+    "R_dense": 0.944144884310599
+  },
+  {
+    "n": 6,
+    "h": 3,
+    "negative_hubs": 1,
+    "phi": 0.713,
+    "eta": 0.4,
+    "Qbar_group_max_error": 3.885780586188048e-16,
+    "R_compressed": 0.1478780478523635,
+    "R_dense": 0.1478780478523635
+  },
+  {
+    "n": 6,
+    "h": 4,
+    "negative_hubs": 2,
+    "phi": 1.21,
+    "eta": 0.75,
+    "Qbar_group_max_error": 2.220446049250313e-15,
+    "R_compressed": 0.19684033051304817,
+    "R_dense": 0.19684033051304806
+  },
+  {
+    "n": 7,
+    "h": 2,
+    "negative_hubs": 1,
+    "phi": 1.08,
+    "eta": 0.55,
+    "Qbar_group_max_error": 3.1086244689504383e-15,
+    "R_compressed": 0.6727714285152232,
+    "R_dense": 0.672771428515223
+  },
+  {
+    "n": 5,
+    "h": 1,
+    "negative_hubs": 0,
+    "phi": 3.141592653589793,
+    "eta": 0.85,
+    "Qbar_group_max_error": 1.2434497875801753e-14,
+    "R_compressed": 2.2185265625,
+    "R_dense": 2.218526562499995
+  }
+]

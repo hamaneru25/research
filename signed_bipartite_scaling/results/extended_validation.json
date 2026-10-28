@@ -1,0 +1,27 @@
+{
+  "dense_N8_checks": [
+    {
+      "n": 8,
+      "eta": 0.2,
+      "R_dense": 0.20758647841812933,
+      "R_saved": 0.20758647841812958,
+      "absolute_error": 2.498001805406602e-16,
+      "seconds": 0.6113461790000656
+    },
+    {
+      "n": 8,
+      "eta": 0.7,
+      "R_dense": 1.22586503916257,
+      "R_saved": 1.2258650391625707,
+      "absolute_error": 6.661338147750939e-16,
+      "seconds": 0.5570559950001552
+    }
+  ],
+  "coarse65_vs_fine129_max_improvement": 6.217248937900877e-15,
+  "coarse65_vs_fine129_max_regression": -5.329070518200751e-15,
+  "GHZ_DP_vs_existing_N8_exhaustive_max_error": 1.7763568394002505e-15,
+  "scalar_optimizer_runs": 5380,
+  "scalar_optimizer_failures": 0,
+  "family_files": 88,
+  "comparison_rows": 260
+}

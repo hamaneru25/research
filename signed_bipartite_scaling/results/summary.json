@@ -1,0 +1,494 @@
+[
+  {
+    "n": 8,
+    "topology_intervals": [
+      {
+        "start": 0.05,
+        "end": 0.3,
+        "value": 4
+      },
+      {
+        "start": 0.35,
+        "end": 0.8,
+        "value": 2
+      },
+      {
+        "start": 0.85,
+        "end": 1.0,
+        "value": 1
+      }
+    ],
+    "K2_best_etas": [
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8
+    ],
+    "strict_GHZ_wins": 16,
+    "GHZ_ties": 4,
+    "GHZ_losses": 0,
+    "max_gain_percent": 28.09210041954571,
+    "max_gain_eta": 0.5
+  },
+  {
+    "n": 9,
+    "topology_intervals": [
+      {
+        "start": 0.05,
+        "end": 0.4,
+        "value": 4
+      },
+      {
+        "start": 0.45,
+        "end": 0.85,
+        "value": 2
+      },
+      {
+        "start": 0.9,
+        "end": 1.0,
+        "value": 1
+      }
+    ],
+    "K2_best_etas": [
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85
+    ],
+    "strict_GHZ_wins": 17,
+    "GHZ_ties": 3,
+    "GHZ_losses": 0,
+    "max_gain_percent": 28.99686179440817,
+    "max_gain_eta": 0.5
+  },
+  {
+    "n": 10,
+    "topology_intervals": [
+      {
+        "start": 0.05,
+        "end": 0.5,
+        "value": 4
+      },
+      {
+        "start": 0.55,
+        "end": 0.85,
+        "value": 2
+      },
+      {
+        "start": 0.9,
+        "end": 1.0,
+        "value": 1
+      }
+    ],
+    "K2_best_etas": [
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85
+    ],
+    "strict_GHZ_wins": 17,
+    "GHZ_ties": 3,
+    "GHZ_losses": 0,
+    "max_gain_percent": 30.070377826899318,
+    "max_gain_eta": 0.5
+  },
+  {
+    "n": 11,
+    "topology_intervals": [
+      {
+        "start": 0.05,
+        "end": 0.05,
+        "value": 5
+      },
+      {
+        "start": 0.1,
+        "end": 0.55,
+        "value": 4
+      },
+      {
+        "start": 0.6,
+        "end": 0.85,
+        "value": 2
+      },
+      {
+        "start": 0.9,
+        "end": 1.0,
+        "value": 1
+      }
+    ],
+    "K2_best_etas": [
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85
+    ],
+    "strict_GHZ_wins": 17,
+    "GHZ_ties": 3,
+    "GHZ_losses": 0,
+    "max_gain_percent": 32.3294822908762,
+    "max_gain_eta": 0.5
+  },
+  {
+    "n": 12,
+    "topology_intervals": [
+      {
+        "start": 0.05,
+        "end": 0.1,
+        "value": 6
+      },
+      {
+        "start": 0.15,
+        "end": 0.6,
+        "value": 4
+      },
+      {
+        "start": 0.65,
+        "end": 0.85,
+        "value": 2
+      },
+      {
+        "start": 0.9,
+        "end": 1.0,
+        "value": 1
+      }
+    ],
+    "K2_best_etas": [
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85
+    ],
+    "strict_GHZ_wins": 17,
+    "GHZ_ties": 3,
+    "GHZ_losses": 0,
+    "max_gain_percent": 34.2439550716737,
+    "max_gain_eta": 0.5
+  },
+  {
+    "n": 13,
+    "topology_intervals": [
+      {
+        "start": 0.05,
+        "end": 0.15,
+        "value": 6
+      },
+      {
+        "start": 0.2,
+        "end": 0.65,
+        "value": 4
+      },
+      {
+        "start": 0.7,
+        "end": 0.9,
+        "value": 2
+      },
+      {
+        "start": 0.95,
+        "end": 1.0,
+        "value": 1
+      }
+    ],
+    "K2_best_etas": [
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9
+    ],
+    "strict_GHZ_wins": 18,
+    "GHZ_ties": 2,
+    "GHZ_losses": 0,
+    "max_gain_percent": 35.88263487692136,
+    "max_gain_eta": 0.5
+  },
+  {
+    "n": 14,
+    "topology_intervals": [
+      {
+        "start": 0.05,
+        "end": 0.2,
+        "value": 6
+      },
+      {
+        "start": 0.25,
+        "end": 0.65,
+        "value": 4
+      },
+      {
+        "start": 0.7,
+        "end": 0.9,
+        "value": 2
+      },
+      {
+        "start": 0.95,
+        "end": 1.0,
+        "value": 1
+      }
+    ],
+    "K2_best_etas": [
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9
+    ],
+    "strict_GHZ_wins": 18,
+    "GHZ_ties": 2,
+    "GHZ_losses": 0,
+    "max_gain_percent": 37.29732472970137,
+    "max_gain_eta": 0.5
+  },
+  {
+    "n": 15,
+    "topology_intervals": [
+      {
+        "start": 0.05,
+        "end": 0.25,
+        "value": 6
+      },
+      {
+        "start": 0.3,
+        "end": 0.7,
+        "value": 4
+      },
+      {
+        "start": 0.75,
+        "end": 0.9,
+        "value": 2
+      },
+      {
+        "start": 0.95,
+        "end": 1.0,
+        "value": 1
+      }
+    ],
+    "K2_best_etas": [
+      0.75,
+      0.8,
+      0.85,
+      0.9
+    ],
+    "strict_GHZ_wins": 18,
+    "GHZ_ties": 2,
+    "GHZ_losses": 0,
+    "max_gain_percent": 38.52769438930359,
+    "max_gain_eta": 0.5
+  },
+  {
+    "n": 16,
+    "topology_intervals": [
+      {
+        "start": 0.05,
+        "end": 0.05,
+        "value": 8
+      },
+      {
+        "start": 0.1,
+        "end": 0.3,
+        "value": 6
+      },
+      {
+        "start": 0.35,
+        "end": 0.7,
+        "value": 4
+      },
+      {
+        "start": 0.75,
+        "end": 0.9,
+        "value": 2
+      },
+      {
+        "start": 0.95,
+        "end": 1.0,
+        "value": 1
+      }
+    ],
+    "K2_best_etas": [
+      0.75,
+      0.8,
+      0.85,
+      0.9
+    ],
+    "strict_GHZ_wins": 18,
+    "GHZ_ties": 2,
+    "GHZ_losses": 0,
+    "max_gain_percent": 39.60459491987696,
+    "max_gain_eta": 0.5
+  },
+  {
+    "n": 17,
+    "topology_intervals": [
+      {
+        "start": 0.05,
+        "end": 0.1,
+        "value": 8
+      },
+      {
+        "start": 0.15,
+        "end": 0.35,
+        "value": 6
+      },
+      {
+        "start": 0.4,
+        "end": 0.75,
+        "value": 4
+      },
+      {
+        "start": 0.8,
+        "end": 0.9,
+        "value": 2
+      },
+      {
+        "start": 0.95,
+        "end": 1.0,
+        "value": 1
+      }
+    ],
+    "K2_best_etas": [
+      0.8,
+      0.85,
+      0.9
+    ],
+    "strict_GHZ_wins": 18,
+    "GHZ_ties": 2,
+    "GHZ_losses": 0,
+    "max_gain_percent": 40.5523522094438,
+    "max_gain_eta": 0.5
+  },
+  {
+    "n": 18,
+    "topology_intervals": [
+      {
+        "start": 0.05,
+        "end": 0.1,
+        "value": 8
+      },
+      {
+        "start": 0.15,
+        "end": 0.35,
+        "value": 6
+      },
+      {
+        "start": 0.4,
+        "end": 0.75,
+        "value": 4
+      },
+      {
+        "start": 0.8,
+        "end": 0.9,
+        "value": 2
+      },
+      {
+        "start": 0.95,
+        "end": 1.0,
+        "value": 1
+      }
+    ],
+    "K2_best_etas": [
+      0.8,
+      0.85,
+      0.9
+    ],
+    "strict_GHZ_wins": 18,
+    "GHZ_ties": 2,
+    "GHZ_losses": 0,
+    "max_gain_percent": 41.39038694448711,
+    "max_gain_eta": 0.5
+  },
+  {
+    "n": 19,
+    "topology_intervals": [
+      {
+        "start": 0.05,
+        "end": 0.15,
+        "value": 8
+      },
+      {
+        "start": 0.2,
+        "end": 0.4,
+        "value": 6
+      },
+      {
+        "start": 0.45,
+        "end": 0.75,
+        "value": 4
+      },
+      {
+        "start": 0.8,
+        "end": 0.9,
+        "value": 2
+      },
+      {
+        "start": 0.95,
+        "end": 1.0,
+        "value": 1
+      }
+    ],
+    "K2_best_etas": [
+      0.8,
+      0.85,
+      0.9
+    ],
+    "strict_GHZ_wins": 18,
+    "GHZ_ties": 2,
+    "GHZ_losses": 0,
+    "max_gain_percent": 42.1343800194449,
+    "max_gain_eta": 0.5
+  },
+  {
+    "n": 20,
+    "topology_intervals": [
+      {
+        "start": 0.05,
+        "end": 0.15,
+        "value": 8
+      },
+      {
+        "start": 0.2,
+        "end": 0.4,
+        "value": 6
+      },
+      {
+        "start": 0.45,
+        "end": 0.8,
+        "value": 4
+      },
+      {
+        "start": 0.85,
+        "end": 0.9,
+        "value": 2
+      },
+      {
+        "start": 0.95,
+        "end": 1.0,
+        "value": 1
+      }
+    ],
+    "K2_best_etas": [
+      0.85,
+      0.9
+    ],
+    "strict_GHZ_wins": 18,
+    "GHZ_ties": 2,
+    "GHZ_losses": 0,
+    "max_gain_percent": 42.79712479975797,
+    "max_gain_eta": 0.5
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "saved_rows_checked": 260,
+  "family_files": 88,
+  "max_R_recalculation_error": 1.3322676295501878e-15,
+  "max_group_QFIM_error": 7.105427357601002e-15,
+  "max_GHZ_DP_error": 0.0,
+  "dense_N8_checks": [
+    {
+      "n": 8,
+      "eta": 0.2,
+      "survivor_masks_checked": 256,
+      "R_dense": 0.20758647841812933,
+      "R_saved": 0.20758647841812958,
+      "absolute_error": 2.498001805406602e-16
+    },
+    {
+      "n": 8,
+      "eta": 0.7,
+      "survivor_masks_checked": 256,
+      "R_dense": 1.22586503916257,
+      "R_saved": 1.2258650391625707,
+      "absolute_error": 6.661338147750939e-16
+    }
+  ],
+  "seconds": 6.63965515199925,
+  "scope": "Recalculation of saved feasible states, not a certificate of a global optimum."
+}
