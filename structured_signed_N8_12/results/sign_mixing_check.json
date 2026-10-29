@@ -1,0 +1,735 @@
+{
+  "scope": "Seven selected family-1 winners. Same graph and common absolute weight; matched fixed axes and exhaustive axes uniform within the same saved vertex groups. Full independent-phase SLD-QFIM for all loss records.",
+  "tolerance": 1e-09,
+  "passed": true,
+  "results": [
+    {
+      "n": 8,
+      "eta": 0.05,
+      "hubs": 4,
+      "leaves": 4,
+      "phi_rad": 0.04884508253842502,
+      "group_sizes": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "group_sides": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "mixed_group_signs": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "unmixed_group_signs": [
+        1,
+        -1,
+        1,
+        1
+      ],
+      "mixed_group_weights": [
+        0,
+        0,
+        0.04884508253842502,
+        -0.04884508253842502,
+        0,
+        -0.04884508253842502,
+        0.04884508253842502,
+        0,
+        0,
+        0
+      ],
+      "unmixed_group_weights": [
+        0.0,
+        0.0,
+        0.04884508253842502,
+        0.04884508253842502,
+        0.0,
+        -0.04884508253842502,
+        -0.04884508253842502,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mixed_group_axes": [
+        "+Z",
+        "-Z",
+        "-Y",
+        "+Y"
+      ],
+      "unmixed_group_axes": [
+        "+Z",
+        "-Z",
+        "-Y",
+        "-Y"
+      ],
+      "positive_hub_mixed_edge_counts": [
+        2,
+        2
+      ],
+      "negative_hub_mixed_edge_counts": [
+        2,
+        2
+      ],
+      "R_saved": 0.050122298561961,
+      "R_mixed": 0.050122298561961,
+      "R_unmixed": 0.050122298561960994,
+      "abs_R_difference": 6.938893903907228e-18,
+      "relative_difference": 1.3843925963070894e-16,
+      "R_unmixed_axes_unchanged": 0.04987760803687586,
+      "R_mixed_best_group_axes": 0.050122298561961,
+      "R_unmixed_best_group_axes": 0.050122298561960994,
+      "mixed_best_group_axes": [
+        "+Z",
+        "-Z",
+        "-Y",
+        "+Y"
+      ],
+      "unmixed_best_group_axes": [
+        "+Z",
+        "-Z",
+        "-Y",
+        "-Y"
+      ],
+      "group_optimum_difference": 6.938893903907228e-18,
+      "max_group_QFIM_difference": 8.326672684688674e-17,
+      "R_mixed_independent_SLD": 0.05012229856196094,
+      "R_unmixed_independent_SLD": 0.05012229856196091,
+      "independent_SLD_R_difference": 2.7755575615628914e-17,
+      "max_full_QFIM_difference": 2.0816681711721685e-17,
+      "max_SLD_vs_group_R_error": 8.326672684688674e-17,
+      "state_vector_relation_max_error": 7.757919228897728e-18,
+      "seconds": 0.18168925700001637
+    },
+    {
+      "n": 8,
+      "eta": 0.5,
+      "hubs": 2,
+      "leaves": 6,
+      "phi_rad": 0.6095870505934571,
+      "group_sizes": [
+        5,
+        1,
+        1,
+        1
+      ],
+      "group_sides": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "mixed_group_signs": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "unmixed_group_signs": [
+        1,
+        1,
+        1,
+        -1
+      ],
+      "mixed_group_weights": [
+        0,
+        0,
+        0.6095870505934571,
+        -0.6095870505934571,
+        0,
+        -0.6095870505934571,
+        0.6095870505934571,
+        0,
+        0,
+        0
+      ],
+      "unmixed_group_weights": [
+        0.0,
+        0.0,
+        0.6095870505934571,
+        -0.6095870505934571,
+        0.0,
+        0.6095870505934571,
+        -0.6095870505934571,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mixed_group_axes": [
+        "+Y",
+        "-Y",
+        "-Z",
+        "+Z"
+      ],
+      "unmixed_group_axes": [
+        "+Y",
+        "+Y",
+        "-Z",
+        "+Z"
+      ],
+      "positive_hub_mixed_edge_counts": [
+        5,
+        1
+      ],
+      "negative_hub_mixed_edge_counts": [
+        1,
+        5
+      ],
+      "R_saved": 0.6404605020968912,
+      "R_mixed": 0.6404605020968912,
+      "R_unmixed": 0.6404605020968909,
+      "abs_R_difference": 3.3306690738754696e-16,
+      "relative_difference": 5.200428540043822e-16,
+      "R_unmixed_axes_unchanged": 0.523562402499353,
+      "R_mixed_best_group_axes": 0.6404605020968912,
+      "R_unmixed_best_group_axes": 0.6404605020968909,
+      "mixed_best_group_axes": [
+        "+Y",
+        "-Y",
+        "-Z",
+        "+Z"
+      ],
+      "unmixed_best_group_axes": [
+        "+Y",
+        "+Y",
+        "-Z",
+        "+Z"
+      ],
+      "group_optimum_difference": 3.3306690738754696e-16,
+      "max_group_QFIM_difference": 4.440892098500626e-16,
+      "R_mixed_independent_SLD": 0.6404605020968909,
+      "R_unmixed_independent_SLD": 0.6404605020968906,
+      "independent_SLD_R_difference": 2.220446049250313e-16,
+      "max_full_QFIM_difference": 1.1102230246251565e-16,
+      "max_SLD_vs_group_R_error": 3.3306690738754696e-16,
+      "state_vector_relation_max_error": 1.5612511283791264e-17,
+      "seconds": 0.0827480390000801
+    },
+    {
+      "n": 9,
+      "eta": 0.3,
+      "hubs": 4,
+      "leaves": 5,
+      "phi_rad": 0.2701221698534363,
+      "group_sizes": [
+        2,
+        2,
+        4,
+        1
+      ],
+      "group_sides": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "mixed_group_signs": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "unmixed_group_signs": [
+        1,
+        -1,
+        1,
+        1
+      ],
+      "mixed_group_weights": [
+        0,
+        0,
+        0.2701221698534363,
+        -0.2701221698534363,
+        0,
+        -0.2701221698534363,
+        0.2701221698534363,
+        0,
+        0,
+        0
+      ],
+      "unmixed_group_weights": [
+        0.0,
+        0.0,
+        0.2701221698534363,
+        0.2701221698534363,
+        0.0,
+        -0.2701221698534363,
+        -0.2701221698534363,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mixed_group_axes": [
+        "+Z",
+        "-Z",
+        "-Y",
+        "+Y"
+      ],
+      "unmixed_group_axes": [
+        "+Z",
+        "-Z",
+        "-Y",
+        "-Y"
+      ],
+      "positive_hub_mixed_edge_counts": [
+        4,
+        1
+      ],
+      "negative_hub_mixed_edge_counts": [
+        1,
+        4
+      ],
+      "R_saved": 0.32863210640556123,
+      "R_mixed": 0.32863210640556123,
+      "R_unmixed": 0.32863210640556123,
+      "abs_R_difference": 0.0,
+      "relative_difference": 0.0,
+      "R_unmixed_axes_unchanged": 0.3035327125359457,
+      "R_mixed_best_group_axes": 0.32863210640556123,
+      "R_unmixed_best_group_axes": 0.32863210640556123,
+      "mixed_best_group_axes": [
+        "+Z",
+        "-Z",
+        "-Y",
+        "+Y"
+      ],
+      "unmixed_best_group_axes": [
+        "+Z",
+        "-Z",
+        "-Y",
+        "-Y"
+      ],
+      "group_optimum_difference": 0.0,
+      "max_group_QFIM_difference": 1.1102230246251565e-16,
+      "R_mixed_independent_SLD": 0.3286321064055611,
+      "R_unmixed_independent_SLD": 0.32863210640556134,
+      "independent_SLD_R_difference": 2.220446049250313e-16,
+      "max_full_QFIM_difference": 1.1102230246251565e-16,
+      "max_SLD_vs_group_R_error": 1.1102230246251565e-16,
+      "state_vector_relation_max_error": 1.2509268882771005e-17,
+      "seconds": 0.26642391199993654
+    },
+    {
+      "n": 10,
+      "eta": 0.35,
+      "hubs": 4,
+      "leaves": 6,
+      "phi_rad": 0.308161566630827,
+      "group_sizes": [
+        2,
+        2,
+        4,
+        2
+      ],
+      "group_sides": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "mixed_group_signs": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "unmixed_group_signs": [
+        1,
+        -1,
+        1,
+        1
+      ],
+      "mixed_group_weights": [
+        0,
+        0,
+        0.308161566630827,
+        -0.308161566630827,
+        0,
+        -0.308161566630827,
+        0.308161566630827,
+        0,
+        0,
+        0
+      ],
+      "unmixed_group_weights": [
+        0.0,
+        0.0,
+        0.308161566630827,
+        0.308161566630827,
+        0.0,
+        -0.308161566630827,
+        -0.308161566630827,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mixed_group_axes": [
+        "+Z",
+        "-Z",
+        "-Y",
+        "+Y"
+      ],
+      "unmixed_group_axes": [
+        "+Z",
+        "-Z",
+        "-Y",
+        "-Y"
+      ],
+      "positive_hub_mixed_edge_counts": [
+        4,
+        2
+      ],
+      "negative_hub_mixed_edge_counts": [
+        2,
+        4
+      ],
+      "R_saved": 0.39974379526067955,
+      "R_mixed": 0.3997437952606796,
+      "R_unmixed": 0.3997437952606792,
+      "abs_R_difference": 3.885780586188048e-16,
+      "relative_difference": 9.720677674694275e-16,
+      "R_unmixed_axes_unchanged": 0.3306298523076829,
+      "R_mixed_best_group_axes": 0.39974379526067955,
+      "R_unmixed_best_group_axes": 0.3997437952606792,
+      "mixed_best_group_axes": [
+        "+Z",
+        "-Z",
+        "-Y",
+        "+Y"
+      ],
+      "unmixed_best_group_axes": [
+        "+Z",
+        "-Z",
+        "-Y",
+        "-Y"
+      ],
+      "group_optimum_difference": 3.3306690738754696e-16,
+      "max_group_QFIM_difference": 3.3306690738754696e-16,
+      "R_mixed_independent_SLD": 0.3997437952606758,
+      "R_unmixed_independent_SLD": 0.39974379526067566,
+      "independent_SLD_R_difference": 1.6653345369377348e-16,
+      "max_full_QFIM_difference": 1.6653345369377348e-16,
+      "max_SLD_vs_group_R_error": 3.774758283725532e-15,
+      "state_vector_relation_max_error": 9.341771812940338e-18,
+      "seconds": 0.794699934999926
+    },
+    {
+      "n": 11,
+      "eta": 0.5,
+      "hubs": 4,
+      "leaves": 7,
+      "phi_rad": 0.409436237391435,
+      "group_sizes": [
+        6,
+        1,
+        2,
+        2
+      ],
+      "group_sides": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "mixed_group_signs": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "unmixed_group_signs": [
+        1,
+        1,
+        1,
+        -1
+      ],
+      "mixed_group_weights": [
+        0,
+        0,
+        0.409436237391435,
+        -0.409436237391435,
+        0,
+        -0.409436237391435,
+        0.409436237391435,
+        0,
+        0,
+        0
+      ],
+      "unmixed_group_weights": [
+        0.0,
+        0.0,
+        0.409436237391435,
+        -0.409436237391435,
+        0.0,
+        0.409436237391435,
+        -0.409436237391435,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mixed_group_axes": [
+        "+Y",
+        "-Y",
+        "-Z",
+        "+Z"
+      ],
+      "unmixed_group_axes": [
+        "+Y",
+        "+Y",
+        "-Z",
+        "+Z"
+      ],
+      "positive_hub_mixed_edge_counts": [
+        6,
+        1
+      ],
+      "negative_hub_mixed_edge_counts": [
+        1,
+        6
+      ],
+      "R_saved": 0.6616474114543808,
+      "R_mixed": 0.6616474114543808,
+      "R_unmixed": 0.6616474114543811,
+      "abs_R_difference": 3.3306690738754696e-16,
+      "relative_difference": 5.033903278717977e-16,
+      "R_unmixed_axes_unchanged": 0.5440267994022128,
+      "R_mixed_best_group_axes": 0.6616474114543808,
+      "R_unmixed_best_group_axes": 0.6616474114543811,
+      "mixed_best_group_axes": [
+        "+Y",
+        "-Y",
+        "-Z",
+        "+Z"
+      ],
+      "unmixed_best_group_axes": [
+        "+Y",
+        "+Y",
+        "-Z",
+        "+Z"
+      ],
+      "group_optimum_difference": 3.3306690738754696e-16,
+      "max_group_QFIM_difference": 4.440892098500626e-16,
+      "R_mixed_independent_SLD": 0.6616474114543812,
+      "R_unmixed_independent_SLD": 0.661647411454381,
+      "independent_SLD_R_difference": 2.220446049250313e-16,
+      "max_full_QFIM_difference": 5.551115123125783e-16,
+      "max_SLD_vs_group_R_error": 4.440892098500626e-16,
+      "state_vector_relation_max_error": 7.757919228897728e-18,
+      "seconds": 2.666176293000035
+    },
+    {
+      "n": 12,
+      "eta": 0.5,
+      "hubs": 4,
+      "leaves": 8,
+      "phi_rad": 0.4067837408649881,
+      "group_sizes": [
+        2,
+        2,
+        6,
+        2
+      ],
+      "group_sides": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "mixed_group_signs": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "unmixed_group_signs": [
+        1,
+        -1,
+        1,
+        1
+      ],
+      "mixed_group_weights": [
+        0,
+        0,
+        0.4067837408649881,
+        -0.4067837408649881,
+        0,
+        -0.4067837408649881,
+        0.4067837408649881,
+        0,
+        0,
+        0
+      ],
+      "unmixed_group_weights": [
+        0.0,
+        0.0,
+        0.4067837408649881,
+        0.4067837408649881,
+        0.0,
+        -0.4067837408649881,
+        -0.4067837408649881,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mixed_group_axes": [
+        "+Z",
+        "-Z",
+        "-Y",
+        "+Y"
+      ],
+      "unmixed_group_axes": [
+        "+Z",
+        "-Z",
+        "-Y",
+        "-Y"
+      ],
+      "positive_hub_mixed_edge_counts": [
+        6,
+        2
+      ],
+      "negative_hub_mixed_edge_counts": [
+        2,
+        6
+      ],
+      "R_saved": 0.6712197753583685,
+      "R_mixed": 0.6712197753583685,
+      "R_unmixed": 0.6712197753583687,
+      "abs_R_difference": 2.220446049250313e-16,
+      "relative_difference": 3.308076029292794e-16,
+      "R_unmixed_axes_unchanged": 0.47975011200474277,
+      "R_mixed_best_group_axes": 0.6712197753583685,
+      "R_unmixed_best_group_axes": 0.6712197753583686,
+      "mixed_best_group_axes": [
+        "+Z",
+        "-Z",
+        "-Y",
+        "+Y"
+      ],
+      "unmixed_best_group_axes": [
+        "+Z",
+        "-Z",
+        "-Y",
+        "-Y"
+      ],
+      "group_optimum_difference": 1.1102230246251565e-16,
+      "max_group_QFIM_difference": 4.440892098500626e-16,
+      "R_mixed_independent_SLD": 0.6712197753583692,
+      "R_unmixed_independent_SLD": 0.6712197753583699,
+      "independent_SLD_R_difference": 6.661338147750939e-16,
+      "max_full_QFIM_difference": 2.220446049250313e-16,
+      "max_SLD_vs_group_R_error": 1.1102230246251565e-15,
+      "state_vector_relation_max_error": 1.1107649934270853e-17,
+      "seconds": 12.595643742999982
+    },
+    {
+      "n": 12,
+      "eta": 0.7,
+      "hubs": 2,
+      "leaves": 10,
+      "phi_rad": 0.8499311448014569,
+      "group_sizes": [
+        1,
+        1,
+        8,
+        2
+      ],
+      "group_sides": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "mixed_group_signs": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "unmixed_group_signs": [
+        1,
+        -1,
+        1,
+        1
+      ],
+      "mixed_group_weights": [
+        0,
+        0,
+        0.8499311448014569,
+        -0.8499311448014569,
+        0,
+        -0.8499311448014569,
+        0.8499311448014569,
+        0,
+        0,
+        0
+      ],
+      "unmixed_group_weights": [
+        0.0,
+        0.0,
+        0.8499311448014569,
+        0.8499311448014569,
+        0.0,
+        -0.8499311448014569,
+        -0.8499311448014569,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mixed_group_axes": [
+        "+Z",
+        "-Z",
+        "-Y",
+        "+Y"
+      ],
+      "unmixed_group_axes": [
+        "+Z",
+        "-Z",
+        "-Y",
+        "-Y"
+      ],
+      "positive_hub_mixed_edge_counts": [
+        8,
+        2
+      ],
+      "negative_hub_mixed_edge_counts": [
+        2,
+        8
+      ],
+      "R_saved": 1.2900264843592675,
+      "R_mixed": 1.2900264843592673,
+      "R_unmixed": 1.2900264843592664,
+      "abs_R_difference": 8.881784197001252e-16,
+      "relative_difference": 6.884962676880757e-16,
+      "R_unmixed_axes_unchanged": 0.6727870912289274,
+      "R_mixed_best_group_axes": 1.2900264843592675,
+      "R_unmixed_best_group_axes": 1.2900264843592664,
+      "mixed_best_group_axes": [
+        "+Z",
+        "-Z",
+        "-Y",
+        "+Y"
+      ],
+      "unmixed_best_group_axes": [
+        "+Z",
+        "-Z",
+        "-Y",
+        "-Y"
+      ],
+      "group_optimum_difference": 1.1102230246251565e-15,
+      "max_group_QFIM_difference": 2.6645352591003757e-15,
+      "R_mixed_independent_SLD": 1.290026484359278,
+      "R_unmixed_independent_SLD": 1.290026484359278,
+      "independent_SLD_R_difference": 0.0,
+      "max_full_QFIM_difference": 8.326672684688674e-17,
+      "max_SLD_vs_group_R_error": 1.1546319456101628e-14,
+      "state_vector_relation_max_error": 1.3877787807814457e-17,
+      "seconds": 11.142979600999979
+    }
+  ]
+}
