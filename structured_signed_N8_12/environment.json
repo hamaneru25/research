@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "matplotlib": "3.10.8",
+  "source_repository_commit": "46c0e4de29a34f0e4a75070db4fbb52f596efde0",
+  "base_engine": "weighted_graph_sensors_N6_7/engine.py",
+  "final_winner_validation_only": true
+}

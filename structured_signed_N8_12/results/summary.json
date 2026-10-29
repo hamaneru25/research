@@ -1,0 +1,104 @@
+{
+  "scope": "best-found bounded numerical search; not exhaustive signs, continuous weights, or all local Clifford assignments",
+  "eta_points": 20,
+  "sensors": [
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "coverage": {
+    "N9_F2": {
+      "records": 55,
+      "profile_evaluations": 2044,
+      "summed_worker_seconds": 11.813539775990648
+    },
+    "N12_F2": {
+      "records": 85,
+      "profile_evaluations": 2979,
+      "summed_worker_seconds": 49.74864630798584
+    },
+    "N10_F2": {
+      "records": 64,
+      "profile_evaluations": 2345,
+      "summed_worker_seconds": 17.199111879008342
+    },
+    "N11_F2": {
+      "records": 74,
+      "profile_evaluations": 2671,
+      "summed_worker_seconds": 29.848472114003016
+    },
+    "N10_F1": {
+      "records": 46,
+      "profile_evaluations": 608,
+      "summed_worker_seconds": 23.697328917995037
+    },
+    "N11_F1": {
+      "records": 52,
+      "profile_evaluations": 755,
+      "summed_worker_seconds": 62.84694574899913
+    },
+    "N8_F2": {
+      "records": 47,
+      "profile_evaluations": 1831,
+      "summed_worker_seconds": 9.060217932999876
+    },
+    "N9_F1": {
+      "records": 42,
+      "profile_evaluations": 585,
+      "summed_worker_seconds": 13.185231418992771
+    },
+    "N12_F1": {
+      "records": 57,
+      "profile_evaluations": 794,
+      "summed_worker_seconds": 157.63315985199915
+    },
+    "N8_F1": {
+      "records": 37,
+      "profile_evaluations": 466,
+      "summed_worker_seconds": 8.583567060004498
+    },
+    "N8_F3": {
+      "records": 24,
+      "profile_evaluations": 309,
+      "summed_worker_seconds": 2.6411354669980938
+    },
+    "N9_F3": {
+      "records": 24,
+      "profile_evaluations": 288,
+      "summed_worker_seconds": 7.793486380001923
+    },
+    "N10_F3": {
+      "records": 24,
+      "profile_evaluations": 273,
+      "summed_worker_seconds": 28.985449070993127
+    },
+    "N12_F3": {
+      "records": 24,
+      "profile_evaluations": 271,
+      "summed_worker_seconds": 431.0559392519972
+    },
+    "N11_F3": {
+      "records": 24,
+      "profile_evaluations": 260,
+      "summed_worker_seconds": 113.11456105099751
+    }
+  },
+  "total_profile_evaluations": 16479,
+  "completed_records": 679,
+  "group_refinements": 300,
+  "sampled_full_edge_variable_counts": {
+    "8": 28,
+    "9": 36,
+    "10": 45,
+    "11": 55,
+    "12": 66
+  },
+  "family_wins": {
+    "1": 57,
+    "2": 26,
+    "3": 5,
+    "4": 12
+  }
+}
