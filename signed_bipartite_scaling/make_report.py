@@ -6,6 +6,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.colors import BoundaryNorm,ListedColormap
+from plot_hub_counts import plot_hub_counts
 
 def table(head,rows):
     return '<table><thead><tr>'+''.join('<th>'+html.escape(str(h))+'</th>' for h in head)+'</tr></thead><tbody>'+''.join('<tr>'+''.join('<td>'+html.escape(str(v))+'</td>' for v in r)+'</tr>' for r in rows)+'</tbody></table>'
@@ -56,6 +57,7 @@ def main():
     axs[0].set_title('Best-found topology K(a, N-a): 1 = star/GHZ, 2 = K(2, N-2)')
     axs[1].set_title('Relative information gain; GHZ partition optimized separately at every point')
     fig.savefig(out/'topology_and_gain.svg');fig.savefig(out/'topology_and_gain.png',dpi=160);plt.close(fig)
+    plot_hub_counts(out)
     extended=json.loads((out/'extended_validation.json').read_text())
     validation=json.loads((base/'validation.json').read_text())
     summaryrows=[]
@@ -70,6 +72,8 @@ def main():
     '<h2>代表的な構造とGHZ比較</h2>',table(['N','η=0.20の構造','η=0.50の構造','η=0.80の構造','最大GHZ改善率','GHZより高い点数','同値の点数'],summaryrows),
     '<h2>全260点の構造と改善率</h2>','<svg'+(out/'topology_and_gain.svg').read_text().split('<svg',1)[1],
     '<p>上図は同じグラフ K(a,N−a) を a≤N−a で表記する。実際にどちらの部をハブにしたか、正負の個数、軸は下表とJSONに記録している。高透過率で a=1 の星型は重みπの通常GHZ状態。改善率の絶対値1e−9以下は同値と判定し、描画では丸め誤差の負値を0にしている。</p>',
+    '<h2>実際のハブ数による色分け</h2>','<svg'+(out/'hub_counts.svg').read_text().split('<svg',1)[1],
+    '<p>この追加図の色と数字は best.json の hubs、すなわち符号を割り当てた側のハブ数h。上の構造図のa=min(h,N−h)とは異なる。例えば4ハブ＋3葉ならh=4だがa=3。h=1は星型GHZの枝。</p>',
     '<h2>情報量の曲線</h2>','<svg'+(out/'information.svg').read_text().split('<svg',1)[1],
     '<p>オレンジは今回の状態族の最良値、青は元の「ハブ2個、片方+φ・片方−φ、軸+Z/−Z、葉−Y」だけを重み最適化した値、紫は全整数GHZ分割の最良値、灰色は独立センサ。入力設定の確率混合は用いない。</p>',
     '<h2>目的関数と損失の扱い</h2><p>各光子を独立な未知位相θᵢのセンサとし、g=Σᵢθᵢ/Nを推定する。入力の重み・クリフォードは損失前に固定。生存位置は記録するが、入力をその記録に応じて変えない。全損失パターンの混合状態SLD-QFIMを先に平均して Q̄=ΣₛpₛQₛ とする。w=(1,…,1)/N に対し R=1/[N wᵀQ̄⁺w]。wがQ̄の像にないときR=0。分母は損失光子を含む生成N光子で、事後選別による再正規化は行わない。</p>',
@@ -87,7 +91,7 @@ def main():
     parts.append('<h2>コードとデータ</h2><p>一式ZIPには全88二部サイズの探索記録、最良260構成、図、CSV、JSON、検証結果、実行可能コードとREADMEを含む。探索条件はコマンド引数で変更できる。</p><ul>')
     archive=out/'signed_bipartite_N8_20_code_and_results.zip'
     with zipfile.ZipFile(archive,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as z:
-        for name in ['search.py','verify.py','validate_results.py','make_report.py','README.md','METHODS.md','requirements.txt','validation.json']:z.write(base/name,name)
+        for name in ['search.py','verify.py','validate_results.py','make_report.py','plot_hub_counts.py','README.md','METHODS.md','requirements.txt','validation.json']:z.write(base/name,name)
         for file in sorted(out.glob('*')):
             if file.is_file() and file.suffix in {'.json','.csv','.svg','.png'}:z.write(file,'results/'+file.name)
     for file in [archive,out/'best.csv',out/'best.json',base/'README.md']:

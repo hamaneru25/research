@@ -8,6 +8,7 @@
 - [最良構成の数値表（CSV）](results/best.csv)
 - [重み・符号数・回転・2部のQFIM（JSON）](results/best.json)
 - [全260点の構造とGHZ分割に対する改善率](results/topology_and_gain.svg)
+- [実際のハブ数hによる色分け（全260点）](results/hub_counts.svg)
 - [8・12・16・20センサの情報量曲線](results/information.svg)
 - [数学的な計算方法と探索条件](METHODS.md)
 
@@ -25,6 +26,10 @@
 |20|K(4,16)|0.713985624|0.655577587|42.7971%|
 
 ![全260点の構造と改善率](results/topology_and_gain.svg)
+
+![実際のハブ数h](results/hub_counts.svg)
+
+追加図の色とセル内の数字は `best.json` の `hubs`（符号を割り当てた側のハブ数h）。既存の構造図の `a=min(h,N−h)` とは異なる。例えば4ハブ＋3葉なら追加図は4、構造図は3となる。ハブ数1は星型GHZの枝。いずれも同じ保存済み260構成を描いており、再最適化の結果ではない。
 
 ## 状態・モデル・制限
 
@@ -50,6 +55,8 @@ python verify.py
 python validate_results.py --results my_results
 python make_report.py --results my_results
 ```
+
+ハブ数の図だけを再生成する場合は `python plot_hub_counts.py --results my_results`。
 
 公開値は `0〜pi` の129点走査と上位4局所ピークまでの1次元精密化で得た。端点も比較する。初回の65点走査とはN=8〜12で丸め誤差内に一致した。これらは大域最適性の証明ではない。
 
