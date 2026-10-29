@@ -1,8 +1,8 @@
 {
   "files": {
     "README.md": {
-      "bytes": 8602,
-      "sha256": "aaeb2113a91886a70d50e363ec22956947bab5c6764437aaf92a8be25a260abe"
+      "bytes": 9947,
+      "sha256": "fe8e99f005d4237dc9a8d6c24d63e14598cc3a2af1b9d169a19a4d6200853cff"
     },
     "dense_engine.py": {
       "bytes": 3101,
@@ -20,13 +20,17 @@
       "bytes": 265,
       "sha256": "ebc089cc8cafc5dee36ce8dbfe17fbd9fd4531f08ff45ea393fc312eaccc6cbb"
     },
+    "plot_heatmaps.py": {
+      "bytes": 6009,
+      "sha256": "bd5c4871cc24dea9caf7dc58a2cb82b8ed7780a71d7b5aa1b9e125b614d76662"
+    },
     "refine.py": {
       "bytes": 2785,
       "sha256": "5e74367334333ec92ce5b05c5aff4d9cd7e442e5181fd15010ae697ecc1ffb03"
     },
     "report.py": {
-      "bytes": 5123,
-      "sha256": "5dad03eb7837696388c068aaa4a85429ec6756810a57a3f77fad1069ce42910b"
+      "bytes": 5998,
+      "sha256": "e91bb75a1d9a2ccc574ee487a4cd7f9ab3733aed7ebfe74bd405db7a50e5c446"
     },
     "requirements.txt": {
       "bytes": 39,
@@ -42,11 +46,27 @@
     },
     "results/comparison.svg": {
       "bytes": 114118,
-      "sha256": "cf5e10277af4cc25afdfcbffe87189d5ac035af05b4278930fa98723eb35b6a7"
+      "sha256": "22cb6bf4beccba9f35f10e845cd46954b46661a099d5037b751d993284f0eec6"
+    },
+    "results/ghz_partition_gain_heatmap.png": {
+      "bytes": 171106,
+      "sha256": "55219a03b533f7251f4bba358762adadaf69196fb86cbace55365ac9ab838b01"
+    },
+    "results/ghz_partition_gain_heatmap.svg": {
+      "bytes": 125125,
+      "sha256": "bc4e0f6faa150d1b7eacb4e2b3ca21f983d6a53eb8f4165cb6963610a033b06c"
+    },
+    "results/heatmap_data.csv": {
+      "bytes": 8858,
+      "sha256": "77d9339e016a7e9bd461949991d7698afcc7dc41062a430bb9d3eb5fb286ac56"
+    },
+    "results/heatmap_data.json": {
+      "bytes": 30966,
+      "sha256": "a216b3a9dac5bd9a1da27cb54868d427f5a3fd30504c2b7820413035fe0b720c"
     },
     "results/report.md": {
-      "bytes": 2679,
-      "sha256": "53b1d68f651ecd676ff6ba9615ba6e51f35ac3f6d0f239bb04a2c194c096e222"
+      "bytes": 3464,
+      "sha256": "2eb7052212c3f2ceb4a8d10de4de02ad3ec948700ca762b866c54b2fc0e2e87d"
     },
     "results/search_records.json.gz": {
       "bytes": 1134398,
@@ -59,6 +79,14 @@
     "results/summary.json": {
       "bytes": 2421,
       "sha256": "b24a753425ca30faaa870748564d98786544a30fbbca58c7b36f6f2d751dcaef"
+    },
+    "results/topology_heatmap.png": {
+      "bytes": 126070,
+      "sha256": "3ca3605f121684f6018832f3dd7983ee809039b8f3375a8c54116a00acc8961d"
+    },
+    "results/topology_heatmap.svg": {
+      "bytes": 142708,
+      "sha256": "0b9ff9ecdad281b07c917d18636a1eabc638cd218bacf979cb2673046b07db56"
     },
     "results/validation.json": {
       "bytes": 22418,

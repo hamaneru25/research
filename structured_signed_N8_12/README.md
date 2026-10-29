@@ -7,6 +7,9 @@
 - [選択構造・重み・回転・QFIM](results/best.json)
 - [探索件数・計算時間の内訳](results/summary.json)
 - [最終選択構造だけの独立検算](results/validation.json)
+- [最良発見グラフの分布（色分け）](results/topology_heatmap.svg)
+- [最適GHZ分割からの改善率（色分け）](results/ghz_partition_gain_heatmap.svg)
+- [色付き図の全100点の数値と最適GHZ分割](results/heatmap_data.csv)
 
 ## 共通モデル
 
@@ -118,6 +121,7 @@ python search.py --sensors 8,9,10,11,12 --workers 4 --points 17 --steps 6 --dens
 python refine.py
 python derived_starts.py
 python report.py
+python plot_heatmaps.py
 python validate_winners.py
 ```
 
@@ -135,6 +139,20 @@ dense_N*.jsonは一般符号・全辺独立の有限予算探索。各レコー�
 そのコマンドを省略し、空のresultsを使う。best.jsonのsource_fileはアーカイブ内の名前。
 
 ## 結論の限界
+
+### 追加ヒートマップの読み方
+
+横軸は透過率、縦軸はセンサ数。100点の保存結果だけを色分けし、境界の補間や追加探索はしない。
+構造図は実際の接続で分類する。B a|bは符号付き完全二部K(a,b)で、a,bは小さい部から表示。
+H h|mはハブh個を全接続し、葉m個を部内非接続とする構造。
+ハブN-1個＋葉1個の②は接続が完全グラフになるためC2と表示する。
+C1は全辺共通重みの完全グラフ、C2は特別な1頂点と残りN-1頂点で重みが異なる完全グラフ。
+GHZは全NセンサのGHZで、同値の候補も含む。
+
+改善率は100*(R_best_found/R_GHZ_partition-1)。R_GHZ_partitionは全整数分割を比較して選び、
+分割(k_1,...,k_b)についてR=N/sum_j eta^(-k_j)。単一の全N光子GHZだけを基準にしない。
+整数分割の動的計画法と直接の全列挙を100条件で照合し、最大差は2.3e-16未満。
+PNG版も同じresultsフォルダに保存。plot_heatmaps.pyで再生成できる。
 
 構造間の数値比較は、同じ物理モデル・指標で実行可能な候補同士を比較したもの。
 ある構造の保存値が低くても、その構造自体が劣ることや未探索の重みで改善しないことを

@@ -45,6 +45,12 @@ def main():
           '**Best found within the recorded search budget. No global-optimality or exhaustive-sign claim.**','',
           '[All 100 conditions (CSV)](comparison.csv) · [Weights, axes and QFIMs (JSON)](best.json) · [Coverage](summary.json) · [Validation](validation.json)','',
           '![Comparison](comparison.svg)','',
+          '## Best-found topology distribution','',
+          '![Topology heatmap](topology_heatmap.svg)','',
+          'B a|b: signed complete bipartite K(a,b), smaller part first. H h|m: hub clique with independent leaves. C1: common-weight clique. C2: complete graph with a singleton vertex group and the other N-1 vertices. A family-2 candidate with a single leaf is a complete graph and is classified as C2. GHZ includes ties.','',
+          '## Gain over the optimal GHZ partition','',
+          '![GHZ partition gain heatmap](ghz_partition_gain_heatmap.svg)','',
+          'Gain = 100*(R_best_found/R_GHZ_partition-1). For each integer partition (k_1,...,k_b), R_GHZ_partition=N/sum_j eta^(-k_j); all integer partitions are compared. [All heatmap values and selected partitions](heatmap_data.csv). No new probe search or transition-boundary optimization was run.','',
           '|N|eta|Family 1 R|Family 2 R|Family 3 R|Full GHZ R|Best family|','|---:|---:|---:|---:|---:|---:|---:|']
     for r in records:
         if not any(abs(r['eta']-x)<1e-9 for x in [.2,.5,.8,.9]):continue

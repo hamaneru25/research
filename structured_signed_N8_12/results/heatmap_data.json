@@ -1,0 +1,1847 @@
+[
+  {
+    "n": 8,
+    "eta": 0.05,
+    "topology": "B",
+    "cell_label": "B 4|4",
+    "source_family": 1,
+    "R_best_found": 0.050122298561961,
+    "R_GHZ_partition": 0.05,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 0.24459712392199684
+  },
+  {
+    "n": 8,
+    "eta": 0.1,
+    "topology": "B",
+    "cell_label": "B 4|4",
+    "source_family": 1,
+    "R_best_found": 0.10096215966574708,
+    "R_GHZ_partition": 0.1,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 0.9621596657470644
+  },
+  {
+    "n": 8,
+    "eta": 0.15,
+    "topology": "B",
+    "cell_label": "B 4|4",
+    "source_family": 1,
+    "R_best_found": 0.15321795731182755,
+    "R_GHZ_partition": 0.15000000000000002,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 2.14530487455169
+  },
+  {
+    "n": 8,
+    "eta": 0.2,
+    "topology": "H",
+    "cell_label": "H 5|3",
+    "source_family": 2,
+    "R_best_found": 0.20760394861927792,
+    "R_GHZ_partition": 0.2,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 3.8019743096389558
+  },
+  {
+    "n": 8,
+    "eta": 0.25,
+    "topology": "H",
+    "cell_label": "H 5|3",
+    "source_family": 2,
+    "R_best_found": 0.26513620937541915,
+    "R_GHZ_partition": 0.25,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 6.054483750167661
+  },
+  {
+    "n": 8,
+    "eta": 0.3,
+    "topology": "H",
+    "cell_label": "H 5|3",
+    "source_family": 2,
+    "R_best_found": 0.3267005980850126,
+    "R_GHZ_partition": 0.30000000000000004,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 8.900199361670857
+  },
+  {
+    "n": 8,
+    "eta": 0.35,
+    "topology": "H",
+    "cell_label": "H 5|3",
+    "source_family": 2,
+    "R_best_found": 0.3935853911662393,
+    "R_GHZ_partition": 0.35,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 12.452968904639805
+  },
+  {
+    "n": 8,
+    "eta": 0.4,
+    "topology": "H",
+    "cell_label": "H 5|3",
+    "source_family": 2,
+    "R_best_found": 0.46704491041192053,
+    "R_GHZ_partition": 0.4,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 16.761227602980135
+  },
+  {
+    "n": 8,
+    "eta": 0.45,
+    "topology": "H",
+    "cell_label": "H 5|3",
+    "source_family": 2,
+    "R_best_found": 0.5484453890140497,
+    "R_GHZ_partition": 0.45000000000000007,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 21.87675311423325
+  },
+  {
+    "n": 8,
+    "eta": 0.5,
+    "topology": "B",
+    "cell_label": "B 2|6",
+    "source_family": 1,
+    "R_best_found": 0.6404605020968912,
+    "R_GHZ_partition": 0.5,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 28.09210041937824
+  },
+  {
+    "n": 8,
+    "eta": 0.55,
+    "topology": "B",
+    "cell_label": "B 2|6",
+    "source_family": 1,
+    "R_best_found": 0.7494809524262749,
+    "R_GHZ_partition": 0.6050000000000001,
+    "GHZ_partition": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "gain_percent": 23.88114916136772
+  },
+  {
+    "n": 8,
+    "eta": 0.6,
+    "topology": "B",
+    "cell_label": "B 2|6",
+    "source_family": 1,
+    "R_best_found": 0.8785224140362023,
+    "R_GHZ_partition": 0.7199999999999999,
+    "GHZ_partition": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "gain_percent": 22.01700194947258
+  },
+  {
+    "n": 8,
+    "eta": 0.65,
+    "topology": "B",
+    "cell_label": "B 2|6",
+    "source_family": 1,
+    "R_best_found": 1.0342650940285103,
+    "R_GHZ_partition": 0.8450000000000001,
+    "GHZ_partition": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "gain_percent": 22.39823597970534
+  },
+  {
+    "n": 8,
+    "eta": 0.7,
+    "topology": "B",
+    "cell_label": "B 2|6",
+    "source_family": 1,
+    "R_best_found": 1.2258650391625705,
+    "R_GHZ_partition": 1.0162962962962963,
+    "GHZ_partition": [
+      2,
+      3,
+      3
+    ],
+    "gain_percent": 20.620831112935157
+  },
+  {
+    "n": 8,
+    "eta": 0.75,
+    "topology": "B",
+    "cell_label": "B 2|6",
+    "source_family": 1,
+    "R_best_found": 1.465578603913006,
+    "R_GHZ_partition": 1.265625,
+    "GHZ_partition": [
+      4,
+      4
+    ],
+    "gain_percent": 15.798803272138763
+  },
+  {
+    "n": 8,
+    "eta": 0.8,
+    "topology": "C1",
+    "cell_label": "C1",
+    "source_family": 3,
+    "R_best_found": 1.7955475708285795,
+    "R_GHZ_partition": 1.6384000000000003,
+    "GHZ_partition": [
+      4,
+      4
+    ],
+    "gain_percent": 9.591526539830264
+  },
+  {
+    "n": 8,
+    "eta": 0.85,
+    "topology": "C1",
+    "cell_label": "C1",
+    "source_family": 3,
+    "R_best_found": 2.387979845511995,
+    "R_GHZ_partition": 2.1799242003124997,
+    "GHZ_partition": [
+      8
+    ],
+    "gain_percent": 9.544168791266694
+  },
+  {
+    "n": 8,
+    "eta": 0.9,
+    "topology": "GHZ",
+    "cell_label": "GHZ",
+    "source_family": 4,
+    "R_best_found": 3.443737680000001,
+    "R_GHZ_partition": 3.4437376800000004,
+    "GHZ_partition": [
+      8
+    ],
+    "gain_percent": 0.0
+  },
+  {
+    "n": 8,
+    "eta": 0.95,
+    "topology": "GHZ",
+    "cell_label": "GHZ",
+    "source_family": 4,
+    "R_best_found": 5.307363450312498,
+    "R_GHZ_partition": 5.307363450312498,
+    "GHZ_partition": [
+      8
+    ],
+    "gain_percent": 0.0
+  },
+  {
+    "n": 8,
+    "eta": 1.0,
+    "topology": "GHZ",
+    "cell_label": "GHZ",
+    "source_family": 4,
+    "R_best_found": 8.0,
+    "R_GHZ_partition": 8.0,
+    "GHZ_partition": [
+      8
+    ],
+    "gain_percent": 0.0
+  },
+  {
+    "n": 9,
+    "eta": 0.05,
+    "topology": "B",
+    "cell_label": "B 4|5",
+    "source_family": 1,
+    "R_best_found": 0.050135909266203725,
+    "R_GHZ_partition": 0.05,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 0.2718185324074529
+  },
+  {
+    "n": 9,
+    "eta": 0.1,
+    "topology": "B",
+    "cell_label": "B 4|5",
+    "source_family": 1,
+    "R_best_found": 0.10106989417558548,
+    "R_GHZ_partition": 0.1,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 1.069894175585473
+  },
+  {
+    "n": 9,
+    "eta": 0.15,
+    "topology": "B",
+    "cell_label": "B 4|5",
+    "source_family": 1,
+    "R_best_found": 0.15358173661179883,
+    "R_GHZ_partition": 0.15000000000000002,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 2.3878244078658684
+  },
+  {
+    "n": 9,
+    "eta": 0.2,
+    "topology": "B",
+    "cell_label": "B 4|5",
+    "source_family": 1,
+    "R_best_found": 0.20845595173411258,
+    "R_GHZ_partition": 0.2,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 4.227975867056277
+  },
+  {
+    "n": 9,
+    "eta": 0.25,
+    "topology": "B",
+    "cell_label": "B 4|5",
+    "source_family": 1,
+    "R_best_found": 0.26651644654180673,
+    "R_GHZ_partition": 0.25,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 6.606578616722691
+  },
+  {
+    "n": 9,
+    "eta": 0.3,
+    "topology": "B",
+    "cell_label": "B 4|5",
+    "source_family": 1,
+    "R_best_found": 0.32863210640556123,
+    "R_GHZ_partition": 0.30000000000000004,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 9.544035468520384
+  },
+  {
+    "n": 9,
+    "eta": 0.35,
+    "topology": "H",
+    "cell_label": "H 6|3",
+    "source_family": 2,
+    "R_best_found": 0.3965880211724284,
+    "R_GHZ_partition": 0.35,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 13.310863192122401
+  },
+  {
+    "n": 9,
+    "eta": 0.4,
+    "topology": "H",
+    "cell_label": "H 6|3",
+    "source_family": 2,
+    "R_best_found": 0.4716967081726816,
+    "R_GHZ_partition": 0.4,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 17.924177043170396
+  },
+  {
+    "n": 9,
+    "eta": 0.45,
+    "topology": "H",
+    "cell_label": "H 6|3",
+    "source_family": 2,
+    "R_best_found": 0.5544168362476389,
+    "R_GHZ_partition": 0.45000000000000007,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 23.203741388364186
+  },
+  {
+    "n": 9,
+    "eta": 0.5,
+    "topology": "H",
+    "cell_label": "H 6|3",
+    "source_family": 2,
+    "R_best_found": 0.6468150895428538,
+    "R_GHZ_partition": 0.5,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 29.363017908570765
+  },
+  {
+    "n": 9,
+    "eta": 0.55,
+    "topology": "B",
+    "cell_label": "B 2|7",
+    "source_family": 1,
+    "R_best_found": 0.7561146174096546,
+    "R_GHZ_partition": 0.5983516483516484,
+    "GHZ_partition": [
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "gain_percent": 26.366262964698905
+  },
+  {
+    "n": 9,
+    "eta": 0.6,
+    "topology": "B",
+    "cell_label": "B 2|7",
+    "source_family": 1,
+    "R_best_found": 0.8883813226472449,
+    "R_GHZ_partition": 0.7043478260869565,
+    "GHZ_partition": [
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "gain_percent": 26.12821247460886
+  },
+  {
+    "n": 9,
+    "eta": 0.65,
+    "topology": "B",
+    "cell_label": "B 2|7",
+    "source_family": 1,
+    "R_best_found": 1.0492837752439772,
+    "R_GHZ_partition": 0.8378389830508477,
+    "GHZ_partition": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "gain_percent": 25.23692457268929
+  },
+  {
+    "n": 9,
+    "eta": 0.7,
+    "topology": "B",
+    "cell_label": "B 2|7",
+    "source_family": 1,
+    "R_best_found": 1.249518457986526,
+    "R_GHZ_partition": 1.0289999999999997,
+    "GHZ_partition": [
+      3,
+      3,
+      3
+    ],
+    "gain_percent": 21.43036520763133
+  },
+  {
+    "n": 9,
+    "eta": 0.75,
+    "topology": "B",
+    "cell_label": "B 2|7",
+    "source_family": 1,
+    "R_best_found": 1.5042156296852578,
+    "R_GHZ_partition": 1.265625,
+    "GHZ_partition": [
+      3,
+      3,
+      3
+    ],
+    "gain_percent": 18.851605308464812
+  },
+  {
+    "n": 9,
+    "eta": 0.8,
+    "topology": "C2",
+    "cell_label": "C2",
+    "source_family": 2,
+    "R_best_found": 1.8568705801778893,
+    "R_GHZ_partition": 1.6384000000000005,
+    "GHZ_partition": [
+      4,
+      5
+    ],
+    "gain_percent": 13.334385997185594
+  },
+  {
+    "n": 9,
+    "eta": 0.85,
+    "topology": "C2",
+    "cell_label": "C2",
+    "source_family": 2,
+    "R_best_found": 2.4125522044838315,
+    "R_GHZ_partition": 2.158566385135135,
+    "GHZ_partition": [
+      4,
+      5
+    ],
+    "gain_percent": 11.766412239982893
+  },
+  {
+    "n": 9,
+    "eta": 0.9,
+    "topology": "GHZ",
+    "cell_label": "GHZ",
+    "source_family": 4,
+    "R_best_found": 3.486784401000001,
+    "R_GHZ_partition": 3.486784401000001,
+    "GHZ_partition": [
+      9
+    ],
+    "gain_percent": 0.0
+  },
+  {
+    "n": 9,
+    "eta": 0.95,
+    "topology": "GHZ",
+    "cell_label": "GHZ",
+    "source_family": 4,
+    "R_best_found": 5.672244687521482,
+    "R_GHZ_partition": 5.672244687521482,
+    "GHZ_partition": [
+      9
+    ],
+    "gain_percent": 0.0
+  },
+  {
+    "n": 9,
+    "eta": 1.0,
+    "topology": "GHZ",
+    "cell_label": "GHZ",
+    "source_family": 4,
+    "R_best_found": 9.0,
+    "R_GHZ_partition": 9.0,
+    "GHZ_partition": [
+      9
+    ],
+    "gain_percent": 0.0
+  },
+  {
+    "n": 10,
+    "eta": 0.05,
+    "topology": "H",
+    "cell_label": "H 5|5",
+    "source_family": 2,
+    "R_best_found": 0.050147375428373504,
+    "R_GHZ_partition": 0.05,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 0.29475085674699475
+  },
+  {
+    "n": 10,
+    "eta": 0.1,
+    "topology": "B",
+    "cell_label": "B 4|6",
+    "source_family": 1,
+    "R_best_found": 0.10115613242534408,
+    "R_GHZ_partition": 0.1,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 1.1561324253440697
+  },
+  {
+    "n": 10,
+    "eta": 0.15,
+    "topology": "B",
+    "cell_label": "B 4|6",
+    "source_family": 1,
+    "R_best_found": 0.15387317130731962,
+    "R_GHZ_partition": 0.15000000000000002,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 2.5821142048797263
+  },
+  {
+    "n": 10,
+    "eta": 0.2,
+    "topology": "B",
+    "cell_label": "B 4|6",
+    "source_family": 1,
+    "R_best_found": 0.2091535501706351,
+    "R_GHZ_partition": 0.2,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 4.576775085317553
+  },
+  {
+    "n": 10,
+    "eta": 0.25,
+    "topology": "B",
+    "cell_label": "B 4|6",
+    "source_family": 1,
+    "R_best_found": 0.26790281793831155,
+    "R_GHZ_partition": 0.25,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 7.161127175324622
+  },
+  {
+    "n": 10,
+    "eta": 0.3,
+    "topology": "B",
+    "cell_label": "B 4|6",
+    "source_family": 1,
+    "R_best_found": 0.3310866774936845,
+    "R_GHZ_partition": 0.30000000000000004,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 10.362225831228145
+  },
+  {
+    "n": 10,
+    "eta": 0.35,
+    "topology": "B",
+    "cell_label": "B 4|6",
+    "source_family": 1,
+    "R_best_found": 0.39974379526067955,
+    "R_GHZ_partition": 0.35,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 14.212512931622733
+  },
+  {
+    "n": 10,
+    "eta": 0.4,
+    "topology": "B",
+    "cell_label": "B 4|6",
+    "source_family": 1,
+    "R_best_found": 0.4749995564513862,
+    "R_GHZ_partition": 0.4,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 18.74988911284654
+  },
+  {
+    "n": 10,
+    "eta": 0.45,
+    "topology": "H",
+    "cell_label": "H 7|3",
+    "source_family": 2,
+    "R_best_found": 0.5594755174358766,
+    "R_GHZ_partition": 0.45000000000000007,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 24.327892763528137
+  },
+  {
+    "n": 10,
+    "eta": 0.5,
+    "topology": "H",
+    "cell_label": "H 7|3",
+    "source_family": 2,
+    "R_best_found": 0.6518983885104872,
+    "R_GHZ_partition": 0.5,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 30.37967770209744
+  },
+  {
+    "n": 10,
+    "eta": 0.55,
+    "topology": "H",
+    "cell_label": "H 7|3",
+    "source_family": 2,
+    "R_best_found": 0.7660187723795,
+    "R_GHZ_partition": 0.6050000000000001,
+    "GHZ_partition": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "gain_percent": 26.6146731205785
+  },
+  {
+    "n": 10,
+    "eta": 0.6,
+    "topology": "H",
+    "cell_label": "H 7|3",
+    "source_family": 2,
+    "R_best_found": 0.8973074318582501,
+    "R_GHZ_partition": 0.7199999999999999,
+    "GHZ_partition": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "gain_percent": 24.626032202534766
+  },
+  {
+    "n": 10,
+    "eta": 0.65,
+    "topology": "B",
+    "cell_label": "B 2|8",
+    "source_family": 1,
+    "R_best_found": 1.0602908162990214,
+    "R_GHZ_partition": 0.8450000000000001,
+    "GHZ_partition": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "gain_percent": 25.478203112310215
+  },
+  {
+    "n": 10,
+    "eta": 0.7,
+    "topology": "B",
+    "cell_label": "B 2|8",
+    "source_family": 1,
+    "R_best_found": 1.2671483136554629,
+    "R_GHZ_partition": 1.0088235294117647,
+    "GHZ_partition": [
+      2,
+      2,
+      3,
+      3
+    ],
+    "gain_percent": 25.606538379841815
+  },
+  {
+    "n": 10,
+    "eta": 0.75,
+    "topology": "B",
+    "cell_label": "B 2|8",
+    "source_family": 1,
+    "R_best_found": 1.533805295440902,
+    "R_GHZ_partition": 1.265625,
+    "GHZ_partition": [
+      3,
+      3,
+      4
+    ],
+    "gain_percent": 21.18955420767621
+  },
+  {
+    "n": 10,
+    "eta": 0.8,
+    "topology": "C2",
+    "cell_label": "C2",
+    "source_family": 2,
+    "R_best_found": 1.891936022762463,
+    "R_GHZ_partition": 1.6384000000000005,
+    "GHZ_partition": [
+      5,
+      5
+    ],
+    "gain_percent": 15.474610764310448
+  },
+  {
+    "n": 10,
+    "eta": 0.85,
+    "topology": "C2",
+    "cell_label": "C2",
+    "source_family": 2,
+    "R_best_found": 2.4980984567265843,
+    "R_GHZ_partition": 2.2185265624999997,
+    "GHZ_partition": [
+      5,
+      5
+    ],
+    "gain_percent": 12.601692445437408
+  },
+  {
+    "n": 10,
+    "eta": 0.9,
+    "topology": "C1",
+    "cell_label": "C1",
+    "source_family": 3,
+    "R_best_found": 3.5764419111211208,
+    "R_GHZ_partition": 3.4867844010000004,
+    "GHZ_partition": [
+      10
+    ],
+    "gain_percent": 2.5713522779156284
+  },
+  {
+    "n": 10,
+    "eta": 0.95,
+    "topology": "GHZ",
+    "cell_label": "GHZ",
+    "source_family": 4,
+    "R_best_found": 5.987369392383787,
+    "R_GHZ_partition": 5.987369392383786,
+    "GHZ_partition": [
+      10
+    ],
+    "gain_percent": 0.0
+  },
+  {
+    "n": 10,
+    "eta": 1.0,
+    "topology": "GHZ",
+    "cell_label": "GHZ",
+    "source_family": 4,
+    "R_best_found": 10.0,
+    "R_GHZ_partition": 10.0,
+    "GHZ_partition": [
+      10
+    ],
+    "gain_percent": 0.0
+  },
+  {
+    "n": 11,
+    "eta": 0.05,
+    "topology": "H",
+    "cell_label": "H 6|5",
+    "source_family": 2,
+    "R_best_found": 0.05016055956111379,
+    "R_GHZ_partition": 0.05,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 0.32111912222756445
+  },
+  {
+    "n": 11,
+    "eta": 0.1,
+    "topology": "H",
+    "cell_label": "H 6|5",
+    "source_family": 2,
+    "R_best_found": 0.10124285489303361,
+    "R_GHZ_partition": 0.1,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 1.2428548930335959
+  },
+  {
+    "n": 11,
+    "eta": 0.15,
+    "topology": "B",
+    "cell_label": "B 4|7",
+    "source_family": 1,
+    "R_best_found": 0.15411168118262392,
+    "R_GHZ_partition": 0.15000000000000002,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 2.7411207884159294
+  },
+  {
+    "n": 11,
+    "eta": 0.2,
+    "topology": "B",
+    "cell_label": "B 4|7",
+    "source_family": 1,
+    "R_best_found": 0.20972485903002303,
+    "R_GHZ_partition": 0.2,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 4.862429515011502
+  },
+  {
+    "n": 11,
+    "eta": 0.25,
+    "topology": "B",
+    "cell_label": "B 4|7",
+    "source_family": 1,
+    "R_best_found": 0.26903941972299555,
+    "R_GHZ_partition": 0.25,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 7.615767889198222
+  },
+  {
+    "n": 11,
+    "eta": 0.3,
+    "topology": "B",
+    "cell_label": "B 4|7",
+    "source_family": 1,
+    "R_best_found": 0.33310250597667085,
+    "R_GHZ_partition": 0.30000000000000004,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 11.034168658890264
+  },
+  {
+    "n": 11,
+    "eta": 0.35,
+    "topology": "B",
+    "cell_label": "B 4|7",
+    "source_family": 1,
+    "R_best_found": 0.40305565043919467,
+    "R_GHZ_partition": 0.35,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 15.15875726834135
+  },
+  {
+    "n": 11,
+    "eta": 0.4,
+    "topology": "B",
+    "cell_label": "B 4|7",
+    "source_family": 1,
+    "R_best_found": 0.4801592878985335,
+    "R_GHZ_partition": 0.4,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 20.039821974633366
+  },
+  {
+    "n": 11,
+    "eta": 0.45,
+    "topology": "B",
+    "cell_label": "B 4|7",
+    "source_family": 1,
+    "R_best_found": 0.5658239781016169,
+    "R_GHZ_partition": 0.4500000000000001,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 25.738661800359264
+  },
+  {
+    "n": 11,
+    "eta": 0.5,
+    "topology": "B",
+    "cell_label": "B 4|7",
+    "source_family": 1,
+    "R_best_found": 0.6616474114543808,
+    "R_GHZ_partition": 0.5,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 32.32948229087616
+  },
+  {
+    "n": 11,
+    "eta": 0.55,
+    "topology": "B",
+    "cell_label": "B 4|7",
+    "source_family": 1,
+    "R_best_found": 0.7694566849449547,
+    "R_GHZ_partition": 0.5995495495495496,
+    "GHZ_partition": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "gain_percent": 28.33913152350105
+  },
+  {
+    "n": 11,
+    "eta": 0.6,
+    "topology": "B",
+    "cell_label": "B 2|9",
+    "source_family": 1,
+    "R_best_found": 0.9007575511609756,
+    "R_GHZ_partition": 0.7071428571428571,
+    "GHZ_partition": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "gain_percent": 27.379855719733936
+  },
+  {
+    "n": 11,
+    "eta": 0.65,
+    "topology": "B",
+    "cell_label": "B 2|9",
+    "source_family": 1,
+    "R_best_found": 1.0683566083545348,
+    "R_GHZ_partition": 0.8391319444444446,
+    "GHZ_partition": [
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "gain_percent": 27.31687971453054
+  },
+  {
+    "n": 11,
+    "eta": 0.7,
+    "topology": "B",
+    "cell_label": "B 2|9",
+    "source_family": 1,
+    "R_best_found": 1.2802895950861606,
+    "R_GHZ_partition": 1.0197297297297296,
+    "GHZ_partition": [
+      2,
+      3,
+      3,
+      3
+    ],
+    "gain_percent": 25.55185533577511
+  },
+  {
+    "n": 11,
+    "eta": 0.75,
+    "topology": "B",
+    "cell_label": "B 2|9",
+    "source_family": 1,
+    "R_best_found": 1.556475483946291,
+    "R_GHZ_partition": 1.265625,
+    "GHZ_partition": [
+      3,
+      4,
+      4
+    ],
+    "gain_percent": 22.980778978472394
+  },
+  {
+    "n": 11,
+    "eta": 0.8,
+    "topology": "B",
+    "cell_label": "B 2|9",
+    "source_family": 1,
+    "R_best_found": 1.9273182973866774,
+    "R_GHZ_partition": 1.6091428571428577,
+    "GHZ_partition": [
+      3,
+      4,
+      4
+    ],
+    "gain_percent": 19.772976577652134
+  },
+  {
+    "n": 11,
+    "eta": 0.85,
+    "topology": "C2",
+    "cell_label": "C2",
+    "source_family": 2,
+    "R_best_found": 2.5294927602716033,
+    "R_GHZ_partition": 2.2425106334459457,
+    "GHZ_partition": [
+      5,
+      6
+    ],
+    "gain_percent": 12.797358574156137
+  },
+  {
+    "n": 11,
+    "eta": 0.9,
+    "topology": "C1",
+    "cell_label": "C1",
+    "source_family": 3,
+    "R_best_found": 3.6323268739345362,
+    "R_GHZ_partition": 3.451916556990001,
+    "GHZ_partition": [
+      11
+    ],
+    "gain_percent": 5.226381170170846
+  },
+  {
+    "n": 11,
+    "eta": 0.95,
+    "topology": "GHZ",
+    "cell_label": "GHZ",
+    "source_family": 4,
+    "R_best_found": 6.256801015041057,
+    "R_GHZ_partition": 6.256801015041057,
+    "GHZ_partition": [
+      11
+    ],
+    "gain_percent": 0.0
+  },
+  {
+    "n": 11,
+    "eta": 1.0,
+    "topology": "GHZ",
+    "cell_label": "GHZ",
+    "source_family": 4,
+    "R_best_found": 11.0,
+    "R_GHZ_partition": 11.0,
+    "GHZ_partition": [
+      11
+    ],
+    "gain_percent": 0.0
+  },
+  {
+    "n": 12,
+    "eta": 0.05,
+    "topology": "B",
+    "cell_label": "B 6|6",
+    "source_family": 1,
+    "R_best_found": 0.050175222198994764,
+    "R_GHZ_partition": 0.05,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 0.3504443979895244
+  },
+  {
+    "n": 12,
+    "eta": 0.1,
+    "topology": "B",
+    "cell_label": "B 6|6",
+    "source_family": 1,
+    "R_best_found": 0.10129896881922,
+    "R_GHZ_partition": 0.1,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 1.2989688192200033
+  },
+  {
+    "n": 12,
+    "eta": 0.15,
+    "topology": "H",
+    "cell_label": "H 7|5",
+    "source_family": 2,
+    "R_best_found": 0.15434617555695695,
+    "R_GHZ_partition": 0.15,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 2.897450371304644
+  },
+  {
+    "n": 12,
+    "eta": 0.2,
+    "topology": "B",
+    "cell_label": "B 4|8",
+    "source_family": 1,
+    "R_best_found": 0.21020065880313776,
+    "R_GHZ_partition": 0.2,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 5.100329401568882
+  },
+  {
+    "n": 12,
+    "eta": 0.25,
+    "topology": "B",
+    "cell_label": "B 4|8",
+    "source_family": 1,
+    "R_best_found": 0.26998633381753645,
+    "R_GHZ_partition": 0.25,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 7.99453352701458
+  },
+  {
+    "n": 12,
+    "eta": 0.3,
+    "topology": "B",
+    "cell_label": "B 4|8",
+    "source_family": 1,
+    "R_best_found": 0.3347835252948087,
+    "R_GHZ_partition": 0.3,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 11.5945084316029
+  },
+  {
+    "n": 12,
+    "eta": 0.35,
+    "topology": "B",
+    "cell_label": "B 4|8",
+    "source_family": 1,
+    "R_best_found": 0.40582284450950273,
+    "R_GHZ_partition": 0.35000000000000003,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 15.94938414557221
+  },
+  {
+    "n": 12,
+    "eta": 0.4,
+    "topology": "B",
+    "cell_label": "B 4|8",
+    "source_family": 1,
+    "R_best_found": 0.4844844497842123,
+    "R_GHZ_partition": 0.4,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 21.121112446053058
+  },
+  {
+    "n": 12,
+    "eta": 0.45,
+    "topology": "B",
+    "cell_label": "B 4|8",
+    "source_family": 1,
+    "R_best_found": 0.5723426786216624,
+    "R_GHZ_partition": 0.4500000000000001,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 27.187261915924953
+  },
+  {
+    "n": 12,
+    "eta": 0.5,
+    "topology": "B",
+    "cell_label": "B 4|8",
+    "source_family": 1,
+    "R_best_found": 0.6712197753583685,
+    "R_GHZ_partition": 0.5,
+    "GHZ_partition": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gain_percent": 34.2439550716737
+  },
+  {
+    "n": 12,
+    "eta": 0.55,
+    "topology": "B",
+    "cell_label": "B 4|8",
+    "source_family": 1,
+    "R_best_found": 0.7832497881257288,
+    "R_GHZ_partition": 0.6050000000000001,
+    "GHZ_partition": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "gain_percent": 29.462774896814658
+  },
+  {
+    "n": 12,
+    "eta": 0.6,
+    "topology": "H",
+    "cell_label": "H 9|3",
+    "source_family": 2,
+    "R_best_found": 0.9116525138113845,
+    "R_GHZ_partition": 0.72,
+    "GHZ_partition": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "gain_percent": 26.61840469602563
+  },
+  {
+    "n": 12,
+    "eta": 0.65,
+    "topology": "H",
+    "cell_label": "H 9|3",
+    "source_family": 2,
+    "R_best_found": 1.0816592010452424,
+    "R_GHZ_partition": 0.8450000000000001,
+    "GHZ_partition": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "gain_percent": 28.007006040857064
+  },
+  {
+    "n": 12,
+    "eta": 0.7,
+    "topology": "B",
+    "cell_label": "B 2|10",
+    "source_family": 1,
+    "R_best_found": 1.2900264843592675,
+    "R_GHZ_partition": 1.0289999999999997,
+    "GHZ_partition": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "gain_percent": 25.367005282727682
+  },
+  {
+    "n": 12,
+    "eta": 0.75,
+    "topology": "B",
+    "cell_label": "B 2|10",
+    "source_family": 1,
+    "R_best_found": 1.5737828337225301,
+    "R_GHZ_partition": 1.265625,
+    "GHZ_partition": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "gain_percent": 24.348273281780152
+  },
+  {
+    "n": 12,
+    "eta": 0.8,
+    "topology": "B",
+    "cell_label": "B 2|10",
+    "source_family": 1,
+    "R_best_found": 1.960134760123849,
+    "R_GHZ_partition": 1.6384000000000003,
+    "GHZ_partition": [
+      4,
+      4,
+      4
+    ],
+    "gain_percent": 19.637131355215367
+  },
+  {
+    "n": 12,
+    "eta": 0.85,
+    "topology": "C2",
+    "cell_label": "C2",
+    "source_family": 2,
+    "R_best_found": 2.5933270252761824,
+    "R_GHZ_partition": 2.2628970937499995,
+    "GHZ_partition": [
+      6,
+      6
+    ],
+    "gain_percent": 14.602075031993845
+  },
+  {
+    "n": 12,
+    "eta": 0.9,
+    "topology": "C1",
+    "cell_label": "C1",
+    "source_family": 3,
+    "R_best_found": 3.6534144508642363,
+    "R_GHZ_partition": 3.389154437772001,
+    "GHZ_partition": [
+      12
+    ],
+    "gain_percent": 7.797225471553237
+  },
+  {
+    "n": 12,
+    "eta": 0.95,
+    "topology": "GHZ",
+    "cell_label": "GHZ",
+    "source_family": 4,
+    "R_best_found": 6.48432105195164,
+    "R_GHZ_partition": 6.48432105195164,
+    "GHZ_partition": [
+      12
+    ],
+    "gain_percent": 0.0
+  },
+  {
+    "n": 12,
+    "eta": 1.0,
+    "topology": "GHZ",
+    "cell_label": "GHZ",
+    "source_family": 4,
+    "R_best_found": 12.0,
+    "R_GHZ_partition": 12.0,
+    "GHZ_partition": [
+      12
+    ],
+    "gain_percent": 0.0
+  }
+]
