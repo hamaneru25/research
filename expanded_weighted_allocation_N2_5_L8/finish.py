@@ -30,30 +30,47 @@ def select(rs,k,tol=1e-8):
     return min(near,key=lambda r:(r['L'],max(r['allocation'])-min(r['allocation']),r['allocation'])),near
 def collect(rows):
     out=[]
-    for n in range(2,6):
+    for n in sorted({r['N'] for r in rows}):
         for t in ETAS:
             rs=[r for r in rows if r['N']==n and r['eta']==t]
             if not rs:continue
             r,rt=select(rs,'R');f,ft=select(rs,'F_eff')
             z=[q for q in rs if q['L']<=6]
-            old=max(q['R'] for q in z); oldf=max(q['F_eff'] for q in z)
+            old=max((q['R'] for q in z),default=None)
+            oldf=max((q['F_eff'] for q in z),default=None)
             ghz=max(q['GHZ_R'] for q in rs);ghzf=max(q['GHZ_F_eff'] for q in rs)
             out.append({'N':n,'eta':float(t),'best_R':r,'best_F':f,'tied_R':[q['allocation'] for q in rt],
                         'tied_F':[q['allocation'] for q in ft],'R_up_to_6':old,'F_up_to_6':oldf,
                         'GHZ_R':ghz,'GHZ_F':ghzf,'R_one_per_node':next(q['R'] for q in rs if q['L']==n)})
     return out
 def main():
-    files=[json.loads(p.read_text()) for p in sorted((D/'runs').glob('a_*.json'))]
-    rows=[r for f in files for r in f['best']];co=collect(rows)
-    expected=sum(1 for n in range(2,6) for l in range(n,9) for s in allocs(l,n))*20
-    assert len({rk(r) for r in rows})==len(rows)==expected
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--runs',type=Path,default=D/'runs',nargs='+')
+    parser.add_argument('--reuse',type=Path,help='Verified results for node counts omitted from the new run')
+    args=parser.parse_args()
+    files=[json.loads(p.read_text()) for folder in args.runs for p in sorted(folder.glob('a_*.json'))]
+    rows_by_key={}
+    for f in files:
+        for r in f['best']:
+            key=rk(r)
+            if key not in rows_by_key or r['F_eff']>rows_by_key[key]['F_eff']+1e-10:
+                rows_by_key[key]=r
+    rows=list(rows_by_key.values())
+    preserved=json.loads(args.reuse.read_text()) if args.reuse else None
+    reused=preserved['allocations'] if preserved else []
+    expected=sum(1 for n in range(2,9) for l in range(n,9) for s in allocs(l,n))*20
+    assert len({rk(r) for r in rows+reused})==len(rows)+len(reused)==expected
+    if {r['N'] for r in rows}&{r['N'] for r in reused}:
+        raise ValueError('Use entire, disjoint node counts when reusing verified results')
+    co=collect(rows)
     # Recheck both resource objectives for every N and eta, plus their 6-photon budget controls.
     finalists={}
     for c in co:
         for r in (c['best_R'],c['best_F']):finalists[rk(r)]=r
         rr=[r for r in rows if r['N']==c['N'] and r['eta']==c['eta'] and r['L']<=6]
-        for ob in ('R','F_eff'):
-            r,_=select(rr,ob);finalists[rk(r)]=r
+        if rr:
+            for ob in ('R','F_eff'):
+                r,_=select(rr,ob);finalists[rk(r)]=r
     changes=extra=0
     with ProcessPoolExecutor(7) as e:
         fs=[e.submit(sweep,r) for r in finalists.values()]
@@ -64,6 +81,7 @@ def main():
     print('starting density verification',len(rr),flush=True)
     with ProcessPoolExecutor(8) as e:
         rr=list(e.map(verify,rr,chunksize=2))
+    rr=sorted(rr+reused,key=rk)
     err=max(r['verification_error'] for r in rr)
     if err>1e-7:
         print('worst',max(rr,key=lambda r:r['verification_error']),flush=True)
@@ -71,8 +89,9 @@ def main():
     ghzerr=max(abs(r['F_eff_verified']-r['GHZ_F_eff']) for r in rr if r['source']=='GHZ')
     result={'results':collect(rr),'allocations':rr,'verification_max_F_error':err,
             'GHZ_verification_max_F_error':ghzerr,'condition_count':len(rr),
-            'candidate_weight_evaluations':sum(f['calls'] for f in files)+extra,
-            'full_axis_rechecks':len(finalists),'improved_by_full_axis_recheck':changes}
+            'candidate_weight_evaluations':sum(f['calls'] for f in files)+extra+(preserved['candidate_weight_evaluations'] if preserved else 0),
+            'full_axis_rechecks':len(finalists)+(preserved['full_axis_rechecks'] if preserved else 0),
+            'improved_by_full_axis_recheck':changes+(preserved['improved_by_full_axis_recheck'] if preserved else 0)}
     atomic(D/'final.json',result)
     print({k:v for k,v in result.items() if k not in ('results','allocations')},flush=True)
 if __name__=='__main__':main()
