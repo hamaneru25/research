@@ -1,6 +1,5 @@
-"""Weighted graph sensing, 2--8 nodes and at most 8 generated photons."""
+"""Weighted graph sensing, 2--5 nodes and at most 8 generated photons."""
 import os
-import csv
 for key in ('OMP_NUM_THREADS','OPENBLAS_NUM_THREADS','MKL_NUM_THREADS'):os.environ[key]='1'
 import itertools as it, numpy as np, math, json, time, argparse
 from pathlib import Path
@@ -34,41 +33,6 @@ def labs_for_sign(axes,s):
     return (np.array(axes)+3*(np.array(s)*s[0]<0)).astype(np.int16)
 def prior_rows():
     return json.loads((D/'prior_verified.json').read_text())['rows']
-
-@lru_cache(None)
-def single_photon_warm_starts(n):
-    """Import published circuits for allocations with one photon per node."""
-    repo = D.parent
-    result = [[] for _ in ETAS]
-    if n in (6, 7):
-        path = repo / 'weighted_graph_sensors_N6_7' / 'results' / f'best_protocols_N{n}.csv'
-        if path.is_file():
-            with path.open(newline='') as handle:
-                for row in csv.DictReader(handle):
-                    ie = round(float(row['eta']) * 20) - 1
-                    weights = [float(row[f'principal_phi_{i}{j}_rad']) for i, j in layout(n)[0]]
-                    axes = [row[f'axis_{i}'] for i in range(n)]
-                    result[ie].append((weights, axes))
-    if n == 8:
-        path = repo / 'structured_signed_N8_12' / 'results' / 'best.json'
-        if path.is_file():
-            for row in json.loads(path.read_text()):
-                if row['n'] != n:
-                    continue
-                ie = round(float(row['eta']) * 20) - 1
-                for entry in row['families']:
-                    sizes = entry.get('sizes')
-                    if not sizes or 'group_weights' not in entry:
-                        continue
-                    group = np.repeat(np.arange(len(sizes)), sizes)
-                    matrix = np.zeros((len(sizes),) * 2)
-                    i, j = np.triu_indices(len(sizes))
-                    matrix[i, j] = matrix[j, i] = entry['group_weights']
-                    weights = [matrix[group[i], group[j]] for i, j in layout(n)[0]]
-                    result[ie].append((weights, np.repeat(entry['group_axes'], sizes)))
-    return result
-
-
 class Model:
     def __init__(self,s):
         self.s=tuple(s); self.n=len(s);self.l=sum(s)
@@ -152,25 +116,6 @@ class Model:
             for ie,y,lab in zip(ies,vals,axes):
                 if y>best[ie]['F_eff']+1e-10:best[ie]=self.rec(y,x,lab,ie,src)
                 li=top[ie];li.append((float(y),x,lab));li.sort(key=lambda a:-a[0]);del li[7:]
-        if self.n >= 6:
-            first = np.cumsum((0,) + self.s[:-1])
-            repeated = np.flatnonzero(np.array(self.s) > 1)
-            targets = list(it.combinations(range(self.n), len(repeated)))
-            for ie, candidates in enumerate(single_photon_warm_starts(self.n)):
-                for weights, axes in candidates:
-                    old_lab = np.array([np.flatnonzero(AX == axis)[0] for axis in axes])
-                    for target in targets:
-                        remaining = [i for i in range(self.n) if i not in target]
-                        order = np.empty(self.n, dtype=int)
-                        order[repeated] = target
-                        order[np.array(self.s) == 1] = remaining
-                        ids = first[np.argsort(order)]
-                        edge_matrix = np.zeros((self.l, self.l))
-                        i, j = np.triu_indices(self.n, 1)
-                        edge_matrix[ids[i], ids[j]] = edge_matrix[ids[j], ids[i]] = weights
-                        lab = np.full(self.l, 2)
-                        lab[ids] = old_lab
-                        add(edge_matrix[self.i, self.j], [lab], 'published_single_photon', [ie])
         # Weak-to-intermediate bipartite candidates. Same unwrapped weight/axes can be reused.
         patterns=list(self.structured(0,rng))
         # Deduplicate phase profiles up to within-node perm by the construction and global inversion.
@@ -284,43 +229,16 @@ class Model:
         z,l=self.pick(q[None],labs)
         return float(z[0]),l[0]
     def exact_axes(self,q):
-        # Fix one reference photon per node to positive, and enumerate
-        # internal signs separately from the collective signs of each node.
-        axes = np.array(list(it.product(range(3), repeat=self.l)), dtype=np.int16)
-        first = np.cumsum((0,) + self.s[:-1])
-        inside = np.setdiff1d(np.arange(self.l), first)
-        local = np.zeros((2**len(inside), self.l), dtype=np.int16)
-        if len(inside):
-            local[:, inside] = list(it.product((0, 3), repeat=len(inside)))
-        signs = np.array([(1,) + s for s in it.product((1, -1), repeat=self.n - 1)])
-        i, j = np.triu_indices(self.n, 1)
-        products = (signs[:, i] * signs[:, j]).T
-        best, lab = -1., None
-        for start in range(0, len(axes), 256):
-            labs = (axes[start:start+256, None, :] + local).reshape(-1, self.l)
-            matrices = self.allq(q[None], labs)[0]
-            ev, u = np.linalg.eigh(matrices)
-            cutoff = np.maximum(1e-13, ev[:, -1:] * 2e-12)
-            active = ev > cutoff
-            reciprocal = np.divide(1, ev, out=np.zeros_like(ev), where=active)
-            regular = ev[:, 0] > np.maximum(cutoff[:, 0], ev[:, -1] * 1e-6)
-            cost = np.empty((len(labs), len(signs)))
-            if np.any(regular):
-                v = u[regular]
-                inv = (v * reciprocal[regular, None, :]) @ v.transpose(0, 2, 1)
-                cost[regular] = np.trace(inv, axis1=1, axis2=2)[:, None] + 2 * inv[:, i, j] @ products
-            if not np.all(regular):
-                v = u[~regular].transpose(0, 2, 1) @ signs.T
-                missing = np.where(active[~regular, :, None], 0, v)
-                ok = np.sum(missing**2, axis=1) < self.n**2 * 1e-18
-                c = np.sum(v**2 * reciprocal[~regular, :, None], axis=1)
-                cost[~regular] = np.where(ok, c, np.inf)
-            values = np.divide(self.n**2, cost, out=np.zeros_like(cost), where=cost > 0)
-            row, col = np.unravel_index(values.argmax(), values.shape)
-            if values[row, col] > best:
-                best = float(values[row, col])
-                lab = (labs[row] + 3 * (signs[col, self.nodes] < 0)) % 6
-        return best, lab
+        # 6**L / 2 configurations, streamed by unsigned axis groups.
+        axes=np.array(list(it.product(range(3),repeat=self.l)),dtype=np.int16)
+        s=np.array(list(it.product([0,3],repeat=self.l-1)),dtype=np.int16)
+        s=np.column_stack([np.zeros(len(s),dtype=np.int16),s])
+        best=-1.; lab=None
+        for beg in range(0,len(axes),192):
+            labs=(axes[beg:beg+192,None,:]+s).reshape(-1,self.l)
+            z,u=self.pick(q[None],labs)
+            if z[0]>best:best,lab=float(z[0]),u[0]
+        return best,lab
 
 def run(job):
     s,steps,out=job;m=Model(s);path=Path(out)/('a_'+'_'.join(map(str,s))+'.json')
@@ -373,12 +291,8 @@ def main():
     p.add_argument('--max-l',type=int,default=8);p.add_argument('--workers',type=int,default=8)
     p.add_argument('--steps',type=int,default=26);p.add_argument('--output',type=Path,default=D/'runs')
     p.add_argument('--min-l',type=int,default=2)
-    p.add_argument('--min-n',type=int,default=2)
-    p.add_argument('--max-n',type=int,default=8)
     a=p.parse_args();a.output.mkdir(parents=True,exist_ok=True)
-    if not 2<=a.min_n<=a.max_n<=8 or not 2<=a.min_l<=a.max_l<=8:
-        p.error('node and photon limits must be ordered integers in 2..8')
-    al=[s for l in range(a.max_l,a.min_l-1,-1) for n in range(a.min_n,min(a.max_n,l)+1) for s in allocs(l,n)]
+    al=[s for l in range(a.max_l,a.min_l-1,-1) for n in range(2,min(5,l)+1) for s in allocs(l,n)]
     st=time.monotonic()
     with ProcessPoolExecutor(a.workers) as pool:
         futures=[pool.submit(run,(s,a.steps,str(a.output))) for s in al]
