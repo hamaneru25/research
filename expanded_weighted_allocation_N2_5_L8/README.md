@@ -20,12 +20,16 @@
 <details>
 <summary>2ノードの代表構造</summary>
 
+採用透過率 η = 0.10、0.35、0.50、0.80、0.90
+
 ![2ノードの代表構造](results/topologies_N2.svg)
 
 </details>
 
 <details>
 <summary>3ノードの代表構造</summary>
+
+採用透過率 η = 0.10、0.50、0.80、0.90
 
 ![3ノードの代表構造](results/topologies_N3.svg)
 
@@ -34,12 +38,16 @@
 <details>
 <summary>4ノードの代表構造</summary>
 
+採用透過率 η = 0.10、0.50、0.70、0.80、0.90
+
 ![4ノードの代表構造](results/topologies_N4.svg)
 
 </details>
 
 <details>
 <summary>5ノードの代表構造</summary>
+
+採用透過率 η = 0.50、0.80、0.90
 
 ![5ノードの代表構造](results/topologies_N5.svg)
 
