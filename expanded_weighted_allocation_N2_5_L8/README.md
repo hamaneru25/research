@@ -17,6 +17,12 @@
 
 円は光子、円の色は送り先のノードを表す。円内に光子番号と位相生成軸を示した。辺の色で重みの正負とCZを区別し、太い辺ほど角度の絶対値が大きい。図では `|φ| ≥ 0.01 rad` の辺を表示し、`|φ| < 0.10 rad` の辺を破線にした。
 
+### 送り先のノードごとに配置した図
+
+同じセンサに送る光子を一つの枠にまとめた。各図は下の代表構造と同じ回路・透過率を示す。
+
+[2ノード](results/topologies_N2_by_node.svg) · [3ノード](results/topologies_N3_by_node.svg) · [4ノード](results/topologies_N4_by_node.svg) · [5ノード](results/topologies_N5_by_node.svg)
+
 <details>
 <summary>2ノードの代表構造</summary>
 

@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="877" height="797" viewBox="0 0 877 797" role="img" aria-labelledby="title desc">
+<title id="title">5ノードの代表構造（送り先別）</title>
+<desc id="desc">光子効率 R の最良回路。光子を送り先のセンサごとに枠でまとめた図。</desc>
+<style>text{font-family:'Noto Sans CJK JP',system-ui,'Hiragino Sans','Yu Gothic',sans-serif;
+font-variant-numeric:tabular-nums}.title{font-size:25px;font-weight:750;fill:#172f3e}
+.subtitle{font-size:13px;fill:#466171}.metric{font-size:14px;font-weight:720;fill:#172f3e}
+.family{font-size:15px;font-weight:720;fill:#233f51}.range{font-size:12px;fill:#456274}
+.legend,.caption{font-size:11px;fill:#456274}.node{font-size:11px;font-weight:720}
+.number{font-size:10px;font-weight:750}.axis{font-size:8px;font-weight:650}</style>
+<rect width="877" height="797" fill="#f1f5f6"/>
+<text x="22" y="39" class="title">5ノードの代表構造（送り先別）</text>
+<text x="22" y="66" class="subtitle">同じ枠の光子は同じセンサに送る。丸の中は光子番号と位相生成軸。</text>
+<path d="M22 87 h22" stroke="#087783" stroke-width="2.3"/>
+<text x="50" y="91" class="legend">正の辺</text>
+<path d="M134 87 h22" stroke="#bb4e3b" stroke-width="2.3"/>
+<text x="162" y="91" class="legend">負の辺</text>
+<path d="M246 87 h22" stroke="#575778" stroke-width="2.3"/>
+<text x="274" y="91" class="legend">CZ（±π）</text>
+<path d="M358 87 h22" stroke="#5b6c79" stroke-width="2.3" stroke-dasharray="3 3"/>
+<text x="386" y="91" class="legend">弱い辺</text>
+<text x="22" y="111" class="legend">表示する辺は |φ| ≥ 0.01 rad。破線は |φ| &lt; 0.10 rad。</text>
+<g transform="translate(22 125)" data-eta="0.5" data-objective="R">
+<title>完全二部 K2,3 · η 0.50 · R 0.61224 · 光子配分 1 / 1 / 1 / 1 / 1</title>
+<rect width="408" height="319" rx="11" fill="#fff" stroke="#cedbe1"/>
+<text x="16" y="23" class="metric">図の透過率 η = 0.50</text>
+<text x="392" y="23" class="metric" text-anchor="end">R 0.61224</text>
+<text x="16" y="47" class="family">完全二部 K2,3</text>
+<text x="16" y="65" class="range">出現した η = 0.05〜0.70</text>
+<rect x="167.0" y="84.5" width="74" height="53" rx="11" fill="#edf5fc" stroke="#285f91" stroke-opacity=".56" stroke-width="1.25"/>
+<rect x="296.0" y="136.5" width="74" height="53" rx="11" fill="#f7effa" stroke="#6b4188" stroke-opacity=".56" stroke-width="1.25"/>
+<rect x="245.0" y="222.5" width="74" height="53" rx="11" fill="#eaf7f1" stroke="#196d55" stroke-opacity=".56" stroke-width="1.25"/>
+<rect x="89.0" y="222.5" width="74" height="53" rx="11" fill="#fdf4e2" stroke="#8e510f" stroke-opacity=".56" stroke-width="1.25"/>
+<rect x="38.0" y="136.5" width="74" height="53" rx="11" fill="#fcf0f6" stroke="#87506d" stroke-opacity=".56" stroke-width="1.25"/>
+<path d="M204 120 L75 172" fill="none" stroke="#087783" stroke-width="1.75" stroke-opacity="0.71" stroke-linecap="round"><title>1–5: 0.6667041 rad</title></path>
+<path d="M282 258 L75 172" fill="none" stroke="#087783" stroke-width="1.75" stroke-opacity="0.71" stroke-linecap="round"><title>3–5: 0.6667041 rad</title></path>
+<path d="M126 258 Q87.60 222.65 75 172" fill="none" stroke="#087783" stroke-width="1.75" stroke-opacity="0.71" stroke-linecap="round"><title>4–5: 0.6667041 rad</title></path>
+<path d="M204 120 L333 172" fill="none" stroke="#bb4e3b" stroke-width="1.75" stroke-opacity="0.71" stroke-linecap="round"><title>1–2: -0.6667041 rad</title></path>
+<path d="M333 172 L126 258" fill="none" stroke="#bb4e3b" stroke-width="1.75" stroke-opacity="0.71" stroke-linecap="round"><title>2–4: -0.6667041 rad</title></path>
+<path d="M333 172 Q320.40 222.65 282 258" fill="none" stroke="#bb4e3b" stroke-width="1.75" stroke-opacity="0.71" stroke-linecap="round"><title>2–3: -0.6667041 rad</title></path>
+<text x="204" y="99" class="node" text-anchor="middle" fill="#285f91">ノード1</text>
+<text x="333" y="151" class="node" text-anchor="middle" fill="#6b4188">ノード2</text>
+<text x="282" y="237" class="node" text-anchor="middle" fill="#196d55">ノード3</text>
+<text x="126" y="237" class="node" text-anchor="middle" fill="#8e510f">ノード4</text>
+<text x="75" y="151" class="node" text-anchor="middle" fill="#87506d">ノード5</text>
+<g transform="translate(204 120)" data-photon="1" data-node="1"><title>光子1 · ノード1 · +Y</title><circle r="12.2" fill="#d9ebfb" stroke="#285f91" stroke-width="1.65"/><text x="0" y="-1" class="number" text-anchor="middle" fill="#285f91">1</text><text x="0" y="7.7" class="axis" text-anchor="middle" fill="#285f91">+Y</text></g>
+<g transform="translate(333 172)" data-photon="2" data-node="2"><title>光子2 · ノード2 · +Z</title><circle r="12.2" fill="#ede0f6" stroke="#6b4188" stroke-width="1.65"/><text x="0" y="-1" class="number" text-anchor="middle" fill="#6b4188">2</text><text x="0" y="7.7" class="axis" text-anchor="middle" fill="#6b4188">+Z</text></g>
+<g transform="translate(282 258)" data-photon="3" data-node="3"><title>光子3 · ノード3 · +Y</title><circle r="12.2" fill="#d6eee1" stroke="#196d55" stroke-width="1.65"/><text x="0" y="-1" class="number" text-anchor="middle" fill="#196d55">3</text><text x="0" y="7.7" class="axis" text-anchor="middle" fill="#196d55">+Y</text></g>
+<g transform="translate(126 258)" data-photon="4" data-node="4"><title>光子4 · ノード4 · +Y</title><circle r="12.2" fill="#fae8bf" stroke="#8e510f" stroke-width="1.65"/><text x="0" y="-1" class="number" text-anchor="middle" fill="#8e510f">4</text><text x="0" y="7.7" class="axis" text-anchor="middle" fill="#8e510f">+Y</text></g>
+<g transform="translate(75 172)" data-photon="5" data-node="5"><title>光子5 · ノード5 · −Z</title><circle r="12.2" fill="#f5deeb" stroke="#87506d" stroke-width="1.65"/><text x="0" y="-1" class="number" text-anchor="middle" fill="#87506d">5</text><text x="0" y="7.7" class="axis" text-anchor="middle" fill="#87506d">−Z</text></g>
+<path d="M16 289 H392" stroke="#e2eaee"/>
+<text x="16" y="309" class="caption">光子配分 1 / 1 / 1 / 1 / 1</text>
+<text x="392" y="309" class="caption" text-anchor="end">6辺</text>
+</g>
+<g transform="translate(447 125)" data-eta="0.8" data-objective="R">
+<title>重み付き完全 K5 · η 0.80 · R 1.66097 · 光子配分 1 / 1 / 1 / 1 / 1</title>
+<rect width="408" height="319" rx="11" fill="#fff" stroke="#cedbe1"/>
+<text x="16" y="23" class="metric">図の透過率 η = 0.80</text>
+<text x="392" y="23" class="metric" text-anchor="end">R 1.66097</text>
+<text x="16" y="47" class="family">重み付き完全 K5</text>
+<text x="16" y="65" class="range">出現した η = 0.75〜0.80</text>
+<rect x="167.0" y="84.5" width="74" height="53" rx="11" fill="#edf5fc" stroke="#285f91" stroke-opacity=".56" stroke-width="1.25"/>
+<rect x="296.0" y="136.5" width="74" height="53" rx="11" fill="#f7effa" stroke="#6b4188" stroke-opacity=".56" stroke-width="1.25"/>
+<rect x="245.0" y="222.5" width="74" height="53" rx="11" fill="#eaf7f1" stroke="#196d55" stroke-opacity=".56" stroke-width="1.25"/>
+<rect x="89.0" y="222.5" width="74" height="53" rx="11" fill="#fdf4e2" stroke="#8e510f" stroke-opacity=".56" stroke-width="1.25"/>
+<rect x="38.0" y="136.5" width="74" height="53" rx="11" fill="#fcf0f6" stroke="#87506d" stroke-opacity=".56" stroke-width="1.25"/>
+<path d="M204 120 L333 172" fill="none" stroke="#087783" stroke-width="2.75" stroke-opacity="0.71" stroke-linecap="round"><title>1–2: 2.4129395 rad</title></path>
+<path d="M204 120 Q217.75 203.27 282 258" fill="none" stroke="#087783" stroke-width="2.75" stroke-opacity="0.71" stroke-linecap="round"><title>1–3: 2.4129395 rad</title></path>
+<path d="M204 120 Q190.25 203.27 126 258" fill="none" stroke="#087783" stroke-width="2.75" stroke-opacity="0.71" stroke-linecap="round"><title>1–4: 2.4129395 rad</title></path>
+<path d="M204 120 L75 172" fill="none" stroke="#087783" stroke-width="2.75" stroke-opacity="0.71" stroke-linecap="round"><title>1–5: 2.4129395 rad</title></path>
+<path d="M333 172 Q320.40 222.65 282 258" fill="none" stroke="#087783" stroke-width="2.75" stroke-opacity="0.71" stroke-linecap="round"><title>2–3: 2.4129395 rad</title></path>
+<path d="M333 172 L126 258" fill="none" stroke="#087783" stroke-width="2.75" stroke-opacity="0.71" stroke-linecap="round"><title>2–4: 2.4129395 rad</title></path>
+<path d="M333 172 L75 172" fill="none" stroke="#087783" stroke-width="2.75" stroke-opacity="0.71" stroke-linecap="round"><title>2–5: 2.4129395 rad</title></path>
+<path d="M282 258 L126 258" fill="none" stroke="#087783" stroke-width="2.75" stroke-opacity="0.71" stroke-linecap="round"><title>3–4: 2.4129395 rad</title></path>
+<path d="M282 258 L75 172" fill="none" stroke="#087783" stroke-width="2.75" stroke-opacity="0.71" stroke-linecap="round"><title>3–5: 2.4129395 rad</title></path>
+<path d="M126 258 Q87.60 222.65 75 172" fill="none" stroke="#087783" stroke-width="2.75" stroke-opacity="0.71" stroke-linecap="round"><title>4–5: 2.4129395 rad</title></path>
+<text x="204" y="99" class="node" text-anchor="middle" fill="#285f91">ノード1</text>
+<text x="333" y="151" class="node" text-anchor="middle" fill="#6b4188">ノード2</text>
+<text x="282" y="237" class="node" text-anchor="middle" fill="#196d55">ノード3</text>
+<text x="126" y="237" class="node" text-anchor="middle" fill="#8e510f">ノード4</text>
+<text x="75" y="151" class="node" text-anchor="middle" fill="#87506d">ノード5</text>
+<g transform="translate(204 120)" data-photon="1" data-node="1"><title>光子1 · ノード1 · +X</title><circle r="12.2" fill="#d9ebfb" stroke="#285f91" stroke-width="1.65"/><text x="0" y="-1" class="number" text-anchor="middle" fill="#285f91">1</text><text x="0" y="7.7" class="axis" text-anchor="middle" fill="#285f91">+X</text></g>
+<g transform="translate(333 172)" data-photon="2" data-node="2"><title>光子2 · ノード2 · +X</title><circle r="12.2" fill="#ede0f6" stroke="#6b4188" stroke-width="1.65"/><text x="0" y="-1" class="number" text-anchor="middle" fill="#6b4188">2</text><text x="0" y="7.7" class="axis" text-anchor="middle" fill="#6b4188">+X</text></g>
+<g transform="translate(282 258)" data-photon="3" data-node="3"><title>光子3 · ノード3 · +X</title><circle r="12.2" fill="#d6eee1" stroke="#196d55" stroke-width="1.65"/><text x="0" y="-1" class="number" text-anchor="middle" fill="#196d55">3</text><text x="0" y="7.7" class="axis" text-anchor="middle" fill="#196d55">+X</text></g>
+<g transform="translate(126 258)" data-photon="4" data-node="4"><title>光子4 · ノード4 · +X</title><circle r="12.2" fill="#fae8bf" stroke="#8e510f" stroke-width="1.65"/><text x="0" y="-1" class="number" text-anchor="middle" fill="#8e510f">4</text><text x="0" y="7.7" class="axis" text-anchor="middle" fill="#8e510f">+X</text></g>
+<g transform="translate(75 172)" data-photon="5" data-node="5"><title>光子5 · ノード5 · +X</title><circle r="12.2" fill="#f5deeb" stroke="#87506d" stroke-width="1.65"/><text x="0" y="-1" class="number" text-anchor="middle" fill="#87506d">5</text><text x="0" y="7.7" class="axis" text-anchor="middle" fill="#87506d">+X</text></g>
+<path d="M16 289 H392" stroke="#e2eaee"/>
+<text x="16" y="309" class="caption">光子配分 1 / 1 / 1 / 1 / 1</text>
+<text x="392" y="309" class="caption" text-anchor="end">10辺</text>
+</g>
+<g transform="translate(22 461)" data-eta="0.9" data-objective="R">
+<title>GHZ5 · η 0.90 · R 2.95245 · 光子配分 1 / 1 / 1 / 1 / 1</title>
+<rect width="408" height="319" rx="11" fill="#fff" stroke="#cedbe1"/>
+<text x="16" y="23" class="metric">図の透過率 η = 0.90</text>
+<text x="392" y="23" class="metric" text-anchor="end">R 2.95245</text>
+<text x="16" y="47" class="family">GHZ5</text>
+<text x="16" y="65" class="range">出現した η = 0.85〜1.00</text>
+<rect x="167.0" y="84.5" width="74" height="53" rx="11" fill="#edf5fc" stroke="#285f91" stroke-opacity=".56" stroke-width="1.25"/>
+<rect x="296.0" y="136.5" width="74" height="53" rx="11" fill="#f7effa" stroke="#6b4188" stroke-opacity=".56" stroke-width="1.25"/>
+<rect x="245.0" y="222.5" width="74" height="53" rx="11" fill="#eaf7f1" stroke="#196d55" stroke-opacity=".56" stroke-width="1.25"/>
+<rect x="89.0" y="222.5" width="74" height="53" rx="11" fill="#fdf4e2" stroke="#8e510f" stroke-opacity=".56" stroke-width="1.25"/>
+<rect x="38.0" y="136.5" width="74" height="53" rx="11" fill="#fcf0f6" stroke="#87506d" stroke-opacity=".56" stroke-width="1.25"/>
+<path d="M204 120 L333 172" fill="none" stroke="#575778" stroke-width="3.04" stroke-opacity="0.71" stroke-linecap="round"><title>1–2: -3.1415927 rad</title></path>
+<path d="M204 120 Q217.75 203.27 282 258" fill="none" stroke="#575778" stroke-width="3.04" stroke-opacity="0.71" stroke-linecap="round"><title>1–3: -3.1415927 rad</title></path>
+<path d="M204 120 Q190.25 203.27 126 258" fill="none" stroke="#575778" stroke-width="3.04" stroke-opacity="0.71" stroke-linecap="round"><title>1–4: -3.1415927 rad</title></path>
+<path d="M204 120 L75 172" fill="none" stroke="#575778" stroke-width="3.04" stroke-opacity="0.71" stroke-linecap="round"><title>1–5: -3.1415927 rad</title></path>
+<text x="204" y="99" class="node" text-anchor="middle" fill="#285f91">ノード1</text>
+<text x="333" y="151" class="node" text-anchor="middle" fill="#6b4188">ノード2</text>
+<text x="282" y="237" class="node" text-anchor="middle" fill="#196d55">ノード3</text>
+<text x="126" y="237" class="node" text-anchor="middle" fill="#8e510f">ノード4</text>
+<text x="75" y="151" class="node" text-anchor="middle" fill="#87506d">ノード5</text>
+<g transform="translate(204 120)" data-photon="1" data-node="1"><title>光子1 · ノード1 · +Z</title><circle r="12.2" fill="#d9ebfb" stroke="#285f91" stroke-width="1.65"/><text x="0" y="-1" class="number" text-anchor="middle" fill="#285f91">1</text><text x="0" y="7.7" class="axis" text-anchor="middle" fill="#285f91">+Z</text></g>
+<g transform="translate(333 172)" data-photon="2" data-node="2"><title>光子2 · ノード2 · +X</title><circle r="12.2" fill="#ede0f6" stroke="#6b4188" stroke-width="1.65"/><text x="0" y="-1" class="number" text-anchor="middle" fill="#6b4188">2</text><text x="0" y="7.7" class="axis" text-anchor="middle" fill="#6b4188">+X</text></g>
+<g transform="translate(282 258)" data-photon="3" data-node="3"><title>光子3 · ノード3 · +X</title><circle r="12.2" fill="#d6eee1" stroke="#196d55" stroke-width="1.65"/><text x="0" y="-1" class="number" text-anchor="middle" fill="#196d55">3</text><text x="0" y="7.7" class="axis" text-anchor="middle" fill="#196d55">+X</text></g>
+<g transform="translate(126 258)" data-photon="4" data-node="4"><title>光子4 · ノード4 · +X</title><circle r="12.2" fill="#fae8bf" stroke="#8e510f" stroke-width="1.65"/><text x="0" y="-1" class="number" text-anchor="middle" fill="#8e510f">4</text><text x="0" y="7.7" class="axis" text-anchor="middle" fill="#8e510f">+X</text></g>
+<g transform="translate(75 172)" data-photon="5" data-node="5"><title>光子5 · ノード5 · +X</title><circle r="12.2" fill="#f5deeb" stroke="#87506d" stroke-width="1.65"/><text x="0" y="-1" class="number" text-anchor="middle" fill="#87506d">5</text><text x="0" y="7.7" class="axis" text-anchor="middle" fill="#87506d">+X</text></g>
+<path d="M16 289 H392" stroke="#e2eaee"/>
+<text x="16" y="309" class="caption">光子配分 1 / 1 / 1 / 1 / 1</text>
+<text x="392" y="309" class="caption" text-anchor="end">4辺</text>
+</g>
+</svg>
