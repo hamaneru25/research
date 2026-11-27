@@ -53,6 +53,8 @@
 
 左図は同じノード数・透過率で、各ノード1光子の最良 `R` を基準にした改善率。右図は総6光子以下での最良有効QFIを基準にした改善率。どちらも比較先は総8光子以下での最良値。
 
+![透過率0.80までのRの改善率](results/gain_per_photon_eta_le_080.png)
+
 - [ノード数×透過率の比較CSV（80条件）](results/budget_comparison.csv)
 - [結果・全回路・再現用データのZIP](results/simulation_archive.zip)：`final.json` に全1,020条件の辺重み、光子ごとの生成軸、ノードQFIM、有効QFI、再計算値を収録。`prior_verified.json` は再利用した2・3ノード・総6光子以下の探索結果。
 - 辺重みは光子をノード順に並べたときの `itertools.combinations(range(L), 2)` 順で、単位はrad。
