@@ -26,10 +26,14 @@ def make():
     fig2,axs=plt.subplots(1,2,figsize=(11,3.3),layout='constrained')
     for n,c in zip(range(2,6),['#126d66','#325b9a','#97551e','#843e75']):
         aa=sorted((r for r in rs if r['N']==n),key=key);t=[r['eta'] for r in aa]
-        axs[0].plot(t,[100*(r['best_R']['R']/r['R_up_to_6']-1) for r in aa],label=f'{n} nodes',marker='o',ms=3,color=c)
+        axs[0].plot(t,[100*(r['best_R']['R']/r['R_one_per_node']-1) for r in aa],label=f'{n} nodes',marker='o',ms=3,color=c)
         axs[1].plot(t,[100*(r['best_F']['F_eff']/r['F_up_to_6']-1) for r in aa],label=f'{n} nodes',marker='o',ms=3,color=c)
-    for ax,ttl in zip(axs,['Per photon: R','Per trial: effective QFI']):
-        ax.set(xlabel='Transmission',ylabel='Gain vs L ≤ 6 (%)',title=ttl);ax.grid(alpha=.22);ax.legend(frameon=False,fontsize=8)
+    panels=[('Per photon: R','Gain vs one photon per node (%)'),
+            ('Per trial: effective QFI','Gain vs L ≤ 6 (%)')]
+    for ax,(title,baseline) in zip(axs,panels):
+        ax.set(xlabel='Transmission',ylabel=baseline,title=title)
+        ax.grid(alpha=.22)
+        ax.legend(frameon=False,fontsize=8)
     buf2=io.BytesIO();fig2.savefig(buf2,format='png',dpi=150);plt.close(fig2)
     csvrows=[];table=[];high=[]
     for r in rs:
@@ -61,7 +65,7 @@ def make():
     dest.write_text(f'''<!doctype html><html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>2〜5ノード・総8光子の配分最適化</title><style>{css}</style><main>
 <header><h1>重み付きグラフの光子配分</h1><p>2・3・4・5ノード、総8光子以下、透過率 η = 0.05〜1.00（0.05刻み）。生成光子あたりの効率 R と、1試行あたりの有効QFIを比較。</p></header>
 <section><h2>η=0.50 の比較</h2><div class="scroll"><table><thead><tr><th>ノード</th><th>η</th><th>Rの配分</th><th>R（上限8）</th><th>R（上限6）</th><th>R改善</th><th>GHZ分割R</th><th>Fの配分</th></tr></thead><tbody>{''.join(high)}</tbody></table></div></section>
-<section><h2>透過率ごとの性能</h2><img alt="ノード数別の光子効率 R" src="data:image/png;base64,{b64(buf.getvalue())}"><img alt="6光子上限に対する改善率" src="data:image/png;base64,{b64(buf2.getvalue())}"></section>
+<section><h2>透過率ごとの性能</h2><img alt="ノード数別の光子効率 R" src="data:image/png;base64,{b64(buf.getvalue())}"><img alt="左は各ノード1光子を基準にしたRの改善率、右は総6光子以下を基準にした有効QFIの改善率" src="data:image/png;base64,{b64(buf2.getvalue())}"></section>
 <section><h2>探索と検算</h2><ul><li>全配分×透過率の {d['condition_count']} 条件。ノードの交換だけを同一視し、不均等配分も含む。2・3ノードの総6光子以下は既存の検算済み最良回路を再利用。</li>
 <li>全光子ペアに独立な連続CP重みを許す。配分ごとに二部、多部に相当する群内辺、完全グラフ、ランダムな重み、GHZ分割を初期値に使い、固定局所軸で最適化。光子が失われる位置に応じて軸は変更しない。</li>
 <li>重み評価 {d['candidate_weight_evaluations']:,} 回（再利用分を除く）。最良R、最良F、および6光子以下の対照として選んだ計 {d['full_axis_rechecks']} 回路について、固定した重みで全クリフォード軸を照合し、{d['improved_by_full_axis_recheck']} 回路を更新。</li>
